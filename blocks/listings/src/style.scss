@@ -1,0 +1,23 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-linear-listings {
+
+}
+
+// WP imports
+@import "~@wordpress/base-styles/breakpoints";
+@import "~@wordpress/base-styles/mixins";
+@import 'rc-slider/assets/index';
+
+// SCSS Variables
+$text-color-dark: #575b5c;
+$text-color-dark-washed: #898d8e;
+$card-background-color-light: #fff;
+
+// Styles
+@import "scss/listings";

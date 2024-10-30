@@ -1,0 +1,18 @@
+{
+	"blockClassName": "linear-listings",
+	"actions": {
+		"listings": "linear/%s/listings/all"
+	},
+	"texts": {},
+	"colors": {},
+	"locale": "en",
+	"searchOptions": [],
+	"restBase": "",
+	"apiVersion": "",
+	"frontend": {
+		"handleJS": "block-linear-listings-frontend.js",
+		"handleCSS": "block-linear-listings-frontend.css",
+		"dependencies": ["react", "react-dom", "wp-polyfill"],
+		"globalConfig": "blockLinearListingsConfig"
+	}
+}

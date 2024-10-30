@@ -1,0 +1,4031 @@
+# Copyright (C) 2021 Linear Plugin
+# This file is distributed under the same license as the Linear Plugin package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Linear Plugin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Linear <it@linear.fi>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Language: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2024-03-01 11:56+0000\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/class-linear-settings.php:1258
+msgid ""
+"\"Content\" renders content via \"the_content\" hook. If you want to have "
+"more controll on where the Linear elements are rendered, you can replace the "
+"\"Content\" rendering method with manually inserted shortcode, hence the "
+"option \"Shortcode\"."
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:33
+#: blocks/listings/listings.php:35
+msgid "\"Load more\"-button hidden"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:31
+#: blocks/listings/listings.php:33
+msgid "\"Load more\"-button visibility"
+msgstr ""
+
+#: includes/class-linear-settings.php:1470
+msgid "*Any emails you want to use limit listings to separated by a space*"
+msgstr ""
+
+#: includes/class-linear-settings.php:1350
+#: includes/class-linear-settings.php:1543
+msgid "*Any positive number from 1-999*"
+msgstr ""
+
+#: includes/class-linear-settings.php:1489
+#: includes/class-linear-settings.php:1501
+msgid "*Any reasonable number* eg. \"0\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1495
+msgid "*Any reasonable number* eg. \"1500\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1477
+msgid "*Any reasonable number* eg. \"20000\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1507
+msgid "*Any reasonable number* eg. \"500\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1483
+msgid "*Any reasonable number* eg. \"750000\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1452
+#: includes/class-linear-settings.php:1582
+msgid "*Any searchterms you want to use separate with a space*"
+msgstr ""
+
+#: templates/linear-404.php:20
+msgctxt "404-page error message"
+msgid "Unfortunately couldn't find this listing, it is perhaps removed."
+msgstr ""
+
+#: includes/class-linear-admin.php:33
+#, php-format
+msgid "<br>Please request API credentials by contacting <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: includes/class-linear-settings.php:222
+msgid "A single listing is not showing"
+msgstr ""
+
+#: includes/class-linear-settings.php:1344
+#: includes/class-linear-settings.php:1356
+#: includes/class-linear-settings.php:1368
+#: includes/class-linear-settings.php:1374
+#: includes/class-linear-settings.php:1380
+#: includes/class-linear-settings.php:1386
+#: includes/class-linear-settings.php:1392
+#: includes/class-linear-settings.php:1398
+#: includes/class-linear-settings.php:1404
+#: includes/class-linear-settings.php:1410
+#: includes/class-linear-settings.php:1416
+#: includes/class-linear-settings.php:1422
+#: includes/class-linear-settings.php:1428
+#: includes/class-linear-settings.php:1434
+#: includes/class-linear-settings.php:1440
+#: includes/class-linear-settings.php:1446
+#: includes/class-linear-settings.php:1452
+#: includes/class-linear-settings.php:1458
+#: includes/class-linear-settings.php:1464
+#: includes/class-linear-settings.php:1470
+#: includes/class-linear-settings.php:1477
+#: includes/class-linear-settings.php:1483
+#: includes/class-linear-settings.php:1489
+#: includes/class-linear-settings.php:1495
+#: includes/class-linear-settings.php:1501
+#: includes/class-linear-settings.php:1507
+#: includes/class-linear-settings.php:1549
+#: includes/class-linear-settings.php:1561
+#: includes/class-linear-settings.php:1567
+#: includes/class-linear-settings.php:1573
+#: includes/class-linear-settings.php:1582
+msgid "Acceptable values:"
+msgstr ""
+
+#: includes/class-linear-settings.php:1362
+#: includes/class-linear-settings.php:1555
+msgid "Accepting string value:"
+msgstr ""
+
+#: templates/linear-listing.php:161
+msgid "Accommodation and materials"
+msgstr ""
+
+#: templates/linear-listing.php:76
+msgid "Accommodation area"
+msgstr ""
+
+#: templates/components/accordion.php:70
+msgctxt "accordion item separator"
+msgid "and"
+msgstr ""
+
+#: includes/class-linear-settings.php:1350
+#: includes/class-linear-settings.php:1543
+msgid "Accpeting positive numeric values:"
+msgstr ""
+
+#: includes/class-linear-settings.php:1137
+msgid ""
+"Add in here the Linear contact form embed script, it should automaticly work "
+"with all listings. You can get this by contacting your Linear sales "
+"representative."
+msgstr ""
+
+#: includes/class-linear-settings.php:1554
+msgid "Add one or several classes to add to the block. Default is \"\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1361
+msgid "Add one or several CSS classes to add to the block. Default is \"\""
+msgstr ""
+
+#: templates/linear-listing.php:180
+msgid "Additional bathroom equipment"
+msgstr ""
+
+#: templates/linear-listing.php:152
+msgid "Additional charge info"
+msgstr ""
+
+#: templates/linear-listing.php:201
+msgid "Additional information"
+msgstr ""
+
+#: includes/class-linear-settings.php:1523
+msgid "Advanced buy commissions example:"
+msgstr ""
+
+#: includes/class-linear-settings.php:97 includes/class-linear-settings.php:98
+#: includes/class-linear-settings.php:251
+msgid "Advanced usage"
+msgstr ""
+
+#: includes/class-linear-settings.php:1791
+msgid "And here is how you use them"
+msgstr ""
+
+#: includes/class-linear-settings.php:1659
+msgid "And use it like this"
+msgstr ""
+
+#: includes/class-linear-settings.php:1638
+#: includes/class-linear-settings.php:1702
+msgid "And you can use them straight like this"
+msgstr ""
+
+#: templates/linear-listing.php:279
+msgid "Antenna system"
+msgstr ""
+
+#: templates/linear-listing.php:87
+msgid "Apartment condition"
+msgstr ""
+
+#: includes/class-linear-activator.php:28
+#: blocks/buy-commissions/buy-commissions.php:41
+#: blocks/listings/listings.php:43 blocks/listings/listings.php:121
+msgid "Apartments"
+msgstr ""
+
+#: includes/class-linear-settings.php:394
+msgid "API key"
+msgstr ""
+
+#: includes/class-linear-middleware.php:278
+msgid "API middleware not getting a transient name to use"
+msgstr ""
+
+#: includes/class-linear-middleware.php:571
+#: includes/class-linear-middleware.php:696
+msgid "API v1.1 middleware failed in parsing response data"
+msgstr ""
+
+#: includes/class-linear-middleware.php:524
+#: includes/class-linear-middleware.php:560
+#: includes/class-linear-middleware.php:659
+#: includes/class-linear-middleware.php:688
+msgid "API v1.1 middleware failed to fetch data"
+msgstr ""
+
+#: templates/sections/listing_actions.php:116
+msgid "Apply for a loan"
+msgstr ""
+
+#: includes/class-linear-settings.php:208
+msgid "Are the credentials right?"
+msgstr ""
+
+#: includes/class-linear-settings.php:166
+msgid "Are you already registered to Linear?"
+msgstr ""
+
+#: templates/linear-listing.php:85
+msgid "Area basis"
+msgstr ""
+
+#: templates/linear-listing.php:82
+msgid "Area info"
+msgstr ""
+
+#: includes/class-linear-settings.php:1499
+msgid "Area range filter lower limit"
+msgstr ""
+
+#: blocks/listings/listings.php:119
+msgid "Area range lower value"
+msgstr ""
+
+#: blocks/listings/listings.php:118
+msgid "Area range upper value"
+msgstr ""
+
+#: includes/class-linear-settings.php:583
+msgid "Area range-slider lower limit"
+msgstr ""
+
+#: includes/class-linear-settings.php:592
+msgid "Area range-slider upper limit"
+msgstr ""
+
+#: templates/linear-listing.php:363
+msgid "Asbestos survey"
+msgstr ""
+
+#: templates/linear-listing.php:364
+msgid "Asbestos survey info"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:97
+#: blocks/listings/listings.php:133
+#: templates/sections/listing_introduction.php:60
+#: templates/sections/listing_introduction.php:73
+msgid "Ask price"
+msgstr ""
+
+#: includes/class-linear-settings.php:1625
+#: includes/class-linear-settings.php:1694
+msgid "Available filters:"
+msgstr ""
+
+#: includes/class-linear-settings.php:1776
+msgid "Available hooks"
+msgstr ""
+
+#: templates/linear-listing.php:145
+msgid "Average total heating charge"
+msgstr ""
+
+#: templates/linear-404.php:28
+msgid "Back to listings"
+msgstr ""
+
+#: templates/linear-listing.php:206
+#: blocks/buy-commissions/buy-commissions.php:55
+#: blocks/listings/listings.php:57
+msgid "Balcony"
+msgstr ""
+
+#: templates/linear-listing.php:207
+msgid "Balcony orientation"
+msgstr ""
+
+#: templates/linear-listing.php:179
+msgid "Basic bathroom equipment"
+msgstr ""
+
+#: templates/linear-listing.php:64
+msgid "Basic information"
+msgstr ""
+
+#: templates/linear-listing.php:176
+msgid "Bathroom"
+msgstr ""
+
+#: templates/linear-listing.php:178
+msgid "Bathroom floor material"
+msgstr ""
+
+#: templates/linear-listing.php:177
+msgid "Bathroom wall material"
+msgstr ""
+
+#: templates/linear-listing.php:209
+msgid "Beach"
+msgstr ""
+
+#: templates/linear-listing.php:211
+msgid "Beach info"
+msgstr ""
+
+#: templates/linear-listing.php:210
+msgid "Beach type"
+msgstr ""
+
+#: templates/linear-listing.php:172
+msgid "Bedroom"
+msgstr ""
+
+#: templates/linear-listing.php:175
+msgid "Bedroom equipment"
+msgstr ""
+
+#: templates/linear-listing.php:174
+msgid "Bedroom floor material"
+msgstr ""
+
+#: templates/linear-listing.php:173
+msgid "Bedroom wall material"
+msgstr ""
+
+#: includes/class-linear-settings.php:1185
+msgid "Before using Linear service you need to accept our"
+msgstr ""
+
+#: blocks/listings/listings.php:92 templates/components/bidding_label.php:13
+msgid "Bidding"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:50
+#: blocks/buy-commissions/buy-commissions.php:83
+#: blocks/listings/listings.php:52 blocks/listings/listings.php:125
+msgid "Block of flats"
+msgstr ""
+
+#: templates/linear-listing.php:214
+msgid "Body of water"
+msgstr ""
+
+#: templates/sections/listing_actions.php:63
+msgid "Book a private tour"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:81
+#: blocks/listings/listings.php:90
+msgctxt "boolFalse"
+msgid "No"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:82
+#: blocks/listings/listings.php:91
+msgctxt "boolTrue"
+msgid "Yes"
+msgstr ""
+
+#: templates/linear-listing.php:147
+msgid "Broadband charge"
+msgstr ""
+
+#: templates/linear-listing.php:272
+msgid "Building rights E number"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:61
+msgid "Business Commission Type"
+msgstr ""
+
+#: blocks/listings/listings.php:65
+msgid "Business Listing Type"
+msgstr ""
+
+#: includes/class-linear-settings.php:629
+#: includes/class-linear-settings.php:666
+msgid "Business premises page"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:63
+#: blocks/listings/listings.php:67
+msgid "Business Space"
+msgstr ""
+
+#: templates/sections/buy_commission_introduction.php:25
+#: templates/sections/buy_commission_pre_title.php:93
+msgid "Buy commission"
+msgstr ""
+
+#: templates/sections/buy_commission_content.php:141
+#: templates/sections/buy_commission_introduction.php:144
+msgid "Buy commission ID"
+msgstr ""
+
+#: includes/class-linear-settings.php:260
+#: includes/class-linear-settings.php:1515
+msgid "Buy commissions"
+msgstr ""
+
+#: includes/class-linear-settings.php:638
+#: includes/class-linear-settings.php:675
+msgid "Buy commissions page"
+msgstr ""
+
+#: includes/class-linear-settings.php:1676
+msgid "Buy commissions:"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:843
+msgid "buy_commission"
+msgstr ""
+
+#: templates/linear-listing.php:217
+msgid "Cable TV"
+msgstr ""
+
+#: includes/class-linear-settings.php:1629
+#, php-format
+msgid "Can be \"%s\", \"%s\" or \"%s\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1627
+msgid "Can be 2-letter language code or null, null returning site locale"
+msgstr ""
+
+#: includes/class-linear-middleware.php:282
+msgid "Cannot use old API. Please add API Key to continue usage"
+msgstr ""
+
+#: templates/linear-listing.php:222
+msgid "Car ports"
+msgstr ""
+
+#: includes/constants_and_labels.php:278
+msgctxt "Card spec"
+msgid "Garage space"
+msgstr ""
+
+#: includes/class-linear-settings.php:1150
+msgid ""
+"Check to use current WordPress theme fonts instead of Linear plugin fonts."
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:80
+#: blocks/listings/listings.php:89
+msgid "Choose location"
+msgstr ""
+
+#: includes/class-linear-settings.php:1237
+msgid ""
+"Choose wether you want to use in the single listings the Linear contact form "
+"(Requires contact API URL), a custom \"Contact us\" button URL or nothing. "
+"You can also add something else onto this section with hooks."
+msgstr ""
+
+#: includes/class-linear-settings.php:1360
+#: includes/class-linear-settings.php:1553
+msgid "Classes"
+msgstr ""
+
+#: includes/class-linear-admin.php:58
+#, php-format
+msgid "Client number: %s"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:49
+msgid "Commission Type"
+msgstr ""
+
+#: blocks/listings/listings.php:94
+msgid "Commission type"
+msgstr ""
+
+#: includes/class-linear-settings.php:1444
+msgid "Commission type filter value"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:39
+msgid "Commissions filters are hidden"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:30
+msgid "Commissions per page"
+msgstr ""
+
+#: includes/class-linear-settings.php:367
+msgid "Company ID"
+msgstr ""
+
+#: includes/class-linear-settings.php:447
+msgid "Company Logo"
+msgstr ""
+
+#: templates/linear-listing.php:88
+msgid "Condition info"
+msgstr ""
+
+#: templates/linear-listing.php:362
+msgid "Condition inspection date"
+msgstr ""
+
+#: templates/linear-listing.php:306
+msgid "Construction material"
+msgstr ""
+
+#: templates/linear-listing.php:308
+msgid "Construction material info"
+msgstr ""
+
+#: templates/linear-listing.php:91
+msgid "Construction phase"
+msgstr ""
+
+#: templates/linear-listing.php:94
+msgid "Construction year info"
+msgstr ""
+
+#: templates/components/realtor.php:196
+#: templates/sections/buy_commission_realtor.php:81
+msgid "Contact"
+msgstr ""
+
+#: includes/class-linear-settings.php:419
+msgid "Contact request URL"
+msgstr ""
+
+#: includes/class-linear-settings.php:265
+msgid "Content Hooks"
+msgstr ""
+
+#: includes/class-linear-settings.php:1771
+msgid "Content hooks usage:"
+msgstr ""
+
+#: includes/class-linear-settings.php:1261
+msgid "Content population (Default)"
+msgstr ""
+
+#: templates/linear-listing.php:346
+msgid "Cooperative housing"
+msgstr ""
+
+#: blocks/listings/listings.php:136
+msgctxt "count of listings"
+msgid "Listing"
+msgstr ""
+
+#: blocks/listings/listings.php:135 blocks/listings/listings.php:137
+msgctxt "count of listings"
+msgid "Listings"
+msgstr ""
+
+#: blocks/listings/listings.php:138
+msgctxt "count of listings"
+msgid "Listings found"
+msgstr ""
+
+#: blocks/listings/listings.php:98
+msgid "CSS classes"
+msgstr ""
+
+#: includes/class-linear-settings.php:1240
+msgid "Custom \"Contact us\" button URL"
+msgstr ""
+
+#: includes/class-linear-settings.php:264
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/class-linear-settings.php:1724
+msgid "Custom CSS usage:"
+msgstr ""
+
+#: templates/linear-listing.php:228
+msgid "Deal does not include"
+msgstr ""
+
+#: templates/linear-listing.php:229
+msgid "Deal includes"
+msgstr ""
+
+#: templates/linear-listing.php:120
+msgid "Debt"
+msgstr ""
+
+#: templates/linear-listing.php:118
+msgid "Debt free price"
+msgstr ""
+
+#: includes/class-linear-settings.php:107
+#: includes/class-linear-settings.php:108
+msgid "Debug"
+msgstr ""
+
+#: includes/class-linear-settings.php:285
+msgid "Debug (experimental)"
+msgstr ""
+
+#: includes/class-linear-settings.php:483
+#: includes/class-linear-settings.php:493
+msgid "Default search options"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:96
+#: blocks/listings/listings.php:110
+msgid "Default search prompt"
+msgstr ""
+
+#: blocks/listings/listings.php:109
+msgid "Default set commission type"
+msgstr ""
+
+#: blocks/listings/listings.php:112
+msgid "Default set listing type"
+msgstr ""
+
+#: blocks/listings/listings.php:111
+msgid "Default set product group"
+msgstr ""
+
+#: includes/class-linear-settings.php:215
+msgid ""
+"Depending on the WordPress theme that you use, your theme might have a non-"
+"standard built page-template. The Linear WordPress plugin provides a simple "
+"page-template (linear-plain) for your use in cases like this where the theme "
+"might not support native WordPress content hooks. Please try changing the "
+"page-template of the listings page to \"linear-plain\"."
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:53
+#: blocks/listings/listings.php:55
+msgid "Detached House"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:87
+msgid "Detached house"
+msgstr ""
+
+#: blocks/listings/listings.php:128
+msgid "Detachedhouse"
+msgstr ""
+
+#: includes/class-linear-settings.php:211
+msgid "Do you have a set listings page?"
+msgstr ""
+
+#: templates/sections/listing_introduction.php:240
+msgid "Download documents"
+msgstr ""
+
+#: includes/class-linear-settings.php:1123
+msgid ""
+"Each line of text will be used as one of default search options. You can use "
+"either city names, districts or addresses, eg. \"Helsinki, Espoo, Vantaa\""
+msgstr ""
+
+#: includes/class-linear-settings.php:227
+msgid ""
+"Each single listing has their own dynamic page, but the logic for this to "
+"work requires that the permalinks are saved. Please save the permalinks "
+"without doing any changes to the permalink settings."
+msgstr ""
+
+#. %s: Post title. Only visible to screen readers.
+#: templates/plain-listings.php:33
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-linear-settings.php:1362
+#: includes/class-linear-settings.php:1555
+#: includes/class-linear-settings.php:1575
+msgid "eg."
+msgstr ""
+
+#: templates/linear-listing.php:137
+msgid "Electric heating charge"
+msgstr ""
+
+#: templates/linear-listing.php:136
+msgid "Electric heating power usage"
+msgstr ""
+
+#: templates/linear-listing.php:332
+msgid "Electric plan transfers"
+msgstr ""
+
+#: templates/linear-listing.php:330
+msgid "Electricity contract"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:56
+#: blocks/listings/listings.php:58
+msgid "Elevator"
+msgstr ""
+
+#: includes/class-linear-settings.php:1606
+msgid "Endpoints:"
+msgstr ""
+
+#: templates/linear-listing.php:324
+msgid "Energy certificate"
+msgstr ""
+
+#: templates/linear-listing.php:326
+msgid "Energy class"
+msgstr ""
+
+#: templates/linear-listing.php:327
+msgid "Energy class info"
+msgstr ""
+
+#: includes/class-linear-settings.php:1749
+msgid "Example how to target a single listing with the identifier 12345"
+msgstr ""
+
+#: includes/class-linear-settings.php:1739
+msgid "Example how to target the a single product group filter"
+msgstr ""
+
+#: includes/class-linear-settings.php:1729
+msgid "Example how to target the product group filter group"
+msgstr ""
+
+#: includes/class-linear-settings.php:1471
+msgid "Example:"
+msgstr ""
+
+#: includes/class-linear-settings.php:1801
+msgid "Except \"linear_edit_listings\" is used like so"
+msgstr ""
+
+#: blocks/listings/listings.php:71
+msgid "Exhibiton Space"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:43
+#: blocks/listings/listings.php:45 blocks/listings/listings.php:123
+msgid "Farms"
+msgstr ""
+
+#: includes/class-linear-settings.php:117
+#: includes/class-linear-settings.php:118
+msgid "Feedback"
+msgstr ""
+
+#: includes/class-linear-settings.php:315
+msgid "Feedback and suggestions"
+msgstr ""
+
+#: includes/class-linear-settings.php:1366
+#: includes/class-linear-settings.php:1559
+msgid "Filters"
+msgstr ""
+
+#: templates/linear-listing.php:192
+msgid "Fireplace"
+msgstr ""
+
+#: templates/linear-listing.php:74
+msgid "Floor"
+msgstr ""
+
+#: templates/sections/listing_introduction.php:255
+msgid "Follow bidding"
+msgstr ""
+
+#: includes/class-linear-settings.php:1272
+msgid "For buy commissions, please add this to your page/template"
+msgstr ""
+
+#: includes/class-linear-settings.php:1301
+msgid "Full listing example:"
+msgstr ""
+
+#: templates/helpers/get_maintenance_charge_value.php:18
+msgid "Funding charge"
+msgstr ""
+
+#: blocks/listings/listings.php:124
+msgid "Garages"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:44
+#: blocks/listings/listings.php:46
+msgid "Garages and parking spaces"
+msgstr ""
+
+#: templates/linear-listing.php:223
+msgid "Garages and parking spaces count"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:592
+msgid "Has balcony"
+msgstr ""
+
+#: templates/linear-listing.php:224
+msgid "Has parking space"
+msgstr ""
+
+#: templates/linear-listing.php:143
+msgid "Heating charge"
+msgstr ""
+
+#: templates/linear-listing.php:309
+msgid "Heating system"
+msgstr ""
+
+#: includes/class-linear-admin.php:56
+msgid "Hello"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:70
+#: blocks/listings/listings.php:79
+msgid "Hide filters"
+msgstr ""
+
+#: includes/class-linear-settings.php:463
+msgid "Hide loan request button"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:84
+msgid "High rise"
+msgstr ""
+
+#: blocks/listings/listings.php:72
+msgid "Hobby Space"
+msgstr ""
+
+#: templates/linear-listing.php:251 templates/linear-listing.php:256
+msgid "Housing and real estate"
+msgstr ""
+
+#: templates/linear-listing.php:361
+msgid "Housing cooperative additional info"
+msgstr ""
+
+#: templates/linear-listing.php:353
+msgid "Housing cooperative apartment count"
+msgstr ""
+
+#: templates/linear-listing.php:347
+msgid "Housing cooperative elevator"
+msgstr ""
+
+#: templates/linear-listing.php:261
+msgid "Housing cooperative name"
+msgstr ""
+
+#: templates/linear-listing.php:344
+msgid "Housing cooperative parking spaces"
+msgstr ""
+
+#: templates/linear-listing.php:316
+msgid "Housing cooperative redemption right"
+msgstr ""
+
+#: templates/linear-listing.php:350
+msgid "Housing cooperative retail space area"
+msgstr ""
+
+#: templates/linear-listing.php:352
+msgid "Housing cooperative retail space count"
+msgstr ""
+
+#: templates/linear-listing.php:359
+msgid "Housing cooperative revenue"
+msgstr ""
+
+#: templates/linear-listing.php:345
+msgid "Housing cooperative sauna"
+msgstr ""
+
+#: templates/linear-listing.php:303
+msgid "Housing tenure"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://linear.fi"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/linear/"
+msgstr ""
+
+#: blocks/listings/listings.php:73
+msgid "Hub Space"
+msgstr ""
+
+#: templates/linear-listing.php:365
+msgid "Humidity inspection date"
+msgstr ""
+
+#: includes/class-linear-admin.php:57
+msgid ""
+"I was informed that I need to request from you the new API credentials, can "
+"you provide them to me via email?"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:93
+msgid "ID"
+msgstr ""
+
+#: includes/class-linear-settings.php:195
+msgid ""
+"If it looks like the Listing pages are too thin compared to he rest of the "
+"page, you can try changing the used template on the page with the issue. \n"
+"\t\t\t\tLinear plugin provides a plain and wide-enough template for your use "
+"called \"linear-plain\". You can also use any other page-template that "
+"outputs WordPress native content."
+msgstr ""
+
+#: includes/class-linear-settings.php:168
+msgid ""
+"If not, you need to register in Linear to get the credentials for this "
+"plugin. The sales team can provide you with test-credentials for test "
+"purposes."
+msgstr ""
+
+#: includes/class-linear-settings.php:318
+msgid ""
+"If you feel like there is some feature/filter missing or something should be "
+"different, please let us know as we actively try to develop this plugin and "
+"are open for suggestions and improvements."
+msgstr ""
+
+#: includes/class-linear-settings.php:1267
+msgid "If you use the shortcode-setting, please add this to your page/template"
+msgstr ""
+
+#: includes/class-linear-settings.php:1649
+msgid ""
+"If you want to dynamically do things depending on the listing, you can get "
+"the current listing this way"
+msgstr ""
+
+#: includes/class-linear-settings.php:1622
+msgid "If you want you can also access the same data via WordPress filters."
+msgstr ""
+
+#: includes/class-linear-settings.php:239
+msgid ""
+"In case of other issues, please be in touch with your person at Linear and "
+"we'll do our best to resolve your issue."
+msgstr ""
+
+#: templates/sections/listing_actions.php:119
+msgid "In cooperation"
+msgstr ""
+
+#: includes/class-linear-settings.php:87 includes/class-linear-settings.php:88
+#: includes/class-linear-settings.php:152
+msgid "Instructions"
+msgstr ""
+
+#: templates/linear-listing.php:338
+msgid "Kindergarten"
+msgstr ""
+
+#: templates/linear-listing.php:164
+msgid "Kitchen description"
+msgstr ""
+
+#: templates/linear-listing.php:165
+msgid "Kitchen equipment"
+msgstr ""
+
+#: templates/linear-listing.php:167
+msgid "Kitchen floor material"
+msgstr ""
+
+#: templates/linear-listing.php:168
+msgid "Kitchen wall material"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:710
+msgid "kWh / year"
+msgstr ""
+
+#: includes/constants_and_labels.php:85
+msgctxt "Label for constant ADVANCE"
+msgid "Advance, according to consumption"
+msgstr ""
+
+#: includes/constants_and_labels.php:84
+msgctxt "Label for constant ADVANCE_MARKETING"
+msgid "Advance marketing"
+msgstr ""
+
+#: includes/constants_and_labels.php:123
+msgctxt "Label for constant AIR_SOURCE_HEAT_PUMP"
+msgid "Air source heat pump"
+msgstr ""
+
+#: includes/constants_and_labels.php:238
+msgctxt "Label for constant AIRPORT"
+msgid "Airport"
+msgstr ""
+
+#: includes/constants_and_labels.php:23
+msgctxt "Label for constant APARTMENT_HOUSE_PLOT"
+msgid "Apartment house plot"
+msgstr ""
+
+#: includes/constants_and_labels.php:243
+msgctxt "Label for constant APARTMENTS"
+msgid "Apartments"
+msgstr ""
+
+#: includes/constants_and_labels.php:254
+msgctxt "Label for constant ASSISTED_LIVING_RESIDENCE"
+msgid "Assisted living residence"
+msgstr ""
+
+#: includes/constants_and_labels.php:79
+msgctxt "Label for constant ATTIC"
+msgid "Attic"
+msgstr ""
+
+#: includes/constants_and_labels.php:213
+msgctxt "Label for constant ATTIC_CLOSET"
+msgid "Attic closet"
+msgstr ""
+
+#: includes/constants_and_labels.php:44
+msgctxt "Label for constant AVERAGE"
+msgid "Average"
+msgstr ""
+
+#: includes/constants_and_labels.php:45
+msgctxt "Label for constant BAD"
+msgid "Bad"
+msgstr ""
+
+#: includes/constants_and_labels.php:69
+msgctxt "Label for constant BALCONY"
+msgid "Balcony"
+msgstr ""
+
+#: includes/constants_and_labels.php:147
+msgctxt "Label for constant BATHTUB"
+msgid "Bathtub"
+msgstr ""
+
+#: includes/constants_and_labels.php:165
+msgctxt "Label for constant BEACH_CITY_PLAN"
+msgid "Beach city plan"
+msgstr ""
+
+#: includes/constants_and_labels.php:83
+msgctxt "Label for constant BEACH_LOT"
+msgid "Beach lot"
+msgstr ""
+
+#: includes/constants_and_labels.php:166
+msgctxt "Label for constant BEACH_PLAN"
+msgid "Beach plan"
+msgstr ""
+
+#: includes/constants_and_labels.php:234
+msgctxt "Label for constant BEACH_RIGHT"
+msgid "Beach right"
+msgstr ""
+
+#: includes/constants_and_labels.php:131
+msgctxt "Label for constant BICYCLE_STORAGE"
+msgid "Bike storage"
+msgstr ""
+
+#: includes/constants_and_labels.php:108
+msgctxt "Label for constant BOARD"
+msgid "Board"
+msgstr ""
+
+#: includes/constants_and_labels.php:62
+msgctxt "Label for constant BOILER_ROOM"
+msgid "Boiler room"
+msgstr ""
+
+#: includes/constants_and_labels.php:101
+msgctxt "Label for constant BRICK"
+msgid "Brick"
+msgstr ""
+
+#: includes/constants_and_labels.php:104
+msgctxt "Label for constant BRICKCLADDING"
+msgid "Brick cladding"
+msgstr ""
+
+#: includes/constants_and_labels.php:161
+msgctxt "Label for constant BUILDING"
+msgid "Building"
+msgstr ""
+
+#: includes/constants_and_labels.php:163
+msgctxt "Label for constant BUILDING_BAN"
+msgid "Building ban"
+msgstr ""
+
+#: includes/constants_and_labels.php:164
+msgctxt "Label for constant BUILDING_PERMIT"
+msgid "Building permit"
+msgstr ""
+
+#: includes/constants_and_labels.php:162
+msgctxt "Label for constant BUILDING_PLANS"
+msgid "Building plans"
+msgstr ""
+
+#: includes/constants_and_labels.php:111
+msgctxt "Label for constant BUS"
+msgid "Bus station nearby"
+msgstr ""
+
+#: includes/constants_and_labels.php:24
+msgctxt "Label for constant BUSINESS_PLOT"
+msgid "Commercial and industrial plots"
+msgstr ""
+
+#: includes/constants_and_labels.php:242
+msgctxt "Label for constant BUSINESS_PREMISES"
+msgid "Business premises"
+msgstr ""
+
+#: includes/constants_and_labels.php:32
+msgctxt "Label for constant BUSINESS_SPACE"
+msgid "Business space"
+msgstr ""
+
+#: includes/constants_and_labels.php:188
+msgctxt "Label for constant BY_LAWS"
+msgid "By laws"
+msgstr ""
+
+#: includes/constants_and_labels.php:78
+msgctxt "Label for constant CABINETS"
+msgid "Cabinets"
+msgstr ""
+
+#: includes/constants_and_labels.php:205
+msgctxt "Label for constant CABLE_TV"
+msgid "Cable TV"
+msgstr ""
+
+#: includes/constants_and_labels.php:114
+msgctxt "Label for constant CAR"
+msgid "Road connections for your car"
+msgstr ""
+
+#: includes/constants_and_labels.php:89
+msgctxt "Label for constant CARPORT"
+msgid "Carport"
+msgstr ""
+
+#: includes/constants_and_labels.php:142
+msgctxt "Label for constant CASTIRON"
+msgid "Cast iron"
+msgstr ""
+
+#: includes/constants_and_labels.php:260
+msgctxt "Label for constant CELL_FLAT"
+msgid "Cell flat"
+msgstr ""
+
+#: includes/constants_and_labels.php:206
+msgctxt "Label for constant CELLAR_CLOSET"
+msgid "Cellar closet"
+msgstr ""
+
+#: includes/constants_and_labels.php:180
+msgctxt "Label for constant CENTRAL_VACUUM"
+msgid "Central vacuum cleaner"
+msgstr ""
+
+#: includes/constants_and_labels.php:139
+msgctxt "Label for constant CERAMIC"
+msgid "Cheramic"
+msgstr ""
+
+#: includes/constants_and_labels.php:92
+msgctxt "Label for constant CERAMICTILE"
+msgid "Cheramic tile"
+msgstr ""
+
+#: includes/constants_and_labels.php:217
+msgctxt "Label for constant CHARGE_INCLUDES"
+msgid "Charge includes"
+msgstr ""
+
+#: includes/constants_and_labels.php:175
+msgctxt "Label for constant CHILDCARE_TABLE"
+msgid "Childrens table"
+msgstr ""
+
+#: includes/constants_and_labels.php:154
+msgctxt "Label for constant CITY_PLAN"
+msgid "City plan"
+msgstr ""
+
+#: includes/constants_and_labels.php:235
+msgctxt "Label for constant COMMUNAL_BEACH"
+msgid "Communal beach"
+msgstr ""
+
+#: includes/constants_and_labels.php:255
+msgctxt "Label for constant COMPANY_HOUSING"
+msgid "Company housing"
+msgstr ""
+
+#: includes/constants_and_labels.php:102
+msgctxt "Label for constant CONCRETE"
+msgid "Concrete"
+msgstr ""
+
+#: includes/constants_and_labels.php:48
+msgctxt "Label for constant CONDOMINIUM"
+msgid "Condominium"
+msgstr ""
+
+#: includes/constants_and_labels.php:203
+msgctxt "Label for constant CONDUIT"
+msgid "Conduit"
+msgstr ""
+
+#: includes/constants_and_labels.php:186
+msgctxt "Label for constant CONDUIT_EXISTS"
+msgid "Chimney exists"
+msgstr ""
+
+#: includes/constants_and_labels.php:75
+msgctxt "Label for constant CONTRACT"
+msgid "Contract"
+msgstr ""
+
+#: includes/constants_and_labels.php:80
+msgctxt "Label for constant COOLED_CELLAR"
+msgid "Cooled cellar"
+msgstr ""
+
+#: includes/constants_and_labels.php:130
+msgctxt "Label for constant COOLER"
+msgid "Cooler"
+msgstr ""
+
+#: includes/constants_and_labels.php:15
+msgctxt "Label for constant COTTAGE_OR_VILLA"
+msgid "Cottage or villa"
+msgstr ""
+
+#: includes/constants_and_labels.php:204
+msgctxt "Label for constant CRAFTS_ROOM"
+msgid "Crafts room"
+msgstr ""
+
+#: includes/constants_and_labels.php:251
+msgctxt "Label for constant CUSTOM"
+msgid "Custom payment"
+msgstr ""
+
+#: includes/constants_and_labels.php:157
+msgctxt "Label for constant DEPLOYMENT_INSPECTION"
+msgid "Deployment inspection"
+msgstr ""
+
+#: includes/constants_and_labels.php:12
+msgctxt "Label for constant DETACHEDHOUSE"
+msgid "Detached house"
+msgstr ""
+
+#: includes/constants_and_labels.php:20
+msgctxt "Label for constant DETACHEDHOUSE_PLOT"
+msgid "Detached house plot"
+msgstr ""
+
+#: includes/constants_and_labels.php:160
+msgctxt "Label for constant DEVIATION_DECISION"
+msgid "Deviation decision"
+msgstr ""
+
+#: includes/constants_and_labels.php:59
+msgctxt "Label for constant DINING_ROOM"
+msgid "Dining room"
+msgstr ""
+
+#: includes/constants_and_labels.php:178
+msgctxt "Label for constant DIRT_STATION"
+msgid "Dirt station"
+msgstr ""
+
+#: includes/constants_and_labels.php:138
+msgctxt "Label for constant DISHWASHER"
+msgid "Dishwasher"
+msgstr ""
+
+#: includes/constants_and_labels.php:155
+msgctxt "Label for constant DISPERSED_SETTLEMENT"
+msgid "Dispersed settlement"
+msgstr ""
+
+#: includes/constants_and_labels.php:121
+msgctxt "Label for constant DISTRICT"
+msgid "District"
+msgstr ""
+
+#: includes/constants_and_labels.php:224
+msgctxt "Label for constant DOES_NOT_EXIST"
+msgid "DOES_NOT_EXIST"
+msgstr ""
+
+#: includes/constants_and_labels.php:152
+msgctxt "Label for constant DRYER"
+msgid "Dryer"
+msgstr ""
+
+#: includes/constants_and_labels.php:171
+msgctxt "Label for constant DRYING_CABINET"
+msgid "Drying cabinet"
+msgstr ""
+
+#: includes/constants_and_labels.php:207
+msgctxt "Label for constant DRYING_ROOM"
+msgid "Drying room"
+msgstr ""
+
+#: includes/constants_and_labels.php:191
+msgctxt "Label for constant EAST"
+msgid "East"
+msgstr ""
+
+#: includes/constants_and_labels.php:120
+msgctxt "Label for constant ELECTRIC"
+msgid "Electric"
+msgstr ""
+
+#: includes/constants_and_labels.php:273
+msgctxt "Label for constant EQUAL_TO_MONTHS_OF_RENT"
+msgid "Equals to months of rent"
+msgstr ""
+
+#: includes/constants_and_labels.php:42
+msgctxt "Label for constant EXCELLENT"
+msgid "Excellent"
+msgstr ""
+
+#: includes/constants_and_labels.php:274
+msgctxt "Label for constant EXHAUST_AIR_HEAT_PUMP"
+msgid "Exhaust air heat pump"
+msgstr ""
+
+#: includes/constants_and_labels.php:36
+msgctxt "Label for constant EXHIBITION_SPACE"
+msgid "Exhibition space"
+msgstr ""
+
+#: includes/constants_and_labels.php:25
+msgctxt "Label for constant FARM"
+msgid "Farm"
+msgstr ""
+
+#: includes/constants_and_labels.php:245
+msgctxt "Label for constant FARMS"
+msgid "Farms"
+msgstr ""
+
+#: includes/constants_and_labels.php:99
+msgctxt "Label for constant FELT"
+msgid "Blanket"
+msgstr ""
+
+#: includes/constants_and_labels.php:27
+msgctxt "Label for constant FIELD_AREA"
+msgid "Field area"
+msgstr ""
+
+#: includes/constants_and_labels.php:158
+msgctxt "Label for constant FINAL_INSPECTION"
+msgid "Final inspection"
+msgstr ""
+
+#: includes/constants_and_labels.php:87
+msgctxt "Label for constant FINISHED"
+msgid "Finished"
+msgstr ""
+
+#: includes/constants_and_labels.php:183
+msgctxt "Label for constant FIREPLACE"
+msgid "Fireplace"
+msgstr ""
+
+#: includes/constants_and_labels.php:185
+msgctxt "Label for constant FIREPLACE_HEATSTORING"
+msgid "Fireplace heat storing"
+msgstr ""
+
+#: includes/constants_and_labels.php:184
+msgctxt "Label for constant FIREPLACE_OPTION"
+msgid "Fireplace option"
+msgstr ""
+
+#: includes/constants_and_labels.php:64
+msgctxt "Label for constant FIREPLACE_ROOM"
+msgid "Fireplace room"
+msgstr ""
+
+#: includes/constants_and_labels.php:268
+msgctxt "Label for constant FIXED_PERIOD"
+msgid "Fixed period"
+msgstr ""
+
+#: includes/constants_and_labels.php:8
+msgctxt "Label for constant FLAT"
+msgid "Flat"
+msgstr ""
+
+#: includes/constants_and_labels.php:116
+msgctxt "Label for constant FLAT roofType"
+msgid "Flat roof"
+msgstr ""
+
+#: includes/constants_and_labels.php:82
+msgctxt "Label for constant FLATLAND_LOT"
+msgid "Flatland lot"
+msgstr ""
+
+#: includes/constants_and_labels.php:174
+msgctxt "Label for constant FLOOR_DRAIN"
+msgid "Floor drain"
+msgstr ""
+
+#: includes/constants_and_labels.php:264
+msgctxt "Label for constant FLOWER_WATERING_AND_MAINTENANCE"
+msgid "Flower wathering and maintenance"
+msgstr ""
+
+#: includes/constants_and_labels.php:26
+msgctxt "Label for constant FOREST_FARM"
+msgid "Forest farm"
+msgstr ""
+
+#: includes/constants_and_labels.php:56
+msgctxt "Label for constant FRACTIONAL"
+msgid "Partial ownership"
+msgstr ""
+
+#: includes/constants_and_labels.php:126
+msgctxt "Label for constant FREEZER"
+msgid "Freezer"
+msgstr ""
+
+#: includes/constants_and_labels.php:71
+msgctxt "Label for constant FRENCH"
+msgid "Balcony"
+msgstr ""
+
+#: includes/constants_and_labels.php:125
+msgctxt "Label for constant FRIDGE"
+msgid "Fridge"
+msgstr ""
+
+#: includes/constants_and_labels.php:129
+msgctxt "Label for constant FRIDGE_COOLER"
+msgid "Fridge Cooler"
+msgstr ""
+
+#: includes/constants_and_labels.php:128
+msgctxt "Label for constant FRIDGE_FREEZER"
+msgid "Fridge / freezer"
+msgstr ""
+
+#: includes/constants_and_labels.php:117
+msgctxt "Label for constant GABLED"
+msgid "Gable roof"
+msgstr ""
+
+#: includes/constants_and_labels.php:88
+msgctxt "Label for constant GARAGE"
+msgid "Garage"
+msgstr ""
+
+#: includes/constants_and_labels.php:246
+msgctxt "Label for constant GARAGES"
+msgid "Garages"
+msgstr ""
+
+#: includes/constants_and_labels.php:140
+msgctxt "Label for constant GAS"
+msgid "Gas"
+msgstr ""
+
+#: includes/constants_and_labels.php:109
+msgctxt "Label for constant GLASS_FIBER_WALLPAPER"
+msgid "Fiberglass wallpaper"
+msgstr ""
+
+#: includes/constants_and_labels.php:70
+msgctxt "Label for constant GLASSED"
+msgid "Balcony"
+msgstr ""
+
+#: includes/constants_and_labels.php:43
+msgctxt "Label for constant GOOD"
+msgid "Good"
+msgstr ""
+
+#: includes/constants_and_labels.php:239
+msgctxt "Label for constant GOOD_CYCLEWAY"
+msgid "Good cycleway"
+msgstr ""
+
+#: includes/constants_and_labels.php:265
+msgctxt "Label for constant GRASS_CUTTING"
+msgid "Grass cutting"
+msgstr ""
+
+#: includes/constants_and_labels.php:119
+msgctxt "Label for constant GROUND"
+msgid "Ground"
+msgstr ""
+
+#: includes/constants_and_labels.php:106
+msgctxt "Label for constant HALF_PANEL"
+msgid "Half panel"
+msgstr ""
+
+#: includes/constants_and_labels.php:60
+msgctxt "Label for constant HALLWAY"
+msgid "Hallway"
+msgstr ""
+
+#: includes/constants_and_labels.php:267
+msgctxt "Label for constant HEATING_SYSTEM_CLEANUP"
+msgid "Heating system cleanup"
+msgstr ""
+
+#: includes/constants_and_labels.php:81
+msgctxt "Label for constant HILLSIDE_LOT"
+msgid "Hillside lot"
+msgstr ""
+
+#: includes/constants_and_labels.php:37
+msgctxt "Label for constant HOBBY_SPACE"
+msgid "Hobby space"
+msgstr ""
+
+#: includes/constants_and_labels.php:257
+msgctxt "Label for constant HOLIDAY_HOME"
+msgid "Holiday home"
+msgstr ""
+
+#: includes/constants_and_labels.php:148
+msgctxt "Label for constant HOT_TUB"
+msgid "Hot tub"
+msgstr ""
+
+#: includes/constants_and_labels.php:261
+msgctxt "Label for constant HOUSING_COOPERATIVE"
+msgid "Housing cooperative"
+msgstr ""
+
+#: includes/constants_and_labels.php:38
+msgctxt "Label for constant HUB_SPACE"
+msgid "Hub space"
+msgstr ""
+
+#: includes/constants_and_labels.php:74
+msgctxt "Label for constant IMMEDIATELY"
+msgid "Immediately"
+msgstr ""
+
+#: includes/constants_and_labels.php:141
+msgctxt "Label for constant INDUCTION"
+msgid "Induction"
+msgstr ""
+
+#: includes/constants_and_labels.php:57
+msgctxt "Label for constant INSTANT"
+msgid "Instant electric heater"
+msgstr ""
+
+#: includes/constants_and_labels.php:176
+msgctxt "Label for constant IRONING_TABLE"
+msgid "Ironing table"
+msgstr ""
+
+#: includes/constants_and_labels.php:200
+msgctxt "Label for constant JANITOR"
+msgid "Janitor"
+msgstr ""
+
+#: includes/constants_and_labels.php:124
+msgctxt "Label for constant KITCHEN_ISLAND"
+msgid "Kitchen island"
+msgstr ""
+
+#: includes/constants_and_labels.php:136
+msgctxt "Label for constant KITCHENHOOD"
+msgid "Kitchen hood"
+msgstr ""
+
+#: includes/constants_and_labels.php:272
+msgctxt "Label for constant LAKE"
+msgid "Lake"
+msgstr ""
+
+#: includes/constants_and_labels.php:94
+msgctxt "Label for constant LAMINATE"
+msgid "Laminate"
+msgstr ""
+
+#: includes/constants_and_labels.php:177
+msgctxt "Label for constant LAUNDRY_CABINET"
+msgid "Laundry cabinets"
+msgstr ""
+
+#: includes/constants_and_labels.php:201
+msgctxt "Label for constant LAUNDRY_ROOM"
+msgid "Laundry room"
+msgstr ""
+
+#: includes/constants_and_labels.php:55
+msgctxt "Label for constant LEASE"
+msgid "Right of residence"
+msgstr ""
+
+#: includes/constants_and_labels.php:14
+msgctxt "Label for constant LEISUREHOME"
+msgid "Leisure home"
+msgstr ""
+
+#: includes/constants_and_labels.php:22
+msgctxt "Label for constant LEISUREHOME_PLOT"
+msgid "Leisure home plot"
+msgstr ""
+
+#: includes/constants_and_labels.php:65
+msgctxt "Label for constant LIBRARY"
+msgid "Library"
+msgstr ""
+
+#: includes/constants_and_labels.php:63
+msgctxt "Label for constant LOBBY"
+msgid "Lobby"
+msgstr ""
+
+#: includes/constants_and_labels.php:18
+msgctxt "Label for constant LOFT"
+msgid "Loft"
+msgstr ""
+
+#: includes/constants_and_labels.php:275
+msgctxt "Label for constant LOG"
+msgid "Log"
+msgstr ""
+
+#: includes/constants_and_labels.php:263
+msgctxt "Label for constant MAINTENANCE"
+msgid "Own"
+msgstr ""
+
+#: includes/constants_and_labels.php:198
+msgctxt "Label for constant MAINTENANCE_COMPANY"
+msgid "Maintenance company"
+msgstr ""
+
+#: includes/constants_and_labels.php:208
+msgctxt "Label for constant MANGLE"
+msgid "Mangle"
+msgstr ""
+
+#: includes/constants_and_labels.php:112
+msgctxt "Label for constant METRO"
+msgid "Metro station nearby"
+msgstr ""
+
+#: includes/constants_and_labels.php:137
+msgctxt "Label for constant MICROWAVE"
+msgid "Microwave"
+msgstr ""
+
+#: includes/constants_and_labels.php:153
+msgctxt "Label for constant MIRROR"
+msgid "Mirror"
+msgstr ""
+
+#: includes/constants_and_labels.php:145
+msgctxt "Label for constant MIRROR_CABINET"
+msgid "Mirror cabiner"
+msgstr ""
+
+#: includes/constants_and_labels.php:226
+msgctxt "Label for constant MONTHLY"
+msgid "MONTHLY"
+msgstr ""
+
+#: includes/constants_and_labels.php:259
+msgctxt "Label for constant NEED_BASED_APARTMENT"
+msgid "Need based apartment"
+msgstr ""
+
+#: includes/constants_and_labels.php:41
+msgctxt "Label for constant NEW"
+msgid "New"
+msgstr ""
+
+#: includes/constants_and_labels.php:46
+msgctxt "Label for constant NEWEST_FIRST"
+msgid "Newest first"
+msgstr ""
+
+#: includes/constants_and_labels.php:241
+msgctxt "Label for constant NEWLY_CONSTRUCTED"
+msgid "Newly consturcted"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:71
+#: includes/constants_and_labels.php:230
+msgctxt "Label for constant NO"
+msgid "No"
+msgstr ""
+
+#: includes/constants_and_labels.php:277
+msgctxt "Label for constant NO_BUT_REQUIRED_BY_LAW"
+msgid "No but required by law"
+msgstr ""
+
+#: includes/constants_and_labels.php:187
+msgctxt "Label for constant NO_FIREPLACE"
+msgid "No fireplace"
+msgstr ""
+
+#: includes/constants_and_labels.php:258
+msgctxt "Label for constant NON_SUBSIDIZED"
+msgid "Non subsidized"
+msgstr ""
+
+#: includes/constants_and_labels.php:68
+msgctxt "Label for constant NONE"
+msgid "None"
+msgstr ""
+
+#: includes/constants_and_labels.php:190
+msgctxt "Label for constant NORTH"
+msgid "North"
+msgstr ""
+
+#: includes/constants_and_labels.php:194
+msgctxt "Label for constant NORTH_EAST"
+msgid "North east"
+msgstr ""
+
+#: includes/constants_and_labels.php:195
+msgctxt "Label for constant NORTH_WEST"
+msgid "North west"
+msgstr ""
+
+#: includes/constants_and_labels.php:276
+msgctxt "Label for constant NOT_REQUIRED_BY_LAW"
+msgid "Not required by law"
+msgstr ""
+
+#: includes/constants_and_labels.php:156
+msgctxt "Label for constant NOT_ZONED"
+msgid "Not zoned"
+msgstr ""
+
+#: includes/constants_and_labels.php:31
+msgctxt "Label for constant OFFICE_SPACE"
+msgid "Office space"
+msgstr ""
+
+#: includes/constants_and_labels.php:122
+msgctxt "Label for constant OIL"
+msgid "Oil"
+msgstr ""
+
+#: includes/constants_and_labels.php:47
+msgctxt "Label for constant OLDEST_FIRST"
+msgid "Oldest first"
+msgstr ""
+
+#: includes/constants_and_labels.php:228
+msgctxt "Label for constant ONCE"
+msgid "ONCE"
+msgstr ""
+
+#: includes/constants_and_labels.php:269
+msgctxt "Label for constant OPEN_ENDED"
+msgid "Open ended"
+msgstr ""
+
+#: includes/constants_and_labels.php:168
+msgctxt "Label for constant OPERATION_BAN"
+msgid "Operation ban"
+msgstr ""
+
+#: includes/constants_and_labels.php:30
+msgctxt "Label for constant OTHER"
+msgid "Other"
+msgstr ""
+
+#: includes/constants_and_labels.php:39
+msgctxt "Label for constant OTHER_BUSINESS_SPACE"
+msgid "Other business space"
+msgstr ""
+
+#: includes/constants_and_labels.php:202
+msgctxt "Label for constant OUTDOOR_STORAGE"
+msgid "Outdoor storage"
+msgstr ""
+
+#: includes/constants_and_labels.php:77
+msgctxt "Label for constant OUTSIDE_STORAGE"
+msgid "Outside storage"
+msgstr ""
+
+#: includes/constants_and_labels.php:133
+msgctxt "Label for constant OVEN"
+msgid "Oven"
+msgstr ""
+
+#: includes/constants_and_labels.php:231
+msgctxt "Label for constant OWN"
+msgid "Own"
+msgstr ""
+
+#: includes/constants_and_labels.php:262
+msgctxt "Label for constant OWN electricityContract"
+msgid "Own"
+msgstr ""
+
+#: includes/constants_and_labels.php:232
+msgctxt "Label for constant OWN_COASTLINE"
+msgid "Own coastline"
+msgstr ""
+
+#: includes/constants_and_labels.php:216
+msgctxt "Label for constant OWN_METER"
+msgid "Own meter"
+msgstr ""
+
+#: includes/constants_and_labels.php:54
+msgctxt "Label for constant OWNER"
+msgid "Owned apartment"
+msgstr ""
+
+#: includes/constants_and_labels.php:96
+msgctxt "Label for constant PAINT"
+msgid "Paint"
+msgstr ""
+
+#: includes/constants_and_labels.php:10
+msgctxt "Label for constant PAIRHOUSE"
+msgid "Pair-house"
+msgstr ""
+
+#: includes/constants_and_labels.php:93
+msgctxt "Label for constant PARQUET"
+msgid "Parquet"
+msgstr ""
+
+#: includes/constants_and_labels.php:159
+msgctxt "Label for constant PART_ZONING_PLAN"
+msgid "Part zoning plan"
+msgstr ""
+
+#: includes/constants_and_labels.php:107
+msgctxt "Label for constant PARTIAL_TILING"
+msgid "Partial tiling"
+msgstr ""
+
+#: includes/constants_and_labels.php:67
+msgctxt "Label for constant PATIO"
+msgid "Patio"
+msgstr ""
+
+#: includes/constants_and_labels.php:118
+msgctxt "Label for constant PENTROOF"
+msgid "Pent roof"
+msgstr ""
+
+#: includes/constants_and_labels.php:220
+msgctxt "Label for constant PER_MONTH"
+msgid "/ month"
+msgstr ""
+
+#: includes/constants_and_labels.php:215
+msgctxt "Label for constant PER_PERSON_COUNT"
+msgid "/ person"
+msgstr ""
+
+#: includes/constants_and_labels.php:221
+msgctxt "Label for constant PER_PERSON_MONTH"
+msgid "/ person / month"
+msgstr ""
+
+#: includes/constants_and_labels.php:223
+msgctxt "Label for constant PER_TIME"
+msgid "/ time"
+msgstr ""
+
+#: includes/constants_and_labels.php:222
+msgctxt "Label for constant PER_YEAR"
+msgid "/ year"
+msgstr ""
+
+#: includes/constants_and_labels.php:167
+msgctxt "Label for constant PLANNING_NEED_AREA"
+msgid "Planning need area"
+msgstr ""
+
+#: includes/constants_and_labels.php:95
+msgctxt "Label for constant PLASTIC"
+msgid "Plastic carpet"
+msgstr ""
+
+#: includes/constants_and_labels.php:90
+msgctxt "Label for constant PLAYHOUSE"
+msgid "Playhouse"
+msgstr ""
+
+#: includes/constants_and_labels.php:17
+msgctxt "Label for constant PLOT"
+msgid "Plot"
+msgstr ""
+
+#: includes/constants_and_labels.php:247
+msgctxt "Label for constant PLOT_WITHOUT_ZONE"
+msgid "Plot without zone"
+msgstr ""
+
+#: includes/constants_and_labels.php:244
+msgctxt "Label for constant PLOTS"
+msgid "Plots"
+msgstr ""
+
+#: includes/constants_and_labels.php:132
+msgctxt "Label for constant PRAM_STORAGE"
+msgid "Pram storage"
+msgstr ""
+
+#: includes/constants_and_labels.php:33
+msgctxt "Label for constant PRODUCTION_SPACE"
+msgid "Production space"
+msgstr ""
+
+#: includes/constants_and_labels.php:49
+msgctxt "Label for constant PROPERTY"
+msgid "Property"
+msgstr ""
+
+#: includes/constants_and_labels.php:189
+msgctxt "Label for constant PROPERTY_MANAGER"
+msgid "Property manager"
+msgstr ""
+
+#: includes/constants_and_labels.php:248
+msgctxt "Label for constant PROPERTY_PART"
+msgid "Property part"
+msgstr ""
+
+#: includes/constants_and_labels.php:28
+msgctxt "Label for constant PROPERTY_SCRIPT"
+msgid "Property script"
+msgstr ""
+
+#: includes/constants_and_labels.php:72
+msgctxt "Label for constant PROTRUDING"
+msgid "Balcony"
+msgstr ""
+
+#: includes/constants_and_labels.php:237
+msgctxt "Label for constant QUARTZ_COMPOSITE"
+msgid "Quartz composite"
+msgstr ""
+
+#: includes/constants_and_labels.php:73
+msgctxt "Label for constant RECESSED"
+msgid "Balcony"
+msgstr ""
+
+#: includes/constants_and_labels.php:219
+msgctxt "Label for constant RENT"
+msgid "Rent"
+msgstr ""
+
+#: includes/constants_and_labels.php:240
+msgctxt "Label for constant RENT_APARTMENT"
+msgid "Rent Apartment"
+msgstr ""
+
+#: includes/constants_and_labels.php:218
+msgctxt "Label for constant RENT_INCLUDES"
+msgid "Rent includes"
+msgstr ""
+
+#: includes/constants_and_labels.php:199
+msgctxt "Label for constant RESIDENTS"
+msgid "Residents"
+msgstr ""
+
+#: includes/constants_and_labels.php:35
+msgctxt "Label for constant RESTAURANT_SPACE"
+msgid "Restaurant space"
+msgstr ""
+
+#: includes/constants_and_labels.php:271
+msgctxt "Label for constant RIVER"
+msgid "River"
+msgstr ""
+
+#: includes/constants_and_labels.php:181
+msgctxt "Label for constant ROOM_FOR_SCRUBBER"
+msgid "Room for scrubber"
+msgstr ""
+
+#: includes/constants_and_labels.php:9
+msgctxt "Label for constant ROWHOUSE"
+msgid "Row house"
+msgstr ""
+
+#: includes/constants_and_labels.php:21
+msgctxt "Label for constant ROWHOUSE_PLOT"
+msgid "Row house plot"
+msgstr ""
+
+#: includes/constants_and_labels.php:110
+msgctxt "Label for constant RUBBER_BITUMEN"
+msgid "Rubber bitumen"
+msgstr ""
+
+#: includes/constants_and_labels.php:209
+msgctxt "Label for constant SATELLITE_ANTENNA"
+msgid "Satellite antenna"
+msgstr ""
+
+#: includes/constants_and_labels.php:210
+msgctxt "Label for constant SAUNA"
+msgid "Sauna"
+msgstr ""
+
+#: includes/constants_and_labels.php:270
+msgctxt "Label for constant SEA"
+msgid "Sea"
+msgstr ""
+
+#: includes/constants_and_labels.php:253
+msgctxt "Label for constant SENIOR_HOUSE"
+msgid "Senior house"
+msgstr ""
+
+#: includes/constants_and_labels.php:134
+msgctxt "Label for constant SEPARATE_OVEN"
+msgid "Oven"
+msgstr ""
+
+#: includes/constants_and_labels.php:11
+msgctxt "Label for constant SEPARATEHOUSE"
+msgid "Separate house"
+msgstr ""
+
+#: includes/constants_and_labels.php:52
+msgctxt "Label for constant SHED"
+msgid "Canopy"
+msgstr ""
+
+#: includes/constants_and_labels.php:53
+msgctxt "Label for constant SHED_PLUG"
+msgid "Shed canopy"
+msgstr ""
+
+#: includes/constants_and_labels.php:100
+msgctxt "Label for constant SHEET"
+msgid "Sheet"
+msgstr ""
+
+#: includes/constants_and_labels.php:214
+msgctxt "Label for constant SHELTER"
+msgid "Shelter"
+msgstr ""
+
+#: includes/constants_and_labels.php:143
+msgctxt "Label for constant SHOWER"
+msgid "Shower"
+msgstr ""
+
+#: includes/constants_and_labels.php:150
+msgctxt "Label for constant SHOWER_CUBICLE"
+msgid "Shower cubicle"
+msgstr ""
+
+#: includes/constants_and_labels.php:149
+msgctxt "Label for constant SHOWER_SCREEN"
+msgid "Shower screen"
+msgstr ""
+
+#: includes/constants_and_labels.php:250
+msgctxt "Label for constant SINGLE_PAYMENT"
+msgid "Single payment"
+msgstr ""
+
+#: includes/constants_and_labels.php:173
+msgctxt "Label for constant SINK"
+msgid "Sink"
+msgstr ""
+
+#: includes/constants_and_labels.php:266
+msgctxt "Label for constant SNOW_CLEARING"
+msgid "Snow clearing"
+msgstr ""
+
+#: includes/constants_and_labels.php:192
+msgctxt "Label for constant SOUTH"
+msgid "South"
+msgstr ""
+
+#: includes/constants_and_labels.php:196
+msgctxt "Label for constant SOUTH_EAST"
+msgid "South east"
+msgstr ""
+
+#: includes/constants_and_labels.php:197
+msgctxt "Label for constant SOUTH_WEST"
+msgid "South west"
+msgstr ""
+
+#: includes/constants_and_labels.php:212
+msgctxt "Label for constant SPORTS_EQUIPMENT_STORAGE"
+msgid "Sports eruipment storage"
+msgstr ""
+
+#: includes/constants_and_labels.php:105
+msgctxt "Label for constant STONE"
+msgid "Stone"
+msgstr ""
+
+#: includes/constants_and_labels.php:34
+msgctxt "Label for constant STORAGE_SPACE"
+msgid "Storage space"
+msgstr ""
+
+#: includes/constants_and_labels.php:135
+msgctxt "Label for constant STOVE"
+msgid "Stove"
+msgstr ""
+
+#: includes/constants_and_labels.php:256
+msgctxt "Label for constant STUDENT_APARTMENT"
+msgid "Student apartment"
+msgstr ""
+
+#: includes/constants_and_labels.php:58
+msgctxt "Label for constant STUDY"
+msgid "Office"
+msgstr ""
+
+#: includes/constants_and_labels.php:252
+msgctxt "Label for constant SUBTENANT"
+msgid "Subtenant"
+msgstr ""
+
+#: includes/constants_and_labels.php:211
+msgctxt "Label for constant SWIMMING_POOL"
+msgid "Swimming pool"
+msgstr ""
+
+#: includes/constants_and_labels.php:179
+msgctxt "Label for constant TABLETOP"
+msgid "Table top"
+msgstr ""
+
+#: includes/constants_and_labels.php:115
+msgctxt "Label for constant TAXI"
+msgid "Taxi rank nearby"
+msgstr ""
+
+#: includes/constants_and_labels.php:66
+msgctxt "Label for constant TERRACE"
+msgid "Terrace"
+msgstr ""
+
+#: includes/constants_and_labels.php:98
+msgctxt "Label for constant TILE"
+msgid "Tile"
+msgstr ""
+
+#: includes/constants_and_labels.php:144
+msgctxt "Label for constant TOILET"
+msgid "Toilet"
+msgstr ""
+
+#: includes/constants_and_labels.php:146
+msgctxt "Label for constant TOILET_SEAT"
+msgid "Toilet seat"
+msgstr ""
+
+#: includes/constants_and_labels.php:113
+msgctxt "Label for constant TRAIN"
+msgid "Train station nearby"
+msgstr ""
+
+#: includes/constants_and_labels.php:249
+msgctxt "Label for constant UNBUILT"
+msgid "Unbuilt"
+msgstr ""
+
+#: includes/constants_and_labels.php:86
+msgctxt "Label for constant UNDER_CONSTRUCTION"
+msgid "Under construction"
+msgstr ""
+
+#: includes/constants_and_labels.php:172
+msgctxt "Label for constant UNDERFLOOR_HEATING"
+msgid "Underfloor heating"
+msgstr ""
+
+#: includes/constants_and_labels.php:40
+msgctxt "Label for constant VACATION_APARTMENT"
+msgid "Vacation apartment"
+msgstr ""
+
+#: includes/constants_and_labels.php:19
+msgctxt "Label for constant VACATION_SHARE"
+msgid "Vacation share"
+msgstr ""
+
+#: includes/constants_and_labels.php:13
+msgctxt "Label for constant VACATIONHOME"
+msgid "Vacation home"
+msgstr ""
+
+#: includes/constants_and_labels.php:236
+msgctxt "Label for constant VINYL"
+msgid "Vinyl"
+msgstr ""
+
+#: includes/constants_and_labels.php:76
+msgctxt "Label for constant WALK_IN_WARDROBE"
+msgid "Walk-in closet"
+msgstr ""
+
+#: includes/constants_and_labels.php:182
+msgctxt "Label for constant WALL_RADIATOR"
+msgid "Wall radiator"
+msgstr ""
+
+#: includes/constants_and_labels.php:97
+msgctxt "Label for constant WALLPAPER"
+msgid "Wallpaper"
+msgstr ""
+
+#: includes/constants_and_labels.php:151
+msgctxt "Label for constant WASHING_MACHINE"
+msgid "Washing machine"
+msgstr ""
+
+#: includes/constants_and_labels.php:170
+msgctxt "Label for constant WASHING_MACHINE_CONNECTION"
+msgid "Washing machine connection"
+msgstr ""
+
+#: includes/constants_and_labels.php:233
+msgctxt "Label for constant WATER_AREA_RIGHT"
+msgid "Water area right"
+msgstr ""
+
+#: includes/constants_and_labels.php:225
+msgctxt "Label for constant WEEKLY"
+msgid "WEEKLY"
+msgstr ""
+
+#: includes/constants_and_labels.php:193
+msgctxt "Label for constant WEST"
+msgid "West"
+msgstr ""
+
+#: includes/constants_and_labels.php:29
+msgctxt "Label for constant WILDERNESS_AREA"
+msgid "Wilderness area"
+msgstr ""
+
+#: includes/constants_and_labels.php:61
+msgctxt "Label for constant WIND_BOX"
+msgid "Wind box"
+msgstr ""
+
+#: includes/constants_and_labels.php:103
+msgctxt "Label for constant WOOD"
+msgid "Wood"
+msgstr ""
+
+#: includes/constants_and_labels.php:16
+msgctxt "Label for constant WOODEN_HOUSE_SHARE"
+msgid "Wooden house share"
+msgstr ""
+
+#: includes/constants_and_labels.php:91
+msgctxt "Label for constant WOODSHED"
+msgid "Wood shed"
+msgstr ""
+
+#: includes/constants_and_labels.php:127
+msgctxt "Label for constant YANKEE_FRIDGE_FREEZER"
+msgid "Yankee fridge / freezer"
+msgstr ""
+
+#: includes/constants_and_labels.php:50
+msgctxt "Label for constant YARD"
+msgid "Yard"
+msgstr ""
+
+#: includes/constants_and_labels.php:51
+msgctxt "Label for constant YARD_PLUG"
+msgid "Yard canopy"
+msgstr ""
+
+#: includes/constants_and_labels.php:227
+msgctxt "Label for constant YEARLY"
+msgid "YEARLY"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:69
+#: includes/constants_and_labels.php:229
+msgctxt "Label for constant YES"
+msgid "Yes"
+msgstr ""
+
+#: includes/constants_and_labels.php:169
+msgctxt "Label for constant ZONING_PLAN"
+msgid "Zoning plan"
+msgstr ""
+
+#: templates/linear-listing.php:291
+msgid "Land renter"
+msgstr ""
+
+#: templates/linear-listing.php:299
+msgid "Land yearly rent"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:67
+#: blocks/listings/listings.php:76
+msgid "Latest first"
+msgstr ""
+
+#: templates/linear-listing.php:134
+msgid "Laundry room charge"
+msgstr ""
+
+#. Name of the plugin
+msgid "Linear"
+msgstr ""
+
+#: includes/class-linear-settings.php:1862
+msgid "Linear cache has been reset successfully."
+msgstr ""
+
+#: includes/class-linear-settings.php:1866
+msgid "Linear cache reset failed."
+msgstr ""
+
+#: includes/class-linear-settings.php:1241
+msgid "Linear embed form"
+msgstr ""
+
+#: includes/class-linear-settings.php:428
+msgid "Linear listing contact form embed"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Linear listing system WordPress plugin. Enables you to easily display all "
+"your real estate listings on your website."
+msgstr ""
+
+#. Author of the plugin
+msgid "Linear Oy"
+msgstr ""
+
+#: includes/class-linear-admin.php:61
+#, php-format
+msgid "Linear Plugin version: %s"
+msgstr ""
+
+#: includes/class-linear-settings.php:131
+msgid "Linear settings"
+msgstr ""
+
+#: includes/class-linear-settings.php:529
+msgid "Listing column count"
+msgstr ""
+
+#: includes/class-linear-settings.php:611
+#: includes/class-linear-settings.php:648
+msgid "Listing page"
+msgstr ""
+
+#: blocks/listings/listings.php:51
+msgid "Listing Type"
+msgstr ""
+
+#: templates/linear-listing.php:89
+msgid "Listing type"
+msgstr ""
+
+#: includes/class-linear-settings.php:1462
+msgid "Listing type filter value"
+msgstr ""
+
+#: includes/class-linear-settings.php:259
+#: includes/class-linear-settings.php:1293
+msgid "Listings"
+msgstr ""
+
+#: includes/class-linear-settings.php:375
+msgid "Listings API URL"
+msgstr ""
+
+#: blocks/listings/listings.php:41
+msgid "Listings filters are hidden"
+msgstr ""
+
+#: includes/class-linear-settings.php:177
+msgid "Listings page"
+msgstr ""
+
+#: blocks/listings/listings.php:32
+msgid "Listings per page"
+msgstr ""
+
+#: includes/class-linear-settings.php:1603
+msgid "Listings:"
+msgstr ""
+
+#: templates/linear-listing.php:169
+msgid "Living room"
+msgstr ""
+
+#: templates/linear-listing.php:171
+msgid "Living room floor material"
+msgstr ""
+
+#: templates/linear-listing.php:170
+msgid "Living room wall material"
+msgstr ""
+
+#: templates/sections/listing_map.php:29
+msgid "Load map"
+msgstr ""
+
+#: includes/class-linear-settings.php:1354
+#: includes/class-linear-settings.php:1547
+#: blocks/buy-commissions/buy-commissions.php:29
+#: blocks/listings/listings.php:31
+msgid "Load more"
+msgstr ""
+
+#: includes/class-linear-templater.php:295
+#: includes/class-linear-templater.php:314
+msgid "Loading more"
+msgstr ""
+
+#: templates/linear-listing.php:335
+msgid "Local information"
+msgstr ""
+
+#: templates/linear-listing.php:69
+#: blocks/buy-commissions/buy-commissions.php:89
+#: templates/sections/listing_map.php:12
+msgid "Location"
+msgstr ""
+
+#: templates/sections/listing_introduction.php:191
+msgid "Lot"
+msgstr ""
+
+#: templates/linear-listing.php:286
+msgid "Lot area"
+msgstr ""
+
+#: templates/linear-listing.php:290
+msgid "Lot info"
+msgstr ""
+
+#: templates/linear-listing.php:287
+msgid "Lot ownership"
+msgstr ""
+
+#: templates/linear-listing.php:288
+msgid "Lot rent date"
+msgstr ""
+
+#: templates/linear-listing.php:289
+msgid "Lot type"
+msgstr ""
+
+#: templates/linear-listing.php:131
+msgid "Maintenance charge"
+msgstr ""
+
+#: templates/sections/listing_introduction.php:257
+msgid "Make an offer"
+msgstr ""
+
+#: includes/class-linear-settings.php:174
+msgid "Make sure your permalink settings are set to be \"article name\"."
+msgstr ""
+
+#: templates/helpers/get_maintenance_charge_value.php:14
+#: templates/sections/listing_introduction.php:180
+msgid "Mandatory charges"
+msgstr ""
+
+#: templates/linear-listing.php:225
+msgid "More info"
+msgstr ""
+
+#: templates/linear-listing.php:99
+msgid "Newly constructed"
+msgstr ""
+
+#: templates/sections/listing_introduction.php:134
+msgid "Next presentation"
+msgstr ""
+
+#: templates/sections/listing_actions.php:65
+msgid "Next public presentation"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:75
+#: blocks/listings/listings.php:84
+msgid "No results"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:35
+#: blocks/listings/listings.php:37
+msgid "No results with set filters"
+msgstr ""
+
+#: templates/linear-listing.php:144
+msgid "Non-electric heating charge"
+msgstr ""
+
+#: includes/class-linear-settings.php:1065
+#: includes/class-linear-settings.php:1242 blocks/listings/listings.php:132
+msgid "None"
+msgstr ""
+
+#: templates/linear-listing.php:54
+msgid "Notes"
+msgstr ""
+
+#: templates/linear-listing.php:95
+msgid "Number of rooms"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:62
+#: blocks/listings/listings.php:66
+msgid "Office Space"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:68
+#: blocks/listings/listings.php:77
+msgid "Oldest first"
+msgstr ""
+
+#: templates/linear-listing.php:213
+msgid "On island"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:34
+#: blocks/listings/listings.php:36
+#, php-format
+msgid "Oops, error has occurred!<br>If the problem persists, please contact %s"
+msgstr ""
+
+#: includes/class-linear-settings.php:1378
+msgid "Orderby"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:79
+#: blocks/listings/listings.php:88
+msgid "Ordering options hidden"
+msgstr ""
+
+#: templates/linear-listing.php:79
+msgid "Other area"
+msgstr ""
+
+#: blocks/listings/listings.php:74
+msgid "Other Business Space"
+msgstr ""
+
+#: templates/helpers/get_maintenance_charge_value.php:30
+msgid "Other charge"
+msgstr ""
+
+#: templates/linear-listing.php:133
+msgid "Other charge description"
+msgstr ""
+
+#: templates/linear-listing.php:307
+msgid "Other construction materials"
+msgstr ""
+
+#: includes/class-linear-settings.php:237
+msgid "Other issues"
+msgstr ""
+
+#: templates/linear-listing.php:215
+msgid "Other spaces"
+msgstr ""
+
+#: includes/class-linear-settings.php:513
+msgid "Outline color"
+msgstr ""
+
+#: templates/linear-listing.php:212
+msgid "Owned beach line"
+msgstr ""
+
+#: templates/linear-listing.php:98
+msgid "Ownership type"
+msgstr ""
+
+#: templates/plain-listings.php:19
+msgid "Page"
+msgstr ""
+
+#: templates/plain-listings.php:21
+msgid "Page %"
+msgstr ""
+
+#: includes/class-linear-settings.php:193
+msgid "Page width"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:52
+#: blocks/listings/listings.php:54 blocks/listings/listings.php:127
+msgid "Pairhouse"
+msgstr ""
+
+#: templates/linear-listing.php:141
+msgid "Parking charge"
+msgstr ""
+
+#: templates/linear-listing.php:341
+msgid "Parking garage spaces"
+msgstr ""
+
+#: templates/linear-listing.php:342
+msgid "Parking info"
+msgstr ""
+
+#: templates/linear-listing.php:226
+msgid "Parking space"
+msgstr ""
+
+#: templates/linear-listing.php:227
+msgid "Parking space info"
+msgstr ""
+
+#: templates/linear-listing.php:339
+msgid "Parking spaces with electric plug"
+msgstr ""
+
+#: templates/linear-listing.php:340
+msgid "Parking yard spaces"
+msgstr ""
+
+#: templates/linear-listing.php:320
+msgid "Partner redemption right"
+msgstr ""
+
+#: templates/linear-listing.php:375
+msgid "Past renovations"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:636
+msgctxt "per month fee"
+msgid " € / m"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:656
+msgctxt "per month fee"
+msgid " € / month"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:603
+#: includes/class-linear-data-handler.php:607
+msgctxt "per month fees"
+msgid " / m"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:620
+msgctxt "per month fees"
+msgid " € / m"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:640
+msgctxt "per month per person fee"
+msgid " € / m / person"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:528
+msgctxt "per month pricing"
+msgid " € / m"
+msgstr ""
+
+#: includes/class-linear-settings.php:1348
+#: includes/class-linear-settings.php:1541
+msgid "Per page"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:648
+#: includes/class-linear-data-handler.php:664
+msgctxt "per time fee"
+msgid " € / time"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:652
+msgctxt "per week fee"
+msgid " € / week"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:644
+#: includes/class-linear-data-handler.php:660
+msgctxt "per year fee"
+msgid " € / year"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:540
+msgctxt "per year fees"
+msgid " € / year"
+msgstr ""
+
+#: includes/class-linear-settings.php:172
+msgid "Permalink settings"
+msgstr ""
+
+#: includes/class-linear-admin.php:60
+#, php-format
+msgid "Permalink: %s"
+msgstr ""
+
+#: templates/linear-listing.php:237
+msgid "Pets allowed"
+msgstr ""
+
+#: templates/sections/listing_introduction.php:200
+msgid "Pipe renovation"
+msgstr ""
+
+#: includes/class-linear-settings.php:60
+msgid "Please insert your embedable Linear contact form"
+msgstr ""
+
+#: includes/class-linear-settings.php:209
+msgid ""
+"Please make sure that the API-URL and API-Key are set as instructed and that "
+"you've agreed to the terms and conditions."
+msgstr ""
+
+#: includes/class-linear-settings.php:230
+msgid ""
+"Please make sure that you only use pretty-permalinks as other permalink "
+"formats might cause issues with the Linear plugin."
+msgstr ""
+
+#: templates/helpers/get_maintenance_charge_value.php:26
+msgid "Plot rent charge"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:42
+#: blocks/listings/listings.php:44 blocks/listings/listings.php:122
+msgid "Plots"
+msgstr ""
+
+#: includes/class-linear-settings.php:183
+msgid "Plugin adjustments"
+msgstr ""
+
+#: templates/linear-listing.php:71
+msgid "Postal code"
+msgstr ""
+
+#: includes/class-linear-settings.php:162
+msgid "Prerequisites"
+msgstr ""
+
+#: templates/linear-listing.php:44
+msgid "Presentation"
+msgstr ""
+
+#: templates/linear-listing.php:115
+msgid "Price and cost"
+msgstr ""
+
+#: templates/linear-listing.php:124
+msgid "Price per square meter"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:92
+msgid "Price range"
+msgstr ""
+
+#: includes/class-linear-settings.php:1475
+msgid "Price range filter lower limit"
+msgstr ""
+
+#: includes/class-linear-settings.php:1481
+msgid "Price range filter upper limit"
+msgstr ""
+
+#: blocks/listings/listings.php:115
+msgid "Price range lower value"
+msgstr ""
+
+#: blocks/listings/listings.php:114
+msgid "Price range upper value"
+msgstr ""
+
+#: includes/class-linear-settings.php:547
+msgid "Price range-slider lower limit"
+msgstr ""
+
+#: includes/class-linear-settings.php:556
+msgid "Price range-slider upper limit"
+msgstr ""
+
+#: includes/class-linear-settings.php:503
+msgid "Primary color"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:40
+#: blocks/listings/listings.php:42
+msgid "Product group"
+msgstr ""
+
+#: includes/class-linear-settings.php:1456
+msgid "Product group filter value"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:64
+#: blocks/listings/listings.php:68
+msgid "Production Space"
+msgstr ""
+
+#: templates/linear-listing.php:278
+msgid "Property antenna"
+msgstr ""
+
+#: templates/linear-listing.php:216
+msgid "Property buildings"
+msgstr ""
+
+#: templates/linear-listing.php:271
+msgid "Property buildings info"
+msgstr ""
+
+#: templates/linear-listing.php:270
+msgid "Property buildings rights"
+msgstr ""
+
+#: templates/linear-listing.php:269
+msgid "Property identifier"
+msgstr ""
+
+#: templates/linear-listing.php:282
+msgid "Property includes"
+msgstr ""
+
+#: templates/linear-listing.php:280
+msgid "Property maintenance by"
+msgstr ""
+
+#: templates/linear-listing.php:281
+msgid "Property maintenance info"
+msgstr ""
+
+#: templates/linear-listing.php:267
+msgid "Property manager's  certificate date"
+msgstr ""
+
+#: templates/linear-listing.php:265
+msgid "Property manager's  email"
+msgstr ""
+
+#: templates/linear-listing.php:263
+msgid "Property manager's  office"
+msgstr ""
+
+#: templates/linear-listing.php:264
+msgid "Property manager's  phone"
+msgstr ""
+
+#: templates/linear-listing.php:266
+msgid "Property manager's  post office"
+msgstr ""
+
+#: templates/linear-listing.php:262
+msgid "Property manager's name"
+msgstr ""
+
+#: templates/linear-listing.php:273
+msgid "Property restrictions"
+msgstr ""
+
+#: templates/linear-listing.php:275
+msgid "Property sewer"
+msgstr ""
+
+#: templates/linear-listing.php:151
+msgid "Property tax"
+msgstr ""
+
+#: templates/linear-listing.php:268
+msgid "Property type"
+msgstr ""
+
+#: templates/linear-listing.php:274
+msgid "Property water pipe"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:88
+msgctxt "r as short for room"
+msgid "r"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:74
+#: blocks/listings/listings.php:83
+msgid "Range filters hidden"
+msgstr ""
+
+#: includes/class-linear-settings.php:1372
+#: includes/class-linear-settings.php:1565
+msgid "Range sliders"
+msgstr ""
+
+#: includes/class-linear-settings.php:226
+msgid "Re-save permalink settings"
+msgstr ""
+
+#: templates/linear-listing.php:254
+msgid "Real estate"
+msgstr ""
+
+#: includes/class-linear-settings.php:1468
+msgid "Realtors filterer"
+msgstr ""
+
+#: templates/linear-listing.php:96
+msgid "Release"
+msgstr ""
+
+#: templates/linear-listing.php:97
+msgid "Release info"
+msgstr ""
+
+#: includes/class-linear-settings.php:993
+#: includes/class-linear-settings.php:1001
+msgid "Remove image"
+msgstr ""
+
+#: templates/helpers/get_maintenance_charge_value.php:22
+msgid "Renovation charge"
+msgstr ""
+
+#: blocks/listings/listings.php:131
+msgid "Rent"
+msgstr ""
+
+#: blocks/listings/listings.php:96
+msgid "Rent commissions"
+msgstr ""
+
+#: includes/class-linear-settings.php:1487
+msgid "Rent range filter lower limit"
+msgstr ""
+
+#: includes/class-linear-settings.php:1493
+#: includes/class-linear-settings.php:1505
+msgid "Rent range filter upper limit"
+msgstr ""
+
+#: blocks/listings/listings.php:117
+msgid "Rent range lower value"
+msgstr ""
+
+#: blocks/listings/listings.php:116
+msgid "Rent range upper value"
+msgstr ""
+
+#: includes/class-linear-settings.php:565
+msgid "Rent range-slider lower limit"
+msgstr ""
+
+#: includes/class-linear-settings.php:574
+msgid "Rent range-slider upper limit"
+msgstr ""
+
+#: templates/components/text_rent_updated.php:32
+#, php-format
+msgid "Rent will be updated to %s on %s."
+msgstr ""
+
+#: templates/linear-listing.php:90
+msgid "Rental contract type"
+msgstr ""
+
+#: includes/class-linear-settings.php:620
+#: includes/class-linear-settings.php:657
+msgid "Rentals page"
+msgstr ""
+
+#: includes/class-linear-settings.php:187
+msgid "Rentals, Business premises and Buy commissions"
+msgstr ""
+
+#: includes/class-linear-admin.php:53
+msgid "Requesting new Linear API credentials"
+msgstr ""
+
+#: includes/class-linear-admin.php:51
+#, php-format
+msgid "Requesting new Linear API credentials for %s"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:71
+#: blocks/listings/listings.php:80
+msgid "Reset filters"
+msgstr ""
+
+#: includes/class-linear-settings.php:301
+msgid "Reset Linear transients"
+msgstr ""
+
+#: includes/class-linear-settings.php:303
+msgid "Reset Transient Cache"
+msgstr ""
+
+#: includes/class-linear-settings.php:689
+msgid "Reset transients"
+msgstr ""
+
+#: includes/class-linear-settings.php:263
+msgid "REST-API"
+msgstr ""
+
+#: includes/class-linear-settings.php:1600
+msgid "REST-API usage:"
+msgstr ""
+
+#: blocks/listings/listings.php:70
+msgid "Restaurant Space"
+msgstr ""
+
+#: templates/linear-listing.php:221
+msgid "Restrictions"
+msgstr ""
+
+#: templates/linear-listing.php:146
+msgid "Road maintenance charge"
+msgstr ""
+
+#: templates/linear-listing.php:220
+msgid "Road to"
+msgstr ""
+
+#: templates/linear-listing.php:305
+msgid "Road tolls"
+msgstr ""
+
+#: templates/linear-listing.php:311
+msgid "Roof condition"
+msgstr ""
+
+#: templates/linear-listing.php:312
+msgid "Roof type"
+msgstr ""
+
+#: templates/linear-listing.php:313
+msgid "Roofing material"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:47
+#: blocks/listings/listings.php:49
+msgid "room"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:46
+#: blocks/listings/listings.php:48
+msgid "Room count"
+msgstr ""
+
+#: includes/class-linear-templater.php:745
+#: blocks/buy-commissions/buy-commissions.php:48
+#: blocks/listings/listings.php:50
+msgid "rooms"
+msgstr ""
+
+#: includes/class-linear-data-handler.php:112
+msgctxt "Rooms info for listing"
+msgid "room"
+msgid_plural "rooms"
+msgstr[0] ""
+msgstr[1] ""
+
+#: blocks/buy-commissions/buy-commissions.php:51
+#: blocks/listings/listings.php:53 blocks/listings/listings.php:126
+msgid "Rowhouse"
+msgstr ""
+
+#: blocks/listings/listings.php:95
+msgid "Sales commissions"
+msgstr ""
+
+#: templates/linear-listing.php:149
+msgid "Sanitation charge"
+msgstr ""
+
+#: templates/linear-listing.php:218
+msgid "Satellite antenna"
+msgstr ""
+
+#: templates/linear-listing.php:150
+msgid "Satellite cable TV charge"
+msgstr ""
+
+#: templates/linear-listing.php:189
+#: blocks/buy-commissions/buy-commissions.php:54
+#: blocks/listings/listings.php:56
+msgid "Sauna"
+msgstr ""
+
+#: templates/linear-listing.php:138
+msgid "Sauna charge"
+msgstr ""
+
+#: templates/linear-listing.php:191
+msgid "Sauna description"
+msgstr ""
+
+#: templates/linear-listing.php:190
+msgid "Sauna stove type"
+msgstr ""
+
+#: templates/linear-listing.php:337
+msgid "Schools"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:94
+#: blocks/listings/listings.php:93
+msgid "Search"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:98
+#: blocks/listings/listings.php:134
+msgid "Search by location or postal code"
+msgstr ""
+
+#: includes/class-linear-settings.php:1580
+msgid "Search field value"
+msgstr ""
+
+#: includes/class-linear-settings.php:1450
+msgid "Search filter value"
+msgstr ""
+
+#: templates/linear-listing.php:121
+#: templates/sections/listing_introduction.php:158
+msgid "Security deposit"
+msgstr ""
+
+#: includes/class-linear-settings.php:410
+msgid "Select contact method"
+msgstr ""
+
+#: includes/class-linear-settings.php:538
+msgid "Select render method"
+msgstr ""
+
+#: blocks/listings/listings.php:130
+msgid "Sell"
+msgstr ""
+
+#: templates/linear-listing.php:119
+msgid "Selling price"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:86
+msgid "Semi-detached house"
+msgstr ""
+
+#: templates/linear-listing.php:336
+msgid "Services"
+msgstr ""
+
+#: blocks/listings/listings.php:64
+msgid "Set filter maximum area"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:58
+#: blocks/listings/listings.php:60
+msgid "Set filter maximum price"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:60
+#: blocks/listings/listings.php:62
+msgid "Set filter maximum rent"
+msgstr ""
+
+#: blocks/listings/listings.php:63
+msgid "Set filter minimum area"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:57
+#: blocks/listings/listings.php:59
+msgid "Set filter minimum price"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:59
+#: blocks/listings/listings.php:61
+msgid "Set filter minimum rent"
+msgstr ""
+
+#: includes/class-linear-settings.php:77 includes/class-linear-settings.php:78
+#: includes/class-linear-settings.php:360
+msgid "Settings"
+msgstr ""
+
+#: templates/linear-listing.php:277
+msgid "Sewer info"
+msgstr ""
+
+#: templates/components/share_links.php:14
+msgid "Share this on Facebook"
+msgstr ""
+
+#: templates/components/share_links.php:18
+msgid "Share this on LinkedIn"
+msgstr ""
+
+#: templates/components/share_links.php:22
+msgid "Share this on WhatsApp"
+msgstr ""
+
+#: templates/sections/listing_actions.php:84
+msgctxt "Share to a friend"
+msgid "Share to a friend"
+msgstr ""
+
+#: includes/class-linear-settings.php:1262
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-linear-settings.php:257
+#: includes/class-linear-settings.php:1285
+msgid "Shortcodes"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:77
+#: blocks/listings/listings.php:86
+msgid "Show 'Sort by' ordering"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:72
+#: blocks/listings/listings.php:81
+msgid "Show additional range filters eg. price"
+msgstr ""
+
+#: blocks/listings/listings.php:129
+msgid "Show all"
+msgstr ""
+
+#: blocks/listings/listings.php:107
+msgid "Show area range"
+msgstr ""
+
+#: includes/class-linear-settings.php:1432
+msgid "Show area range filter"
+msgstr ""
+
+#: blocks/listings/listings.php:104
+msgid "Show business listing type"
+msgstr ""
+
+#: includes/class-linear-settings.php:1420
+msgid "Show business listing type filter"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:37
+msgid "Show commission filters"
+msgstr ""
+
+#: blocks/listings/listings.php:99
+msgid "Show commission type"
+msgstr ""
+
+#: includes/class-linear-settings.php:1384
+msgid "Show commission type filter"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:69
+#: blocks/listings/listings.php:78
+msgid "Show filters"
+msgstr ""
+
+#: blocks/listings/listings.php:39
+msgid "Show listing filters"
+msgstr ""
+
+#: blocks/listings/listings.php:102
+msgid "Show listing type"
+msgstr ""
+
+#: includes/class-linear-settings.php:1408
+msgid "Show listing type filter"
+msgstr ""
+
+#: blocks/listings/listings.php:105
+msgid "Show price range"
+msgstr ""
+
+#: includes/class-linear-settings.php:1426
+msgid "Show price range filter"
+msgstr ""
+
+#: blocks/listings/listings.php:100
+msgid "Show product group"
+msgstr ""
+
+#: includes/class-linear-settings.php:1396
+msgid "Show product group filter"
+msgstr ""
+
+#: blocks/listings/listings.php:106
+msgid "Show rent range"
+msgstr ""
+
+#: includes/class-linear-settings.php:1438
+msgid "Show rent range filter"
+msgstr ""
+
+#: blocks/listings/listings.php:101
+msgid "Show room count"
+msgstr ""
+
+#: includes/class-linear-settings.php:1402
+msgid "Show room count filter"
+msgstr ""
+
+#: includes/class-linear-settings.php:1571
+#: blocks/buy-commissions/buy-commissions.php:95
+#: blocks/listings/listings.php:97
+msgid "Show search field"
+msgstr ""
+
+#: includes/class-linear-settings.php:1390
+msgid "Show search filter"
+msgstr ""
+
+#: blocks/listings/listings.php:103
+msgid "Show specifications"
+msgstr ""
+
+#: includes/class-linear-settings.php:1414
+msgid "Show specifications filter"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:32
+#: blocks/listings/listings.php:34
+msgid "Showing \"Load more\"-button"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:38
+#: blocks/listings/listings.php:40
+msgid "Showing filters"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:78
+#: blocks/listings/listings.php:87
+msgid "Showing ordering options"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:73
+#: blocks/listings/listings.php:82
+msgid "Showing range filters"
+msgstr ""
+
+#: includes/class-linear-settings.php:169
+msgid "Sign up to Linear"
+msgstr ""
+
+#: includes/class-linear-settings.php:1516
+msgid "Simple buy commissions example:"
+msgstr ""
+
+#: includes/class-linear-settings.php:1294
+msgid "Simple listing example:"
+msgstr ""
+
+#: includes/class-linear-admin.php:59
+#, php-format
+msgid "Sitename: %s"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:91
+msgid "Size"
+msgstr ""
+
+#: templates/linear-listing.php:241
+msgid "Smoking allowed"
+msgstr ""
+
+#: includes/class-linear-settings.php:508
+msgid "Solid color"
+msgstr ""
+
+#: includes/class-linear-settings.php:1373
+msgid ""
+"Some filterings support range sliders for eg. price or rent. You can decide "
+"if you want to show these or not. Requires that filters are used! Default is "
+"\"true\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1566
+msgid ""
+"Some filterings support range sliders for eg. price. You can decide if you "
+"want to show these or not. Requires that filters are used! Default is "
+"\"true\""
+msgstr ""
+
+#: includes/class-linear-settings.php:302
+msgid ""
+"Sometimes the listings data isnt updated. This might be due to some caching "
+"plugins. As a temporary solution, reseting the plugin transient cache might "
+"resolve the issue for the moment."
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:66
+#: blocks/listings/listings.php:75
+msgid "Sort"
+msgstr ""
+
+#: templates/linear-listing.php:188
+msgid "Storage description"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:65
+#: blocks/listings/listings.php:69
+msgid "Storage Space House"
+msgstr ""
+
+#: templates/linear-listing.php:166
+msgid "Stove"
+msgstr ""
+
+#: includes/class-linear-settings.php:1339
+#: includes/class-linear-settings.php:1537
+msgid "Supported arguments:"
+msgstr ""
+
+#: templates/linear-listing.php:343
+msgid "Telecommunications system"
+msgstr ""
+
+#: templates/linear-listing.php:276
+msgid "Tenant is responsible for"
+msgstr ""
+
+#: includes/class-linear-settings.php:402
+msgid "Terms of service"
+msgstr ""
+
+#: includes/class-linear-settings.php:1187
+msgid "terms of service"
+msgstr ""
+
+#: templates/linear-listing.php:208
+msgid "Terrace"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:85
+msgid "Terraced House"
+msgstr ""
+
+#: templates/helpers/get_area_basis_value.php:27
+msgid ""
+"The area is not checked and the actual area may be larger or smaller than "
+"stated."
+msgstr ""
+
+#: includes/class-linear-settings.php:1725
+msgid ""
+"The Linear plugin adds additional classes to several elements so that you "
+"can more easily target them"
+msgstr ""
+
+#: includes/class-linear-settings.php:1772
+msgid ""
+"The Linear plugin adds WordPress hooks in different parts of the content so "
+"that you can include your own custom solutions easily."
+msgstr ""
+
+#: includes/class-linear-settings.php:253
+msgid ""
+"The Linear plugin contains quite a bit of logic under the hood and provides "
+"ease of access to its features."
+msgstr ""
+
+#: includes/class-linear-settings.php:1601
+msgid ""
+"The Linear plugin exposes a few rest endpoints which allow you to fetch "
+"listings. The plugin handles everything with fetching the data and saving it "
+"in a transient so that you don't have to worry about that."
+msgstr ""
+
+#: includes/class-linear-settings.php:157
+msgid ""
+"The Linear plugin is used to list apartments, rentals, business premises and "
+"buy-commissions on your site with ease. \n"
+"\t\t\t\tSet your credentials and make sure you have a set listings-page and "
+"you are set to go."
+msgstr ""
+
+#: includes/class-linear-settings.php:203
+msgid "The listings are not visible"
+msgstr ""
+
+#: includes/class-linear-settings.php:214
+msgid "The listings-page is set but I can't see any listings?"
+msgstr ""
+
+#: includes/class-linear-settings.php:1355
+#: includes/class-linear-settings.php:1548
+msgid ""
+"The options to enable/disable the \"Load more\"-button. Default is \"true\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1542
+msgid ""
+"The per page indicates how many buy commissions we want to show, and how "
+"many more are shown upon \"Load more\"-button click. Default is \"8\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1349
+msgid ""
+"The per page indicates how many listings we want to show, and how many more "
+"are shown upon \"Load more\"-button click. Default is \"8\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1289
+msgid ""
+"The shortcodes support some additional settings which affect how the listing "
+"is displayed."
+msgstr ""
+
+#: includes/class-linear-settings.php:1343
+msgid ""
+"The type indicates if we want to show apartment, rentals or business "
+"premises. Default is \"all\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1758
+msgid ""
+"There are also some other classes for your use. We try to not remove any CSS "
+"filters unless there is a major rework so you should be quite safe using "
+"them. Please use dev tools to investigate what potential classes you can use,"
+" those which have no set CSS-values are most likely meant as entry points "
+"for your custom styles."
+msgstr ""
+
+#: includes/class-linear-settings.php:205
+msgid ""
+"There are several reasons why this could happen, please check these steps in "
+"order and you should get the listings visible:"
+msgstr ""
+
+#: includes/class-linear-settings.php:1870
+msgid "There was nothing to remove from the cache."
+msgstr ""
+
+#: includes/class-linear-settings.php:189
+msgid ""
+"These are not set automatically but can be set manually. E.g. to have a "
+"separate rentals page you need first to create a new Page (lets call it "
+"\"Rentals\"). \n"
+"\t\t\t\tOnce that is done, you can choose in the Linear plugin settings the "
+"page that should be used for rentals, and you choose the page you just "
+"created. "
+msgstr ""
+
+#: includes/class-linear-settings.php:1288
+msgid ""
+"This is handy for sites which are not using the Gutenberg editor as the "
+"various listings can be also utilized with Shortcodes."
+msgstr ""
+
+#: templates/components/realtor.php:138
+msgid "This listing is rented by"
+msgstr ""
+
+#: templates/components/realtor.php:136
+msgid "This listing is sold by"
+msgstr ""
+
+#: includes/class-linear-settings.php:286
+msgid ""
+"This page is experimental and is meant to help debug certain issues with the "
+"plugin."
+msgstr ""
+
+#: templates/linear-listing.php:81
+msgid "Total area"
+msgstr ""
+
+#: templates/linear-listing.php:333
+msgid "Traffic connections"
+msgstr ""
+
+#: templates/linear-listing.php:334
+msgid "Traffic info"
+msgstr ""
+
+#: includes/class-linear-settings.php:200
+msgid "Troubleshooting"
+msgstr ""
+
+#: includes/class-linear-settings.php:1342
+#: blocks/buy-commissions/buy-commissions.php:90
+#: templates/sections/listing_introduction.php:115
+msgid "Type"
+msgstr ""
+
+#: templates/components/realtor.php:96 templates/components/realtor.php:101
+msgctxt "type name in realtor-block"
+msgid "apartment"
+msgstr ""
+
+#: templates/components/realtor.php:125
+msgctxt "type name in realtor-block"
+msgid "business premise"
+msgstr ""
+
+#: templates/components/realtor.php:105
+msgctxt "type name in realtor-block"
+msgid "farm"
+msgstr ""
+
+#: templates/components/realtor.php:113
+msgctxt "type name in realtor-block"
+msgid "garage"
+msgstr ""
+
+#: templates/components/realtor.php:117
+msgctxt "type name in realtor-block"
+msgid "new building"
+msgstr ""
+
+#: templates/components/realtor.php:109
+msgctxt "type name in realtor-block"
+msgid "plot"
+msgstr ""
+
+#: templates/components/realtor.php:121
+msgctxt "type name in realtor-block"
+msgid "vacation apartment"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:76
+#: blocks/listings/listings.php:85
+msgid ""
+"Unfortunately there are currently no results to show. Come back later to see "
+"if any have been added!"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:36
+#: blocks/listings/listings.php:38
+msgid ""
+"Unfortunately we couldn't find any results with these filters. Please adjust "
+"your filters or reset them all together."
+msgstr ""
+
+#: includes/class-linear-data-handler.php:196
+#: includes/class-linear-data-handler.php:197
+#: includes/class-linear-data-handler.php:198
+#: includes/class-linear-data-handler.php:199
+#: includes/class-linear-data-handler.php:200
+msgid "units"
+msgstr ""
+
+#: templates/linear-listing.php:385
+msgid "Upcoming renovations"
+msgstr ""
+
+#: includes/class-linear-settings.php:55
+msgid "Update your API credentials"
+msgstr ""
+
+#: includes/class-linear-settings.php:999
+msgid "Upload image"
+msgstr ""
+
+#: includes/class-linear-settings.php:179
+msgid ""
+"Upon activating this plugin, we have created a listings page for you. If you "
+"want a sub-page to be the page for listings, you can change this in Linear "
+"settings."
+msgstr ""
+
+#: includes/class-linear-settings.php:455
+msgid "Use theme fonts"
+msgstr ""
+
+#: templates/helpers/get_area_basis_value.php:16
+msgctxt "Used in \"measured by\" context"
+msgid "by"
+msgstr ""
+
+#: templates/helpers/get_area_basis_value.php:20
+msgctxt "Used in \"on date\" context before date"
+msgid "on"
+msgstr ""
+
+#: templates/linear-listing.php:184
+msgid "Utility room"
+msgstr ""
+
+#: templates/linear-listing.php:187
+msgid "Utility room equipment"
+msgstr ""
+
+#: templates/linear-listing.php:186
+msgid "Utility room floor material"
+msgstr ""
+
+#: templates/linear-listing.php:185
+msgid "Utility room wall material"
+msgstr ""
+
+#: blocks/buy-commissions/buy-commissions.php:45
+#: blocks/listings/listings.php:47
+msgid "Vacation Apartment"
+msgstr ""
+
+#: templates/linear-listing.php:310
+msgid "Ventilation"
+msgstr ""
+
+#: templates/helpers/get_area_basis_value.php:24
+msgid "Verification and measurement"
+msgstr ""
+
+#: templates/linear-listing.php:205
+msgid "View"
+msgstr ""
+
+#: templates/sections/listing_image-carousel.php:67
+msgid "Virtual tour"
+msgstr ""
+
+#: templates/linear-listing.php:148
+msgid "Water and sewage charge"
+msgstr ""
+
+#: templates/linear-listing.php:135
+#: templates/sections/listing_introduction.php:167
+msgid "Water charge"
+msgstr ""
+
+#: templates/linear-listing.php:219
+msgid "Water pipes info"
+msgstr ""
+
+#: templates/linear-listing.php:181
+msgid "WC"
+msgstr ""
+
+#: templates/linear-listing.php:183
+msgid "WC floor material"
+msgstr ""
+
+#: templates/linear-listing.php:182
+msgid "WC wall material"
+msgstr ""
+
+#: includes/class-linear-settings.php:154
+msgid "What Linear plugin is for"
+msgstr ""
+
+#: includes/class-linear-settings.php:229
+msgid "What permalink settings are you using?"
+msgstr ""
+
+#: templates/linear-listing.php:204
+msgid "Yard"
+msgstr ""
+
+#: templates/linear-listing.php:92
+#: templates/sections/listing_introduction.php:126
+msgid "Year of construction"
+msgstr ""
+
+#: templates/linear-listing.php:93
+msgid "Year of deployment"
+msgstr ""
+
+#: includes/class-linear-settings.php:1287
+msgid ""
+"You can add listings and buy commissions according to your own liking "
+"wherever you want on the site with the help of shortcodes."
+msgstr ""
+
+#: includes/class-linear-settings.php:1691
+msgid "You can also access the same data via WordPress filters."
+msgstr ""
+
+#: includes/class-linear-settings.php:1385
+msgid ""
+"You can choose if you want the commission type filter to be shown or not. "
+"Default is true aka. \"true\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1379
+msgid ""
+"You can chose if you want ordering option displayed. Default is true aka. "
+"\"true\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1560
+msgid ""
+"You can chose if you want to show or hide the filters for the buy "
+"commissions. Default is \"true\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1367
+msgid ""
+"You can chose if you want to show or hide the filters for the listing. "
+"Default is \"true\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1433
+msgid ""
+"You can decide if you want to hide or show the area range filter. Default is "
+"\"false\" meaning it is shown."
+msgstr ""
+
+#: includes/class-linear-settings.php:1421
+msgid ""
+"You can decide if you want to hide or show the business listing type filter. "
+"Default is \"true\" meaning it is shown."
+msgstr ""
+
+#: includes/class-linear-settings.php:1409
+msgid ""
+"You can decide if you want to hide or show the listing type filter. Default "
+"is \"true\" meaning it is shown."
+msgstr ""
+
+#: includes/class-linear-settings.php:1439
+msgid ""
+"You can decide if you want to hide or show the price range filter. Default "
+"is \"true\" meaning it is shown."
+msgstr ""
+
+#: includes/class-linear-settings.php:1397
+msgid ""
+"You can decide if you want to hide or show the product group filter. Default "
+"is \"true\" meaning it is shown."
+msgstr ""
+
+#: includes/class-linear-settings.php:1427
+msgid ""
+"You can decide if you want to hide or show the rent range filter. Default is "
+"\"true\" meaning it is shown."
+msgstr ""
+
+#: includes/class-linear-settings.php:1403
+msgid ""
+"You can decide if you want to hide or show the room count filter. Default is "
+"\"true\" meaning it is shown."
+msgstr ""
+
+#: includes/class-linear-settings.php:1391
+#: includes/class-linear-settings.php:1572
+msgid ""
+"You can decide if you want to hide or show the search-field. Default is "
+"\"true\" meaning it is shown."
+msgstr ""
+
+#: includes/class-linear-settings.php:1415
+msgid ""
+"You can decide if you want to hide or show the specifications filter. This "
+"includes eg. \"sauna\" and \"elevator\". Default is \"true\" meaning it is "
+"shown."
+msgstr ""
+
+#: includes/class-linear-settings.php:1506
+msgid ""
+"You can define the highest value for the area range filter. Default is what "
+"is set in Linear plugin settings and it can be overridden with this."
+msgstr ""
+
+#: includes/class-linear-settings.php:1482
+msgid ""
+"You can define the highest value for the price range filter. Default is what "
+"is set in Linear plugin settings and it can be overridden with this."
+msgstr ""
+
+#: includes/class-linear-settings.php:1494
+msgid ""
+"You can define the highest value for the rent range filter. Default is what "
+"is set in Linear plugin settings and it can be overridden with this."
+msgstr ""
+
+#: includes/class-linear-settings.php:1500
+msgid ""
+"You can define the lowest value for the area range filter. Default is what "
+"is set in Linear plugin settings and it can be overridden with this."
+msgstr ""
+
+#: includes/class-linear-settings.php:1476
+msgid ""
+"You can define the lowest value for the price range filter. Default is what "
+"is set in Linear plugin settings and it can be overridden with this."
+msgstr ""
+
+#: includes/class-linear-settings.php:1488
+msgid ""
+"You can define the lowest value for the rent range filter. Default is what "
+"is set in Linear plugin settings and it can be overridden with this."
+msgstr ""
+
+#: includes/class-linear-settings.php:1445
+msgid ""
+"You can pre-set the commission type filter value. Default is none aka. "
+"\"all\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1463
+msgid ""
+"You can pre-set the listing type filter value. Default is empty aka. \"\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1457
+msgid ""
+"You can pre-set the product group filter value. Default is empty aka. \"\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1469
+msgid ""
+"You can pre-set the realtors to filter listings depending on the realtors. "
+"Default is empty aka. \"\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1581
+msgid ""
+"You can pre-set the search field value. This is handy if you want to limit "
+"the listings shown on a page with a keyword e.g. a city name or area. "
+"Default is empty aka. \"\""
+msgstr ""
+
+#: includes/class-linear-settings.php:1451
+msgid ""
+"You can pre-set the search filter value. This is handy if you want to limit "
+"the listings shown on a page with a keyword e.g. a city name or area. "
+"Default is empty aka. \"\""
+msgstr ""
+
+#: includes/class-linear-settings.php:319
+msgid ""
+"You can share your thoughts via email to <a href=\"mailto:it@linear.fi\">"
+"it@linear.fi</a>"
+msgstr ""
+
+#: includes/class-linear-settings.php:212
+msgid ""
+"You need to have a set listings page to be able to get the listings visible. "
+"If your site has multiple languages, you need to set the listings page on "
+"each language that you wish the listings to work on. The listings can be "
+"included via e.g. shortcodes or gutenberg blocks, but it's still necessary "
+"to have a dedicated listings page for single listings."
+msgstr ""
+
+#: templates/linear-listing.php:285
+msgid "Zoning details"
+msgstr ""
+
+#: templates/linear-listing.php:284
+msgid "Zoning Info"
+msgstr ""
+
+#: templates/linear-listing.php:283
+msgid "Zoning status"
+msgstr ""

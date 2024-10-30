@@ -1,0 +1,63 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "linear/buy-commissions",
+	"version": "1.0.0",
+	"title": "Linear buy commissions",
+	"category": "widgets",
+	"icon": "list-view",
+	"description": "A block for Linear buy commissions",
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": true
+	},
+	"attributes": {
+		"showOrderBy": {
+			"type": "boolean",
+			"default": true
+		},
+		"showFilters": {
+			"type": "boolean",
+			"default": true
+		},
+		"showRangeSliders": {
+			"type": "boolean",
+			"default": true
+		},
+		"commissionsPerPage": {
+			"type": "number",
+			"default": 8
+		},
+		"showSearch": {
+			"type": "boolean",
+			"default": true
+		},
+		"filterSearch": {
+			"type": "string",
+			"default": ""
+		},
+		"showLoadMore": {
+			"type": "boolean",
+			"default": true
+		},
+		"align": {
+			"type": "string",
+			"default": "wide"
+		}
+	},
+	"example": {
+		"attributes": {
+			"commissionsPerPage": 8,
+			"showOrderBy": true,
+			"showFilters": true,
+			"showRangeSliders": false,
+			"showLoadMore": true,
+			"align": "wide"
+		}
+	},
+	"textdomain": "linear",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

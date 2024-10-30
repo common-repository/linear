@@ -1,0 +1,144 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "linear/listings",
+  "version": "1.0.0",
+  "title": "Linear listings",
+  "category": "widgets",
+  "icon": "excerpt-view",
+  "description": "A block for Linear listings",
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": true
+  },
+  "attributes": {
+    "listingsType": {
+      "type": "string",
+      "default": "all"
+    },
+    "listingsPerPage": {
+      "type": "number",
+      "default": 8
+    },
+    "showLoadMore": {
+      "type": "boolean",
+      "default": true
+    },
+    "classes": {
+      "type": "string",
+      "default": ""
+    },
+    "showFilters": {
+      "type": "boolean",
+      "default": true
+    },
+    "showRangeSliders": {
+      "type": "boolean",
+      "default": true
+    },
+    "showOrderBy": {
+      "type": "boolean",
+      "default": true
+    },
+    "showCommissionType": {
+      "type": "boolean",
+      "default": true
+    },
+    "showSearch": {
+      "type": "boolean",
+      "default": true
+    },
+    "showProductGroup": {
+      "type": "boolean",
+      "default": true
+    },
+    "showRoomCount": {
+      "type": "boolean",
+      "default": true
+    },
+    "showListingType": {
+      "type": "boolean",
+      "default": true
+    },
+    "showSpecifications": {
+      "type": "boolean",
+      "default": true
+    },
+    "showBusinessListingType": {
+      "type": "boolean",
+      "default": true
+    },
+    "showPriceRange": {
+      "type": "boolean",
+      "default": true
+    },
+    "showRentRange": {
+      "type": "boolean",
+      "default": true
+    },
+    "showAreaRange": {
+      "type": "boolean",
+      "default": true
+    },
+    "filterCommissionType": {
+      "type": "string",
+      "default": "all"
+    },
+    "filterSearch": {
+      "type": "string",
+      "default": ""
+    },
+    "filterProductGroup": {
+      "type": "string",
+      "default": ""
+    },
+    "filterListingType": {
+      "type": "string",
+      "default": ""
+    },
+    "priceRangeLower": {
+      "type": "number",
+      "default": 20000
+    },
+    "priceRangeUpper": {
+      "type": "number",
+      "default": 750000
+    },
+    "rentRangeLower": {
+      "type": "number",
+      "default": 0
+    },
+    "rentRangeUpper": {
+      "type": "number",
+      "default": 2500
+    },
+    "areaRangeLower": {
+      "type": "number",
+      "default": 0
+    },
+    "areaRangeUpper": {
+      "type": "number",
+      "default": 500
+    },
+    "align": {
+      "type": "string",
+      "default": "wide"
+    }
+  },
+  "example": {
+    "attributes": {
+      "listingsPerPage": 8,
+      "showOrderBy": true,
+      "showFilters": true,
+      "showRangeSliders": false,
+      "showLoadMore": true,
+      "showSearch": true,
+      "align": "wide"
+    }
+  },
+  "textdomain": "linear",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

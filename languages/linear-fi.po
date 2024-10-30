@@ -1,0 +1,4246 @@
+# Copyright (C) 2021 Linear Plugin
+# This file is distributed under the same license as the Linear Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Linear Plugin\n"
+"POT-Creation-Date: 2022-01-25 14:27+0200\n"
+"PO-Revision-Date: 2024-03-01 11:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: Suomi\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.6.4; wp-6.2"
+
+#: includes/class-linear-settings.php:1258
+msgid ""
+"\"Content\" renders content via \"the_content\" hook. If you want to have "
+"more controll on where the Linear elements are rendered, you can replace the "
+"\"Content\" rendering method with manually inserted shortcode, hence the "
+"option \"Shortcode\"."
+msgstr ""
+"\"Sisällön implementointi\" renderöi sisällön \"the_content\" hookin avulla. "
+"Jos haluat hallita tarkemmin missä kohtaa Linearin elementit renderöidään, "
+"voit vaihtaa renderöintitapaa \"Sisällön implementointi\" asetuksesta "
+"\"Lyhytkoodi\" asetukseen ja manuaalisesti lisätä lyhytkoodi siihen kohtaan "
+"mihin haluat elementtien tulevan."
+
+#: blocks/buy-commissions/buy-commissions.php:33
+#: blocks/listings/listings.php:35
+msgid "\"Load more\"-button hidden"
+msgstr "\"Lataa lisää\" painike piilotettu"
+
+#: blocks/buy-commissions/buy-commissions.php:31
+#: blocks/listings/listings.php:33
+msgid "\"Load more\"-button visibility"
+msgstr "\"Lataa lisää\" painikkeen näyttäminen"
+
+#: includes/class-linear-settings.php:1470
+msgid "*Any emails you want to use limit listings to separated by a space*"
+msgstr ""
+"*Lisää haluamasi sähköpostit jolla haluat rajoittaa listauksia, eroteltuna "
+"välilyönnillä*"
+
+#: includes/class-linear-settings.php:1350
+#: includes/class-linear-settings.php:1543
+msgid "*Any positive number from 1-999*"
+msgstr "*Mikä tahansa numeroarvo 1-999*"
+
+#: includes/class-linear-settings.php:1489
+#: includes/class-linear-settings.php:1501
+msgid "*Any reasonable number* eg. \"0\""
+msgstr "*Mikä tahansa kohtuullinen numero* esim. \"0\""
+
+#: includes/class-linear-settings.php:1495
+msgid "*Any reasonable number* eg. \"1500\""
+msgstr "*Mikä tahansa kohtuullinen numero* esim. \"1500\""
+
+#: includes/class-linear-settings.php:1477
+msgid "*Any reasonable number* eg. \"20000\""
+msgstr "*Mikä tahansa kohtuullinen numero* esim. \"20000\""
+
+#: includes/class-linear-settings.php:1507
+msgid "*Any reasonable number* eg. \"500\""
+msgstr "*Mikä tahansa kohtuullinen numero* esim. \"500\""
+
+#: includes/class-linear-settings.php:1483
+msgid "*Any reasonable number* eg. \"750000\""
+msgstr "*Mikä tahansa kohtuullinen numero* esim. \"750000\""
+
+#: includes/class-linear-settings.php:1452
+#: includes/class-linear-settings.php:1582
+msgid "*Any searchterms you want to use separate with a space*"
+msgstr "*Mikä tahansa hakutermejä eroteltuna välilyönnillä*"
+
+#: templates/linear-404.php:20
+msgctxt "404-page error message"
+msgid "Unfortunately couldn't find this listing, it is perhaps removed."
+msgstr "Valitettavasti listausta ei löytynyt, se on ehkä poistunut."
+
+#: includes/class-linear-admin.php:33
+#, php-format
+msgid "<br>Please request API credentials by contacting <a href=\"%s\">%s</a>"
+msgstr ""
+"Ole hyvä ja pyydä API-tunnistetietoja ottamalla yhteyttä <a href=\\\"%s\\\">"
+"%s</a>"
+
+#: includes/class-linear-settings.php:222
+msgid "A single listing is not showing"
+msgstr "Yksittäinen kohde ei näy"
+
+#: includes/class-linear-settings.php:1344
+#: includes/class-linear-settings.php:1356
+#: includes/class-linear-settings.php:1368
+#: includes/class-linear-settings.php:1374
+#: includes/class-linear-settings.php:1380
+#: includes/class-linear-settings.php:1386
+#: includes/class-linear-settings.php:1392
+#: includes/class-linear-settings.php:1398
+#: includes/class-linear-settings.php:1404
+#: includes/class-linear-settings.php:1410
+#: includes/class-linear-settings.php:1416
+#: includes/class-linear-settings.php:1422
+#: includes/class-linear-settings.php:1428
+#: includes/class-linear-settings.php:1434
+#: includes/class-linear-settings.php:1440
+#: includes/class-linear-settings.php:1446
+#: includes/class-linear-settings.php:1452
+#: includes/class-linear-settings.php:1458
+#: includes/class-linear-settings.php:1464
+#: includes/class-linear-settings.php:1470
+#: includes/class-linear-settings.php:1477
+#: includes/class-linear-settings.php:1483
+#: includes/class-linear-settings.php:1489
+#: includes/class-linear-settings.php:1495
+#: includes/class-linear-settings.php:1501
+#: includes/class-linear-settings.php:1507
+#: includes/class-linear-settings.php:1549
+#: includes/class-linear-settings.php:1561
+#: includes/class-linear-settings.php:1567
+#: includes/class-linear-settings.php:1573
+#: includes/class-linear-settings.php:1582
+msgid "Acceptable values:"
+msgstr "Hyväksytyt arvot:"
+
+#: includes/class-linear-settings.php:1362
+#: includes/class-linear-settings.php:1555
+msgid "Accepting string value:"
+msgstr "Hyväksyy tekstiarvon:"
+
+#: templates/linear-listing.php:161
+msgid "Accommodation and materials"
+msgstr "Tilat ja materiaalit"
+
+#: templates/linear-listing.php:76
+msgid "Accommodation area"
+msgstr "Pinta-ala"
+
+#: templates/components/accordion.php:70
+msgctxt "accordion item separator"
+msgid "and"
+msgstr "ja"
+
+#: includes/class-linear-settings.php:1350
+#: includes/class-linear-settings.php:1543
+msgid "Accpeting positive numeric values:"
+msgstr "Hyväksyy positivisia numeroarvoja:"
+
+#: includes/class-linear-settings.php:1137
+msgid ""
+"Add in here the Linear contact form embed script, it should automaticly work "
+"with all listings. You can get this by contacting your Linear sales "
+"representative."
+msgstr ""
+"Lisää tähän upotettava Linear yhteydenottolomake-skripti, sen tulisi alkaa "
+"toimimaan välittömästä kaikkien yksittäisten kohteiden kanssa. Voit saada "
+"kyseisen skriptin olemalla yhteydessä Linear yhteyshenkilöösi."
+
+#: includes/class-linear-settings.php:1554
+msgid "Add one or several classes to add to the block. Default is \"\""
+msgstr "Lisää yksi tai useampi luokka lohkoon. Oletus on \"\""
+
+#: includes/class-linear-settings.php:1361
+msgid "Add one or several CSS classes to add to the block. Default is \"\""
+msgstr "Lisää yksi tai useampi CSS-luokka lohkoon. Oletus on \"\""
+
+#: templates/linear-listing.php:180
+msgid "Additional bathroom equipment"
+msgstr "Muut kylpyhuoneen varusteet"
+
+#: templates/linear-listing.php:152
+msgid "Additional charge info"
+msgstr "Lisätietoja maksusta"
+
+#: templates/linear-listing.php:201
+msgid "Additional information"
+msgstr "Lisätiedot"
+
+#: includes/class-linear-settings.php:1523
+msgid "Advanced buy commissions example:"
+msgstr "Edistyneempi ostotoimeksiantojen esimerkki:"
+
+#: includes/class-linear-settings.php:97 includes/class-linear-settings.php:98
+#: includes/class-linear-settings.php:251
+msgid "Advanced usage"
+msgstr "Edistynyt käyttö"
+
+#: includes/class-linear-settings.php:1791
+msgid "And here is how you use them"
+msgstr "Ja näin käytät niitä"
+
+#: includes/class-linear-settings.php:1659
+msgid "And use it like this"
+msgstr "Ja voit käyttää niitä näin"
+
+#: includes/class-linear-settings.php:1638
+#: includes/class-linear-settings.php:1702
+msgid "And you can use them straight like this"
+msgstr "Voit käyttää niitä suoraan tällä tavoin"
+
+#: templates/linear-listing.php:279
+msgid "Antenna system"
+msgstr "Antennijärjestelmä"
+
+#: templates/linear-listing.php:87
+msgid "Apartment condition"
+msgstr "Asunnon kunto"
+
+#: includes/class-linear-activator.php:28
+#: blocks/buy-commissions/buy-commissions.php:41
+#: blocks/listings/listings.php:43 blocks/listings/listings.php:121
+msgid "Apartments"
+msgstr "Asunnot"
+
+#: includes/class-linear-settings.php:394
+msgid "API key"
+msgstr "API-avain"
+
+#: includes/class-linear-middleware.php:278
+msgid "API middleware not getting a transient name to use"
+msgstr "API välimuisti ei onnistunut luomaan välimuistinimikettä"
+
+#: includes/class-linear-middleware.php:571
+#: includes/class-linear-middleware.php:696
+msgid "API v1.1 middleware failed in parsing response data"
+msgstr "API v1.1 välimuisti ei onnistunut hallinnoimaan tietoja"
+
+#: includes/class-linear-middleware.php:524
+#: includes/class-linear-middleware.php:560
+#: includes/class-linear-middleware.php:659
+#: includes/class-linear-middleware.php:688
+msgid "API v1.1 middleware failed to fetch data"
+msgstr "API v1.1 välimuisti ei onnistunut hakemaan tietoja"
+
+#: templates/sections/listing_actions.php:116
+msgid "Apply for a loan"
+msgstr "Tee laina-hakemus"
+
+#: includes/class-linear-settings.php:208
+msgid "Are the credentials right?"
+msgstr "Onko tunnukset oikein?"
+
+#: includes/class-linear-settings.php:166
+msgid "Are you already registered to Linear?"
+msgstr "Oletko jo rekisteröitynyt Lineariin?"
+
+#: templates/linear-listing.php:85
+msgid "Area basis"
+msgstr "Pinta-alan peruste"
+
+#: templates/linear-listing.php:82
+msgid "Area info"
+msgstr "Lisätietoja pinta-alasta"
+
+#: includes/class-linear-settings.php:1499
+msgid "Area range filter lower limit"
+msgstr "Kokosuodattimen alempi raja"
+
+#: blocks/listings/listings.php:119
+msgid "Area range lower value"
+msgstr "Kokosuodattimen alin arvo"
+
+#: blocks/listings/listings.php:118
+msgid "Area range upper value"
+msgstr "Kokosuodattimen ylin arvo"
+
+#: includes/class-linear-settings.php:583
+msgid "Area range-slider lower limit"
+msgstr "Koko-suodattimen pienin arvo"
+
+#: includes/class-linear-settings.php:592
+msgid "Area range-slider upper limit"
+msgstr "Koko-suodattimen suurin arvo"
+
+#: templates/linear-listing.php:363
+msgid "Asbestos survey"
+msgstr "Asbestikartoitus"
+
+#: templates/linear-listing.php:364
+msgid "Asbestos survey info"
+msgstr "Lisätietoa asbesti&shy;kartoituksesta"
+
+#: blocks/buy-commissions/buy-commissions.php:97
+#: blocks/listings/listings.php:133
+#: templates/sections/listing_introduction.php:60
+#: templates/sections/listing_introduction.php:73
+msgid "Ask price"
+msgstr "Kysy hintaa"
+
+#: includes/class-linear-settings.php:1625
+#: includes/class-linear-settings.php:1694
+msgid "Available filters:"
+msgstr "Olemassaolevat suodattimet"
+
+#: includes/class-linear-settings.php:1776
+msgid "Available hooks"
+msgstr "Olemassaolevat hookit"
+
+#: templates/linear-listing.php:145
+msgid "Average total heating charge"
+msgstr "Lämmityksen keskimääräinen kokonaiskustannus"
+
+#: templates/linear-404.php:28
+msgid "Back to listings"
+msgstr "Takaisin listaukseen"
+
+#: templates/linear-listing.php:206
+#: blocks/buy-commissions/buy-commissions.php:55
+#: blocks/listings/listings.php:57
+msgid "Balcony"
+msgstr "Parveke"
+
+#: templates/linear-listing.php:207
+msgid "Balcony orientation"
+msgstr "Parvekkeen suunta"
+
+#: templates/linear-listing.php:179
+msgid "Basic bathroom equipment"
+msgstr "Kylpyhuoneen varusteet"
+
+#: templates/linear-listing.php:64
+msgid "Basic information"
+msgstr "Perustiedot"
+
+#: templates/linear-listing.php:176
+msgid "Bathroom"
+msgstr "Kylpyhuone"
+
+#: templates/linear-listing.php:178
+msgid "Bathroom floor material"
+msgstr "Kylpyhuoneen lattiamateriaali"
+
+#: templates/linear-listing.php:177
+msgid "Bathroom wall material"
+msgstr "Kylpyhuoneen seinämateriaali"
+
+#: templates/linear-listing.php:209
+msgid "Beach"
+msgstr "Ranta"
+
+#: templates/linear-listing.php:211
+msgid "Beach info"
+msgstr "Lisätietoja rannasta"
+
+#: templates/linear-listing.php:210
+msgid "Beach type"
+msgstr "Rannan tyyppi"
+
+#: templates/linear-listing.php:172
+msgid "Bedroom"
+msgstr "Makuuhuoneen kuvaus"
+
+#: templates/linear-listing.php:175
+msgid "Bedroom equipment"
+msgstr "Makuuhuoneen varusteet"
+
+#: templates/linear-listing.php:174
+msgid "Bedroom floor material"
+msgstr "Makuuhuoneen lattiamateriaali"
+
+#: templates/linear-listing.php:173
+msgid "Bedroom wall material"
+msgstr "Makuuhuoneen seinämateriaali"
+
+#: includes/class-linear-settings.php:1185
+msgid "Before using Linear service you need to accept our"
+msgstr "Ennen Linear-palvelun ja pluginin käyttöönottoa, sinun tulee hyväksyä"
+
+#: blocks/listings/listings.php:92 templates/components/bidding_label.php:13
+msgid "Bidding"
+msgstr "Tarjouskauppa"
+
+#: blocks/buy-commissions/buy-commissions.php:50
+#: blocks/buy-commissions/buy-commissions.php:83
+#: blocks/listings/listings.php:52 blocks/listings/listings.php:125
+msgid "Block of flats"
+msgstr "Kerrostalo"
+
+#: templates/linear-listing.php:214
+msgid "Body of water"
+msgstr "Vesistön nimi"
+
+#: templates/sections/listing_actions.php:63
+msgid "Book a private tour"
+msgstr "Varaa yksityisesittely"
+
+#: blocks/buy-commissions/buy-commissions.php:81
+#: blocks/listings/listings.php:90
+msgctxt "boolFalse"
+msgid "No"
+msgstr "Ei"
+
+#: blocks/buy-commissions/buy-commissions.php:82
+#: blocks/listings/listings.php:91
+msgctxt "boolTrue"
+msgid "Yes"
+msgstr "Kyllä"
+
+#: templates/linear-listing.php:147
+msgid "Broadband charge"
+msgstr "Laajakaistamaksu"
+
+#: templates/linear-listing.php:272
+msgid "Building rights E number"
+msgstr "Rakennusoikeus e-luku"
+
+#: blocks/buy-commissions/buy-commissions.php:61
+msgid "Business Commission Type"
+msgstr "Liiketoiminnan Provisiotyyppi"
+
+#: blocks/listings/listings.php:65
+msgid "Business Listing Type"
+msgstr "Liiketilan tyyppi"
+
+#: includes/class-linear-settings.php:629
+#: includes/class-linear-settings.php:666
+msgid "Business premises page"
+msgstr "Liiketilojen sivu"
+
+#: blocks/buy-commissions/buy-commissions.php:63
+#: blocks/listings/listings.php:67
+msgid "Business Space"
+msgstr "Liiketila"
+
+#: templates/sections/buy_commission_introduction.php:25
+#: templates/sections/buy_commission_pre_title.php:93
+msgid "Buy commission"
+msgstr "Ostotoimeksianto"
+
+#: templates/sections/buy_commission_content.php:141
+#: templates/sections/buy_commission_introduction.php:144
+msgid "Buy commission ID"
+msgstr "Ostotoimeksiannon ID"
+
+#: includes/class-linear-settings.php:260
+#: includes/class-linear-settings.php:1515
+msgid "Buy commissions"
+msgstr "Ostotoimeksiannot"
+
+#: includes/class-linear-settings.php:638
+#: includes/class-linear-settings.php:675
+msgid "Buy commissions page"
+msgstr "Ostotoimeksiantojen sivu"
+
+#: includes/class-linear-settings.php:1676
+msgid "Buy commissions:"
+msgstr "Ostotoimeksiannot:"
+
+#: includes/class-linear-data-handler.php:843
+msgid "buy_commission"
+msgstr "ostotoimeksiannot"
+
+#: templates/linear-listing.php:217
+msgid "Cable TV"
+msgstr "Kaapeli-tv"
+
+#: includes/class-linear-settings.php:1629
+#, php-format
+msgid "Can be \"%s\", \"%s\" or \"%s\""
+msgstr "Voi olla \"%s\", \"%s\" tai \"%s\""
+
+#: includes/class-linear-settings.php:1627
+msgid "Can be 2-letter language code or null, null returning site locale"
+msgstr ""
+"Voi olla 2-kirjaiminen maakoodi tai null, null palauttaa sivuston kielen"
+
+#: includes/class-linear-middleware.php:282
+msgid "Cannot use old API. Please add API Key to continue usage"
+msgstr ""
+"Ei voi käyttää vanhaa API:a. Lisää API-avain jatkaaksesi lisäosan käyttöä"
+
+#: templates/linear-listing.php:222
+msgid "Car ports"
+msgstr "Autokatokset"
+
+#: includes/constants_and_labels.php:278
+msgctxt "Card spec"
+msgid "Garage space"
+msgstr "Autohallipaikka"
+
+#: includes/class-linear-settings.php:1150
+msgid ""
+"Check to use current WordPress theme fonts instead of Linear plugin fonts."
+msgstr ""
+"Valitse tämä, jos haluat käyttää nykyisiä WordPress-teeman fontteja Linear-"
+"pluginin fonttien sijaan."
+
+#: blocks/buy-commissions/buy-commissions.php:80
+#: blocks/listings/listings.php:89
+msgid "Choose location"
+msgstr "Valitse alue"
+
+#: includes/class-linear-settings.php:1237
+msgid ""
+"Choose wether you want to use in the single listings the Linear contact form "
+"(Requires contact API URL), a custom \"Contact us\" button URL or nothing. "
+"You can also add something else onto this section with hooks."
+msgstr ""
+"Valitse haluatko käyttää yksittäisten kohtiden yhteydenoton kohdassa Linear "
+"yhteydenottolomaketta (Vaatii yhteydenotto API osoitteen), räätälöityä \"Ota "
+"yhteyttä\" napin osoitetta, vaiko ei mitään? Voit myös lisätä jotain muuta "
+"tähän osioon WordPressin hookkien avulla."
+
+#: includes/class-linear-settings.php:1360
+#: includes/class-linear-settings.php:1553
+msgid "Classes"
+msgstr "Luokat"
+
+#: includes/class-linear-admin.php:58
+#, php-format
+msgid "Client number: %s"
+msgstr "Asiakasnumero: %s"
+
+#: blocks/buy-commissions/buy-commissions.php:49
+msgid "Commission Type"
+msgstr "Ostotoimeksiannon Tyyppi"
+
+#: blocks/listings/listings.php:94
+msgid "Commission type"
+msgstr "Toimeksiantotyyppi"
+
+#: includes/class-linear-settings.php:1444
+msgid "Commission type filter value"
+msgstr "Kommissiotyypin suodattimen arvo"
+
+#: blocks/buy-commissions/buy-commissions.php:39
+msgid "Commissions filters are hidden"
+msgstr "Ostotoimeksiantojen suodattimet ovat piilotettu"
+
+#: blocks/buy-commissions/buy-commissions.php:30
+msgid "Commissions per page"
+msgstr "Ostotoimeksiantoja per sivu"
+
+#: includes/class-linear-settings.php:367
+msgid "Company ID"
+msgstr "Yrityksen ID"
+
+#: includes/class-linear-settings.php:447
+msgid "Company Logo"
+msgstr "Yrityksen logo"
+
+#: templates/linear-listing.php:88
+msgid "Condition info"
+msgstr "Lisätietoja kunnosta"
+
+#: templates/linear-listing.php:362
+msgid "Condition inspection date"
+msgstr "Kuntotutkimus tehty"
+
+#: templates/linear-listing.php:306
+msgid "Construction material"
+msgstr "Rakennusmateriaali"
+
+#: templates/linear-listing.php:308
+msgid "Construction material info"
+msgstr "Lisätiedot rakennusmateriaaleista"
+
+#: templates/linear-listing.php:91
+msgid "Construction phase"
+msgstr "Rakennusvaihe"
+
+#: templates/linear-listing.php:94
+msgid "Construction year info"
+msgstr "Lisätiedot rakennusvuodesta"
+
+#: templates/components/realtor.php:196
+#: templates/sections/buy_commission_realtor.php:81
+msgid "Contact"
+msgstr "Ota yhteyttä"
+
+#: includes/class-linear-settings.php:419
+msgid "Contact request URL"
+msgstr "\"Ota yhteyttä\" -napin URL"
+
+#: includes/class-linear-settings.php:265
+msgid "Content Hooks"
+msgstr "Sisällön hookit"
+
+#: includes/class-linear-settings.php:1771
+msgid "Content hooks usage:"
+msgstr "Hooksien käyttö:"
+
+#: includes/class-linear-settings.php:1261
+msgid "Content population (Default)"
+msgstr "Sisällön implementointi (Oletus)"
+
+#: templates/linear-listing.php:346
+msgid "Cooperative housing"
+msgstr "Taloyhtiöllä on"
+
+#: blocks/listings/listings.php:136
+msgctxt "count of listings"
+msgid "Listing"
+msgstr "Kohde"
+
+#: blocks/listings/listings.php:135 blocks/listings/listings.php:137
+msgctxt "count of listings"
+msgid "Listings"
+msgstr "Kohdetta"
+
+#: blocks/listings/listings.php:138
+msgctxt "count of listings"
+msgid "Listings found"
+msgstr "Kohdetta löydetty"
+
+#: blocks/listings/listings.php:98
+msgid "CSS classes"
+msgstr "CSS luokat"
+
+#: includes/class-linear-settings.php:1240
+msgid "Custom \"Contact us\" button URL"
+msgstr "Räätälöityn \"Ota yhteyttä\" painikkeen osoite"
+
+#: includes/class-linear-settings.php:264
+msgid "Custom CSS"
+msgstr "Räätälöity CSS"
+
+#: includes/class-linear-settings.php:1724
+msgid "Custom CSS usage:"
+msgstr "Räätälöityn CSS:n käyttö"
+
+#: templates/linear-listing.php:228
+msgid "Deal does not include"
+msgstr "Kauppaan ei kuulu"
+
+#: templates/linear-listing.php:229
+msgid "Deal includes"
+msgstr "Muuta kauppaan kuuluvaa"
+
+#: templates/linear-listing.php:120
+msgid "Debt"
+msgstr "Velkaosuus"
+
+#: templates/linear-listing.php:118
+msgid "Debt free price"
+msgstr "Velaton hinta"
+
+#: includes/class-linear-settings.php:107
+#: includes/class-linear-settings.php:108
+msgid "Debug"
+msgstr "Vianmääritys"
+
+#: includes/class-linear-settings.php:285
+msgid "Debug (experimental)"
+msgstr "Vianmääritys (kokeellinen)"
+
+#: includes/class-linear-settings.php:483
+#: includes/class-linear-settings.php:493
+msgid "Default search options"
+msgstr "Oletushakualueet"
+
+#: blocks/buy-commissions/buy-commissions.php:96
+#: blocks/listings/listings.php:110
+msgid "Default search prompt"
+msgstr "Oletushakutermi"
+
+#: blocks/listings/listings.php:109
+msgid "Default set commission type"
+msgstr "Kommissiotyypin oletusasetus"
+
+#: blocks/listings/listings.php:112
+msgid "Default set listing type"
+msgstr "Listaustyypin oletus"
+
+#: blocks/listings/listings.php:111
+msgid "Default set product group"
+msgstr "Tuoteryhmän oletus"
+
+#: includes/class-linear-settings.php:215
+msgid ""
+"Depending on the WordPress theme that you use, your theme might have a non-"
+"standard built page-template. The Linear WordPress plugin provides a simple "
+"page-template (linear-plain) for your use in cases like this where the theme "
+"might not support native WordPress content hooks. Please try changing the "
+"page-template of the listings page to \"linear-plain\"."
+msgstr ""
+"Rippuen käyttämästäsi WordPress teemasta, teemasi ei välttämättä tue "
+"WordPressin perinteistä "
+
+#: blocks/buy-commissions/buy-commissions.php:53
+#: blocks/listings/listings.php:55
+msgid "Detached House"
+msgstr "Omakotitalo"
+
+#: blocks/buy-commissions/buy-commissions.php:87
+msgid "Detached house"
+msgstr "Omakotitalo"
+
+#: blocks/listings/listings.php:128
+msgid "Detachedhouse"
+msgstr "Omakotitalo"
+
+#: includes/class-linear-settings.php:211
+msgid "Do you have a set listings page?"
+msgstr "Onko sinulla asetettua sivua listauksille?"
+
+#: templates/sections/listing_introduction.php:240
+msgid "Download documents"
+msgstr "Lataa dokumentit"
+
+#: includes/class-linear-settings.php:1123
+msgid ""
+"Each line of text will be used as one of default search options. You can use "
+"either city names, districts or addresses, eg. \"Helsinki, Espoo, Vantaa\""
+msgstr ""
+"Jokainen rivi teksiä toimii valinnaisena listavalintaisena lisäsuodattimena. "
+"Voit määrittää joko kaupunkien nimiä, kaupunginosia tai osoitteita, esim. "
+"\"Helsinki, Espoo, Vantaa\""
+
+#: includes/class-linear-settings.php:227
+msgid ""
+"Each single listing has their own dynamic page, but the logic for this to "
+"work requires that the permalinks are saved. Please save the permalinks "
+"without doing any changes to the permalink settings."
+msgstr ""
+"Jokainen yksittäisellä kohteella on oma dynaaminen sivu. Jotta tämä toimisi "
+"kunnolla on tallennettava osoiterakenteen asetus. Normaalisti tämä "
+"uudelleentallennetaan kun teet muutoksia lisäosamme asetuksiin mutta jossain "
+"ongelmakohdissa voi olla tarpeen uudellentallentaa kyseisen asetus. "
+"Uudelleentallenna osoiterakenne tekemättä mitään muutoksia"
+
+#. %s: Post title. Only visible to screen readers.
+#: templates/plain-listings.php:33
+#, php-format
+msgid "Edit %s"
+msgstr "Muokkaa %s"
+
+#: includes/class-linear-settings.php:1362
+#: includes/class-linear-settings.php:1555
+#: includes/class-linear-settings.php:1575
+msgid "eg."
+msgstr "mm."
+
+#: templates/linear-listing.php:137
+msgid "Electric heating charge"
+msgstr "Keskimääräiset sähkölämmityskulut"
+
+#: templates/linear-listing.php:136
+msgid "Electric heating power usage"
+msgstr "Sähkölämmityksen kulutustiedot"
+
+#: templates/linear-listing.php:332
+msgid "Electric plan transfers"
+msgstr "Sähköliittymä siirtyy"
+
+#: templates/linear-listing.php:330
+msgid "Electricity contract"
+msgstr "Sähkö"
+
+#: blocks/buy-commissions/buy-commissions.php:56
+#: blocks/listings/listings.php:58
+msgid "Elevator"
+msgstr "Hissi"
+
+#: includes/class-linear-settings.php:1606
+msgid "Endpoints:"
+msgstr "Rajapinnat:"
+
+#: templates/linear-listing.php:324
+msgid "Energy certificate"
+msgstr "Energiatodistus"
+
+#: templates/linear-listing.php:326
+msgid "Energy class"
+msgstr "Energialuokka"
+
+#: templates/linear-listing.php:327
+msgid "Energy class info"
+msgstr "Lisätietoja energia&shy;todistuksesta"
+
+#: includes/class-linear-settings.php:1749
+msgid "Example how to target a single listing with the identifier 12345"
+msgstr ""
+"Esimerkki miten kohdistat tyylejä yksittäiseen kohteeseen tunnusnumerolla "
+"12345"
+
+#: includes/class-linear-settings.php:1739
+msgid "Example how to target the a single product group filter"
+msgstr "Esimerkki miten kohdistat tyylejä yksittäiseen suodattimeen"
+
+#: includes/class-linear-settings.php:1729
+msgid "Example how to target the product group filter group"
+msgstr "Esimerkki miten kohdistat tyylejä suodatinryhmään"
+
+#: includes/class-linear-settings.php:1471
+msgid "Example:"
+msgstr "Esimerkki:"
+
+#: includes/class-linear-settings.php:1801
+msgid "Except \"linear_edit_listings\" is used like so"
+msgstr "Paitsi \"linear_edit_listings\" jota käytetään näin"
+
+#: blocks/listings/listings.php:71
+msgid "Exhibiton Space"
+msgstr "Näyttelytila"
+
+#: blocks/buy-commissions/buy-commissions.php:43
+#: blocks/listings/listings.php:45 blocks/listings/listings.php:123
+msgid "Farms"
+msgstr "Maa- ja metsätilat"
+
+#: includes/class-linear-settings.php:117
+#: includes/class-linear-settings.php:118
+msgid "Feedback"
+msgstr "Palaute"
+
+#: includes/class-linear-settings.php:315
+msgid "Feedback and suggestions"
+msgstr "Palautteet ja ehdotukset"
+
+#: includes/class-linear-settings.php:1366
+#: includes/class-linear-settings.php:1559
+msgid "Filters"
+msgstr "Suodattimet"
+
+#: templates/linear-listing.php:192
+msgid "Fireplace"
+msgstr "Takka"
+
+#: templates/linear-listing.php:74
+msgid "Floor"
+msgstr "Kerros"
+
+#: templates/sections/listing_introduction.php:255
+msgid "Follow bidding"
+msgstr "Seuraa tarjouskauppaa"
+
+#: includes/class-linear-settings.php:1272
+msgid "For buy commissions, please add this to your page/template"
+msgstr "Ostotoimeksiannoille, lisää tämä sivullesi/sivupohjaasi"
+
+#: includes/class-linear-settings.php:1301
+msgid "Full listing example:"
+msgstr "Listauksen esimerkki:"
+
+#: templates/helpers/get_maintenance_charge_value.php:18
+msgid "Funding charge"
+msgstr "Rahoitusvastike"
+
+#: blocks/listings/listings.php:124
+msgid "Garages"
+msgstr "Autopaikat"
+
+#: blocks/buy-commissions/buy-commissions.php:44
+#: blocks/listings/listings.php:46
+msgid "Garages and parking spaces"
+msgstr "Autotallit ja parkkipaikat"
+
+#: templates/linear-listing.php:223
+msgid "Garages and parking spaces count"
+msgstr "Autotallien ja parkkipaikkojen määrä"
+
+#: includes/class-linear-data-handler.php:592
+msgid "Has balcony"
+msgstr "On parveke"
+
+#: templates/linear-listing.php:224
+msgid "Has parking space"
+msgstr "Autopaikka"
+
+#: templates/linear-listing.php:143
+msgid "Heating charge"
+msgstr "Lämmitysmaksu"
+
+#: templates/linear-listing.php:309
+msgid "Heating system"
+msgstr "Lämmitysjärjestelmä"
+
+#: includes/class-linear-admin.php:56
+msgid "Hello"
+msgstr "Hei"
+
+#: blocks/buy-commissions/buy-commissions.php:70
+#: blocks/listings/listings.php:79
+msgid "Hide filters"
+msgstr "Piilota suodattimet"
+
+#: includes/class-linear-settings.php:463
+msgid "Hide loan request button"
+msgstr "Piilota “Tee lainahakemus” painike"
+
+#: blocks/buy-commissions/buy-commissions.php:84
+msgid "High rise"
+msgstr "Kerrostalo"
+
+#: blocks/listings/listings.php:72
+msgid "Hobby Space"
+msgstr "Harrastustila"
+
+#: templates/linear-listing.php:251 templates/linear-listing.php:256
+msgid "Housing and real estate"
+msgstr "Kiinteistö ja taloyhtiö"
+
+#: templates/linear-listing.php:361
+msgid "Housing cooperative additional info"
+msgstr "Taloyhtiön lisätiedot"
+
+#: templates/linear-listing.php:353
+msgid "Housing cooperative apartment count"
+msgstr "Asuntojen määrä"
+
+#: templates/linear-listing.php:347
+msgid "Housing cooperative elevator"
+msgstr "Hissi"
+
+#: templates/linear-listing.php:261
+msgid "Housing cooperative name"
+msgstr "Taloyhtiön nimi"
+
+#: templates/linear-listing.php:344
+msgid "Housing cooperative parking spaces"
+msgstr "Taloyhtiön autopaikat"
+
+#: templates/linear-listing.php:316
+msgid "Housing cooperative redemption right"
+msgstr "Lunastusoikeus yhtiöllä"
+
+#: templates/linear-listing.php:350
+msgid "Housing cooperative retail space area"
+msgstr "Liiketilojen ala"
+
+#: templates/linear-listing.php:352
+msgid "Housing cooperative retail space count"
+msgstr "Liiketilojen määrä"
+
+#: templates/linear-listing.php:359
+msgid "Housing cooperative revenue"
+msgstr "Taloyhtiön tuotot"
+
+#: templates/linear-listing.php:345
+msgid "Housing cooperative sauna"
+msgstr "Taloyhtiöllä sauna"
+
+#: templates/linear-listing.php:303
+msgid "Housing tenure"
+msgstr "Hallintaoikeus"
+
+#. Author URI of the plugin
+msgid "https://linear.fi"
+msgstr "https://linear.fi"
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/linear/"
+msgstr "https://wordpress.org/plugins/linear/"
+
+#: blocks/listings/listings.php:73
+msgid "Hub Space"
+msgstr "Hub tila"
+
+#: templates/linear-listing.php:365
+msgid "Humidity inspection date"
+msgstr "Kosteustutkimus tehty"
+
+#: includes/class-linear-admin.php:57
+msgid ""
+"I was informed that I need to request from you the new API credentials, can "
+"you provide them to me via email?"
+msgstr ""
+"Minulle tiedotettiin että minun on pyydettävä uusia API-tunnistetietoja "
+"sivustolleni, voisitteko lähettää ne minulle sähköpostitse?"
+
+#: blocks/buy-commissions/buy-commissions.php:93
+msgid "ID"
+msgstr "ID"
+
+#: includes/class-linear-settings.php:195
+msgid ""
+"If it looks like the Listing pages are too thin compared to he rest of the "
+"page, you can try changing the used template on the page with the issue. \n"
+"\t\t\t\tLinear plugin provides a plain and wide-enough template for your use "
+"called \"linear-plain\". You can also use any other page-template that "
+"outputs WordPress native content."
+msgstr ""
+"Jos vaikuttaa että Linearin listaussivut ovat liian kapeita verrattuna "
+"muihin sivuihin, voit kokeilla vaihtaa ongelmasivulla käytettyä sivupohjaa. "
+"\n"
+"\t\t\t\tLinear lisäosa tuo käyttöön riittävän leveän sivupohjan nimeltään "
+"\"linear-plain\". Voit myös käyttää listaussivuilla muita sivupohjia jotka "
+"tukevat WordPressin natiivia sisältöä."
+
+#: includes/class-linear-settings.php:168
+msgid ""
+"If not, you need to register in Linear to get the credentials for this "
+"plugin. The sales team can provide you with test-credentials for test "
+"purposes."
+msgstr ""
+"Jos et ole, sinun pitää rekisteröityä saadaksesi tarpeelliset tiedot tätä "
+"lisäosaa varten. Myyntitiimi voi antaa sinulle testitunnukset jos haluat "
+"ensiksi kokeilla lisäosan toimivuutta."
+
+#: includes/class-linear-settings.php:318
+#, fuzzy
+#| msgid ""
+#| "If you feel like there is some feature/filter missing, please let us know "
+#| "as we actively try to develop this plugin and are open for suggestions "
+#| "and improvements."
+msgid ""
+"If you feel like there is some feature/filter missing or something should be "
+"different, please let us know as we actively try to develop this plugin and "
+"are open for suggestions and improvements."
+msgstr ""
+"Jos mielestäsi lisäosastamme puuttuu jokin ominaisuus tai suodatin, olethan "
+"yhteydessä asiasta koska koitamme aktiivisesti kehittää lisäosaamme ja "
+"olemme avoinna parannuksille ja muutosehdotuksille."
+
+#: includes/class-linear-settings.php:1267
+msgid "If you use the shortcode-setting, please add this to your page/template"
+msgstr "Jos käytät Lyhytkoodi-asetusta, lisää nämä sivuusi/sivupohjaasi"
+
+#: includes/class-linear-settings.php:1649
+msgid ""
+"If you want to dynamically do things depending on the listing, you can get "
+"the current listing this way"
+msgstr ""
+"Jos haluat dynaamisesti saada yhden listauksen, voit saada sen olion tällä "
+"tavalla"
+
+#: includes/class-linear-settings.php:1622
+msgid "If you want you can also access the same data via WordPress filters."
+msgstr ""
+"Jos haluat voit myös käsitellä listauksia käyttämällä WordPressin "
+"filttereitä."
+
+#: includes/class-linear-settings.php:239
+msgid ""
+"In case of other issues, please be in touch with your person at Linear and "
+"we'll do our best to resolve your issue."
+msgstr ""
+"Jos huomaat muita ongelmia, olethan yhteydessä Linearin kontaktihenkilöön "
+"iin teemme parhaamme selvittääksemme ongelmasi."
+
+#: templates/sections/listing_actions.php:119
+msgid "In cooperation"
+msgstr "Yhteistyössä"
+
+#: includes/class-linear-settings.php:87 includes/class-linear-settings.php:88
+#: includes/class-linear-settings.php:152
+msgid "Instructions"
+msgstr "Ohjeet"
+
+#: templates/linear-listing.php:338
+msgid "Kindergarten"
+msgstr "Päiväkodit"
+
+#: templates/linear-listing.php:164
+msgid "Kitchen description"
+msgstr "Keittiön kuvaus"
+
+#: templates/linear-listing.php:165
+msgid "Kitchen equipment"
+msgstr "Keittiön varusteet"
+
+#: templates/linear-listing.php:167
+msgid "Kitchen floor material"
+msgstr "Keittiön lattiamateriaali"
+
+#: templates/linear-listing.php:168
+msgid "Kitchen wall material"
+msgstr "Keittiön seinämateriaali"
+
+#: includes/class-linear-data-handler.php:710
+msgid "kWh / year"
+msgstr "kWh / vuosi"
+
+#: includes/constants_and_labels.php:85
+msgctxt "Label for constant ADVANCE"
+msgid "Advance, according to consumption"
+msgstr "Ennakko, tasaus kulutuksen mukaan"
+
+#: includes/constants_and_labels.php:84
+msgctxt "Label for constant ADVANCE_MARKETING"
+msgid "Advance marketing"
+msgstr "Ennakkomarkkinoinnissa"
+
+#: includes/constants_and_labels.php:123
+msgctxt "Label for constant AIR_SOURCE_HEAT_PUMP"
+msgid "Air source heat pump"
+msgstr "Ilmalämpöpumppu"
+
+#: includes/constants_and_labels.php:238
+msgctxt "Label for constant AIRPORT"
+msgid "Airport"
+msgstr "Lentokenttä"
+
+#: includes/constants_and_labels.php:23
+msgctxt "Label for constant APARTMENT_HOUSE_PLOT"
+msgid "Apartment house plot"
+msgstr "Kerrostalotontti"
+
+#: includes/constants_and_labels.php:243
+msgctxt "Label for constant APARTMENTS"
+msgid "Apartments"
+msgstr "Asunnot"
+
+#: includes/constants_and_labels.php:254
+msgctxt "Label for constant ASSISTED_LIVING_RESIDENCE"
+msgid "Assisted living residence"
+msgstr "Palvelutalo"
+
+#: includes/constants_and_labels.php:79
+msgctxt "Label for constant ATTIC"
+msgid "Attic"
+msgstr "Ullakko"
+
+#: includes/constants_and_labels.php:213
+msgctxt "Label for constant ATTIC_CLOSET"
+msgid "Attic closet"
+msgstr "Vinttikomero"
+
+#: includes/constants_and_labels.php:44
+msgctxt "Label for constant AVERAGE"
+msgid "Average"
+msgstr "Tyydyttävä"
+
+#: includes/constants_and_labels.php:45
+msgctxt "Label for constant BAD"
+msgid "Bad"
+msgstr "Välttävä"
+
+#: includes/constants_and_labels.php:69
+msgctxt "Label for constant BALCONY"
+msgid "Balcony"
+msgstr "Parveke"
+
+#: includes/constants_and_labels.php:147
+msgctxt "Label for constant BATHTUB"
+msgid "Bathtub"
+msgstr "Kylpyamme"
+
+#: includes/constants_and_labels.php:165
+msgctxt "Label for constant BEACH_CITY_PLAN"
+msgid "Beach city plan"
+msgstr "Ranta-asemakaava"
+
+#: includes/constants_and_labels.php:83
+msgctxt "Label for constant BEACH_LOT"
+msgid "Beach lot"
+msgstr "Rantatontti"
+
+#: includes/constants_and_labels.php:166
+msgctxt "Label for constant BEACH_PLAN"
+msgid "Beach plan"
+msgstr "Rantakaava"
+
+#: includes/constants_and_labels.php:234
+msgctxt "Label for constant BEACH_RIGHT"
+msgid "Beach right"
+msgstr "Rantaoikeus"
+
+#: includes/constants_and_labels.php:131
+msgctxt "Label for constant BICYCLE_STORAGE"
+msgid "Bike storage"
+msgstr "Pyörävarasto"
+
+#: includes/constants_and_labels.php:108
+msgctxt "Label for constant BOARD"
+msgid "Board"
+msgstr "Lauta"
+
+#: includes/constants_and_labels.php:62
+msgctxt "Label for constant BOILER_ROOM"
+msgid "Boiler room"
+msgstr "Pannuhuone"
+
+#: includes/constants_and_labels.php:101
+msgctxt "Label for constant BRICK"
+msgid "Brick"
+msgstr "Tiili"
+
+#: includes/constants_and_labels.php:104
+msgctxt "Label for constant BRICKCLADDING"
+msgid "Brick cladding"
+msgstr "Tiiliverhoilu"
+
+#: includes/constants_and_labels.php:161
+msgctxt "Label for constant BUILDING"
+msgid "Building"
+msgstr "Rakennus"
+
+#: includes/constants_and_labels.php:163
+msgctxt "Label for constant BUILDING_BAN"
+msgid "Building ban"
+msgstr "Rakennuskielto"
+
+#: includes/constants_and_labels.php:164
+msgctxt "Label for constant BUILDING_PERMIT"
+msgid "Building permit"
+msgstr "Rakennuslupa"
+
+#: includes/constants_and_labels.php:162
+msgctxt "Label for constant BUILDING_PLANS"
+msgid "Building plans"
+msgstr "Rakennuskaava"
+
+#: includes/constants_and_labels.php:111
+msgctxt "Label for constant BUS"
+msgid "Bus station nearby"
+msgstr "Bussipysäkki lähellä"
+
+#: includes/constants_and_labels.php:24
+msgctxt "Label for constant BUSINESS_PLOT"
+msgid "Commercial and industrial plots"
+msgstr "Liike- ja teollisuustontti"
+
+#: includes/constants_and_labels.php:242
+msgctxt "Label for constant BUSINESS_PREMISES"
+msgid "Business premises"
+msgstr "Liiketila"
+
+#: includes/constants_and_labels.php:32
+msgctxt "Label for constant BUSINESS_SPACE"
+msgid "Business space"
+msgstr "Liiketila"
+
+#: includes/constants_and_labels.php:188
+msgctxt "Label for constant BY_LAWS"
+msgid "By laws"
+msgstr "Pinta-ala on määritelty yhtiöjärjestyksen mukaan"
+
+#: includes/constants_and_labels.php:78
+msgctxt "Label for constant CABINETS"
+msgid "Cabinets"
+msgstr "Kaapistot"
+
+#: includes/constants_and_labels.php:205
+msgctxt "Label for constant CABLE_TV"
+msgid "Cable TV"
+msgstr "Kaapeli-tv"
+
+#: includes/constants_and_labels.php:114
+msgctxt "Label for constant CAR"
+msgid "Road connections for your car"
+msgstr "Sujuvat yhteydet omalla autolla"
+
+#: includes/constants_and_labels.php:89
+msgctxt "Label for constant CARPORT"
+msgid "Carport"
+msgstr "Autokatos"
+
+#: includes/constants_and_labels.php:142
+msgctxt "Label for constant CASTIRON"
+msgid "Cast iron"
+msgstr "Valurauta"
+
+#: includes/constants_and_labels.php:260
+msgctxt "Label for constant CELL_FLAT"
+msgid "Cell flat"
+msgstr "Soluasunto"
+
+#: includes/constants_and_labels.php:206
+msgctxt "Label for constant CELLAR_CLOSET"
+msgid "Cellar closet"
+msgstr "Kellarikomero"
+
+#: includes/constants_and_labels.php:180
+msgctxt "Label for constant CENTRAL_VACUUM"
+msgid "Central vacuum cleaner"
+msgstr "Keskuspölynimuri"
+
+#: includes/constants_and_labels.php:139
+msgctxt "Label for constant CERAMIC"
+msgid "Cheramic"
+msgstr "Keraaminen"
+
+#: includes/constants_and_labels.php:92
+msgctxt "Label for constant CERAMICTILE"
+msgid "Cheramic tile"
+msgstr "Kaakeli"
+
+#: includes/constants_and_labels.php:217
+msgctxt "Label for constant CHARGE_INCLUDES"
+msgid "Charge includes"
+msgstr "Sisältyy vastikkeeseen"
+
+#: includes/constants_and_labels.php:175
+msgctxt "Label for constant CHILDCARE_TABLE"
+msgid "Childrens table"
+msgstr "Lastenhoitopöytä/taso"
+
+#: includes/constants_and_labels.php:154
+msgctxt "Label for constant CITY_PLAN"
+msgid "City plan"
+msgstr "Asemakaava"
+
+#: includes/constants_and_labels.php:235
+msgctxt "Label for constant COMMUNAL_BEACH"
+msgid "Communal beach"
+msgstr "Yhteisranta"
+
+#: includes/constants_and_labels.php:255
+msgctxt "Label for constant COMPANY_HOUSING"
+msgid "Company housing"
+msgstr "Työsuhdeasunto"
+
+#: includes/constants_and_labels.php:102
+msgctxt "Label for constant CONCRETE"
+msgid "Concrete"
+msgstr "Betoni"
+
+#: includes/constants_and_labels.php:48
+msgctxt "Label for constant CONDOMINIUM"
+msgid "Condominium"
+msgstr "Osakehuoneisto"
+
+#: includes/constants_and_labels.php:203
+msgctxt "Label for constant CONDUIT"
+msgid "Conduit"
+msgstr "Hormi olemassa"
+
+#: includes/constants_and_labels.php:186
+msgctxt "Label for constant CONDUIT_EXISTS"
+msgid "Chimney exists"
+msgstr "Hormi olemassa"
+
+#: includes/constants_and_labels.php:75
+msgctxt "Label for constant CONTRACT"
+msgid "Contract"
+msgstr "Sopimuksen mukaan"
+
+#: includes/constants_and_labels.php:80
+msgctxt "Label for constant COOLED_CELLAR"
+msgid "Cooled cellar"
+msgstr "Jäähdytetty kellari"
+
+#: includes/constants_and_labels.php:130
+msgctxt "Label for constant COOLER"
+msgid "Cooler"
+msgstr "Viileäkaappi"
+
+#: includes/constants_and_labels.php:15
+msgctxt "Label for constant COTTAGE_OR_VILLA"
+msgid "Cottage or villa"
+msgstr "Mökki tai huvila"
+
+#: includes/constants_and_labels.php:204
+msgctxt "Label for constant CRAFTS_ROOM"
+msgid "Crafts room"
+msgstr "Askarteluhuone"
+
+#: includes/constants_and_labels.php:251
+msgctxt "Label for constant CUSTOM"
+msgid "Custom payment"
+msgstr "Mukautettu maksu"
+
+#: includes/constants_and_labels.php:157
+msgctxt "Label for constant DEPLOYMENT_INSPECTION"
+msgid "Deployment inspection"
+msgstr "Käyttöönottotarkastus"
+
+#: includes/constants_and_labels.php:12
+msgctxt "Label for constant DETACHEDHOUSE"
+msgid "Detached house"
+msgstr "Omakotitalo"
+
+#: includes/constants_and_labels.php:20
+msgctxt "Label for constant DETACHEDHOUSE_PLOT"
+msgid "Detached house plot"
+msgstr "Omakotitalotontti"
+
+#: includes/constants_and_labels.php:160
+msgctxt "Label for constant DEVIATION_DECISION"
+msgid "Deviation decision"
+msgstr "Poikkeamispäätös"
+
+#: includes/constants_and_labels.php:59
+msgctxt "Label for constant DINING_ROOM"
+msgid "Dining room"
+msgstr "Ruokailutila"
+
+#: includes/constants_and_labels.php:178
+msgctxt "Label for constant DIRT_STATION"
+msgid "Dirt station"
+msgstr "Kurapiste"
+
+#: includes/constants_and_labels.php:138
+msgctxt "Label for constant DISHWASHER"
+msgid "Dishwasher"
+msgstr "Astianpesukone"
+
+#: includes/constants_and_labels.php:155
+msgctxt "Label for constant DISPERSED_SETTLEMENT"
+msgid "Dispersed settlement"
+msgstr "Haja-asutusalue"
+
+#: includes/constants_and_labels.php:121
+msgctxt "Label for constant DISTRICT"
+msgid "District"
+msgstr "Kaukolämpö"
+
+#: includes/constants_and_labels.php:224
+msgctxt "Label for constant DOES_NOT_EXIST"
+msgid "DOES_NOT_EXIST"
+msgstr "Ei ole"
+
+#: includes/constants_and_labels.php:152
+msgctxt "Label for constant DRYER"
+msgid "Dryer"
+msgstr "Kuivausrumpu"
+
+#: includes/constants_and_labels.php:171
+msgctxt "Label for constant DRYING_CABINET"
+msgid "Drying cabinet"
+msgstr "Kuivauskaappi"
+
+#: includes/constants_and_labels.php:207
+msgctxt "Label for constant DRYING_ROOM"
+msgid "Drying room"
+msgstr "Kuivaushuone"
+
+#: includes/constants_and_labels.php:191
+msgctxt "Label for constant EAST"
+msgid "East"
+msgstr "Itä"
+
+#: includes/constants_and_labels.php:120
+msgctxt "Label for constant ELECTRIC"
+msgid "Electric"
+msgstr "Sähkö"
+
+#: includes/constants_and_labels.php:273
+msgctxt "Label for constant EQUAL_TO_MONTHS_OF_RENT"
+msgid "Equals to months of rent"
+msgstr "Kuukauden vuokraa vastaava"
+
+#: includes/constants_and_labels.php:42
+msgctxt "Label for constant EXCELLENT"
+msgid "Excellent"
+msgstr "Erinomainen"
+
+#: includes/constants_and_labels.php:274
+msgctxt "Label for constant EXHAUST_AIR_HEAT_PUMP"
+msgid "Exhaust air heat pump"
+msgstr "Poistoilma&shy;lämpöpumppu"
+
+#: includes/constants_and_labels.php:36
+msgctxt "Label for constant EXHIBITION_SPACE"
+msgid "Exhibition space"
+msgstr "Näyttelytila"
+
+#: includes/constants_and_labels.php:25
+msgctxt "Label for constant FARM"
+msgid "Farm"
+msgstr "Maa- tai metsätila"
+
+#: includes/constants_and_labels.php:245
+msgctxt "Label for constant FARMS"
+msgid "Farms"
+msgstr "Maa- ja metsätilat"
+
+#: includes/constants_and_labels.php:99
+msgctxt "Label for constant FELT"
+msgid "Blanket"
+msgstr "Huopa"
+
+#: includes/constants_and_labels.php:27
+msgctxt "Label for constant FIELD_AREA"
+msgid "Field area"
+msgstr "Peltoalue"
+
+#: includes/constants_and_labels.php:158
+msgctxt "Label for constant FINAL_INSPECTION"
+msgid "Final inspection"
+msgstr "Lopputarkastus"
+
+#: includes/constants_and_labels.php:87
+msgctxt "Label for constant FINISHED"
+msgid "Finished"
+msgstr "Valmis"
+
+#: includes/constants_and_labels.php:183
+msgctxt "Label for constant FIREPLACE"
+msgid "Fireplace"
+msgstr "Takka"
+
+#: includes/constants_and_labels.php:185
+msgctxt "Label for constant FIREPLACE_HEATSTORING"
+msgid "Fireplace heat storing"
+msgstr "Varaava takka"
+
+#: includes/constants_and_labels.php:184
+msgctxt "Label for constant FIREPLACE_OPTION"
+msgid "Fireplace option"
+msgstr "Takkavaraus"
+
+#: includes/constants_and_labels.php:64
+msgctxt "Label for constant FIREPLACE_ROOM"
+msgid "Fireplace room"
+msgstr "Takkahuone"
+
+#: includes/constants_and_labels.php:268
+msgctxt "Label for constant FIXED_PERIOD"
+msgid "Fixed period"
+msgstr "Määräaikainen"
+
+#: includes/constants_and_labels.php:8
+msgctxt "Label for constant FLAT"
+msgid "Flat"
+msgstr "Kerrostalo"
+
+#: includes/constants_and_labels.php:116
+msgctxt "Label for constant FLAT roofType"
+msgid "Flat roof"
+msgstr "Tasakatto"
+
+#: includes/constants_and_labels.php:82
+msgctxt "Label for constant FLATLAND_LOT"
+msgid "Flatland lot"
+msgstr "Tasamaatontti"
+
+#: includes/constants_and_labels.php:174
+msgctxt "Label for constant FLOOR_DRAIN"
+msgid "Floor drain"
+msgstr "Lattiakaivo"
+
+#: includes/constants_and_labels.php:264
+msgctxt "Label for constant FLOWER_WATERING_AND_MAINTENANCE"
+msgid "Flower wathering and maintenance"
+msgstr "Kukkien hoidosta ja kastelusta"
+
+#: includes/constants_and_labels.php:26
+msgctxt "Label for constant FOREST_FARM"
+msgid "Forest farm"
+msgstr "Metsätila"
+
+#: includes/constants_and_labels.php:56
+msgctxt "Label for constant FRACTIONAL"
+msgid "Partial ownership"
+msgstr "Tontin omistus"
+
+#: includes/constants_and_labels.php:126
+msgctxt "Label for constant FREEZER"
+msgid "Freezer"
+msgstr "Erillinen pakastin"
+
+#: includes/constants_and_labels.php:71
+msgctxt "Label for constant FRENCH"
+msgid "Balcony"
+msgstr "Ranskalainen parveke"
+
+#: includes/constants_and_labels.php:125
+msgctxt "Label for constant FRIDGE"
+msgid "Fridge"
+msgstr "Jääkaappi"
+
+#: includes/constants_and_labels.php:129
+msgctxt "Label for constant FRIDGE_COOLER"
+msgid "Fridge Cooler"
+msgstr "Jää-viileäkaappi"
+
+#: includes/constants_and_labels.php:128
+msgctxt "Label for constant FRIDGE_FREEZER"
+msgid "Fridge / freezer"
+msgstr "Jääkaappipakastin"
+
+#: includes/constants_and_labels.php:117
+msgctxt "Label for constant GABLED"
+msgid "Gable roof"
+msgstr "Harjakatto"
+
+#: includes/constants_and_labels.php:88
+msgctxt "Label for constant GARAGE"
+msgid "Garage"
+msgstr "Autotalli"
+
+#: includes/constants_and_labels.php:246
+msgctxt "Label for constant GARAGES"
+msgid "Garages"
+msgstr "Autotallit"
+
+#: includes/constants_and_labels.php:140
+msgctxt "Label for constant GAS"
+msgid "Gas"
+msgstr "Kaasu"
+
+#: includes/constants_and_labels.php:109
+msgctxt "Label for constant GLASS_FIBER_WALLPAPER"
+msgid "Fiberglass wallpaper"
+msgstr "Lasikuitutapetti"
+
+#: includes/constants_and_labels.php:70
+msgctxt "Label for constant GLASSED"
+msgid "Balcony"
+msgstr "Lasitettu parveke"
+
+#: includes/constants_and_labels.php:43
+msgctxt "Label for constant GOOD"
+msgid "Good"
+msgstr "Hyvä"
+
+#: includes/constants_and_labels.php:239
+msgctxt "Label for constant GOOD_CYCLEWAY"
+msgid "Good cycleway"
+msgstr "Hyvät pyörätiet"
+
+#: includes/constants_and_labels.php:265
+msgctxt "Label for constant GRASS_CUTTING"
+msgid "Grass cutting"
+msgstr "Nurmikon leikkaamisesta"
+
+#: includes/constants_and_labels.php:119
+msgctxt "Label for constant GROUND"
+msgid "Ground"
+msgstr "Maalämpö"
+
+#: includes/constants_and_labels.php:106
+msgctxt "Label for constant HALF_PANEL"
+msgid "Half panel"
+msgstr "Puolipaneeli"
+
+#: includes/constants_and_labels.php:60
+msgctxt "Label for constant HALLWAY"
+msgid "Hallway"
+msgstr "Eteinen"
+
+#: includes/constants_and_labels.php:267
+msgctxt "Label for constant HEATING_SYSTEM_CLEANUP"
+msgid "Heating system cleanup"
+msgstr ""
+"Vuokralainen vastaa kiinteistön lämmitysjärjestelmän ja ilmanvaihtokoneiden "
+"puhdistamisesta erillisen vuokranantajan toimittaman ohjeistuksen mukaisesti"
+
+#: includes/constants_and_labels.php:81
+msgctxt "Label for constant HILLSIDE_LOT"
+msgid "Hillside lot"
+msgstr "Rinnetontti"
+
+#: includes/constants_and_labels.php:37
+msgctxt "Label for constant HOBBY_SPACE"
+msgid "Hobby space"
+msgstr "Harrastustila"
+
+#: includes/constants_and_labels.php:257
+msgctxt "Label for constant HOLIDAY_HOME"
+msgid "Holiday home"
+msgstr "Mökki"
+
+#: includes/constants_and_labels.php:148
+msgctxt "Label for constant HOT_TUB"
+msgid "Hot tub"
+msgstr "Poreamme"
+
+#: includes/constants_and_labels.php:261
+msgctxt "Label for constant HOUSING_COOPERATIVE"
+msgid "Housing cooperative"
+msgstr "Taloyhtiö"
+
+#: includes/constants_and_labels.php:38
+msgctxt "Label for constant HUB_SPACE"
+msgid "Hub space"
+msgstr "Hub tila"
+
+#: includes/constants_and_labels.php:74
+msgctxt "Label for constant IMMEDIATELY"
+msgid "Immediately"
+msgstr "Heti"
+
+#: includes/constants_and_labels.php:141
+msgctxt "Label for constant INDUCTION"
+msgid "Induction"
+msgstr "Induktio"
+
+#: includes/constants_and_labels.php:57
+msgctxt "Label for constant INSTANT"
+msgid "Instant electric heater"
+msgstr "Heti valmis -sähkökiuas"
+
+#: includes/constants_and_labels.php:176
+msgctxt "Label for constant IRONING_TABLE"
+msgid "Ironing table"
+msgstr "Silityspöytä / taso"
+
+#: includes/constants_and_labels.php:200
+msgctxt "Label for constant JANITOR"
+msgid "Janitor"
+msgstr "Talonmies"
+
+#: includes/constants_and_labels.php:124
+msgctxt "Label for constant KITCHEN_ISLAND"
+msgid "Kitchen island"
+msgstr "Keittiösaareke"
+
+#: includes/constants_and_labels.php:136
+msgctxt "Label for constant KITCHENHOOD"
+msgid "Kitchen hood"
+msgstr "Liesituuletin"
+
+#: includes/constants_and_labels.php:272
+msgctxt "Label for constant LAKE"
+msgid "Lake"
+msgstr "Järvi"
+
+#: includes/constants_and_labels.php:94
+msgctxt "Label for constant LAMINATE"
+msgid "Laminate"
+msgstr "Laminaatti"
+
+#: includes/constants_and_labels.php:177
+msgctxt "Label for constant LAUNDRY_CABINET"
+msgid "Laundry cabinets"
+msgstr "Pyykkikaapit"
+
+#: includes/constants_and_labels.php:201
+msgctxt "Label for constant LAUNDRY_ROOM"
+msgid "Laundry room"
+msgstr "Pesutupa"
+
+#: includes/constants_and_labels.php:55
+msgctxt "Label for constant LEASE"
+msgid "Right of residence"
+msgstr "Asumisoikeus"
+
+#: includes/constants_and_labels.php:14
+msgctxt "Label for constant LEISUREHOME"
+msgid "Leisure home"
+msgstr "Vapaa-ajan koti"
+
+#: includes/constants_and_labels.php:22
+msgctxt "Label for constant LEISUREHOME_PLOT"
+msgid "Leisure home plot"
+msgstr "Vapaa-ajan tontti"
+
+#: includes/constants_and_labels.php:65
+msgctxt "Label for constant LIBRARY"
+msgid "Library"
+msgstr "Kirjasto"
+
+#: includes/constants_and_labels.php:63
+msgctxt "Label for constant LOBBY"
+msgid "Lobby"
+msgstr "Aula"
+
+#: includes/constants_and_labels.php:18
+msgctxt "Label for constant LOFT"
+msgid "Loft"
+msgstr "Luhtitalo"
+
+#: includes/constants_and_labels.php:275
+msgctxt "Label for constant LOG"
+msgid "Log"
+msgstr "Hirsi"
+
+#: includes/constants_and_labels.php:263
+msgctxt "Label for constant MAINTENANCE"
+msgid "Own"
+msgstr "Hoidosta"
+
+#: includes/constants_and_labels.php:198
+msgctxt "Label for constant MAINTENANCE_COMPANY"
+msgid "Maintenance company"
+msgstr "Huoltoyhtiö"
+
+#: includes/constants_and_labels.php:208
+msgctxt "Label for constant MANGLE"
+msgid "Mangle"
+msgstr "Mankeli"
+
+#: includes/constants_and_labels.php:112
+msgctxt "Label for constant METRO"
+msgid "Metro station nearby"
+msgstr "Metroasema lähellä"
+
+#: includes/constants_and_labels.php:137
+msgctxt "Label for constant MICROWAVE"
+msgid "Microwave"
+msgstr "Mikroaaltouuni"
+
+#: includes/constants_and_labels.php:153
+msgctxt "Label for constant MIRROR"
+msgid "Mirror"
+msgstr "Peili"
+
+#: includes/constants_and_labels.php:145
+msgctxt "Label for constant MIRROR_CABINET"
+msgid "Mirror cabiner"
+msgstr "Peilikaappi"
+
+#: includes/constants_and_labels.php:226
+msgctxt "Label for constant MONTHLY"
+msgid "MONTHLY"
+msgstr "/ kk"
+
+#: includes/constants_and_labels.php:259
+msgctxt "Label for constant NEED_BASED_APARTMENT"
+msgid "Need based apartment"
+msgstr "Arava/korkotuki"
+
+#: includes/constants_and_labels.php:41
+msgctxt "Label for constant NEW"
+msgid "New"
+msgstr "Uusi"
+
+#: includes/constants_and_labels.php:46
+msgctxt "Label for constant NEWEST_FIRST"
+msgid "Newest first"
+msgstr "Uusin ensin"
+
+#: includes/constants_and_labels.php:241
+msgctxt "Label for constant NEWLY_CONSTRUCTED"
+msgid "Newly consturcted"
+msgstr "Uudiskohde"
+
+#: includes/class-linear-data-handler.php:71
+#: includes/constants_and_labels.php:230
+msgctxt "Label for constant NO"
+msgid "No"
+msgstr "Ei"
+
+#: includes/constants_and_labels.php:277
+msgctxt "Label for constant NO_BUT_REQUIRED_BY_LAW"
+msgid "No but required by law"
+msgstr "Ei mutta lain edellyttämä"
+
+#: includes/constants_and_labels.php:187
+msgctxt "Label for constant NO_FIREPLACE"
+msgid "No fireplace"
+msgstr "Ei takkaa"
+
+#: includes/constants_and_labels.php:258
+msgctxt "Label for constant NON_SUBSIDIZED"
+msgid "Non subsidized"
+msgstr "Vapaarahoitteinen"
+
+#: includes/constants_and_labels.php:68
+msgctxt "Label for constant NONE"
+msgid "None"
+msgstr "Ei mikään"
+
+#: includes/constants_and_labels.php:190
+msgctxt "Label for constant NORTH"
+msgid "North"
+msgstr "Pohjoinen"
+
+#: includes/constants_and_labels.php:194
+msgctxt "Label for constant NORTH_EAST"
+msgid "North east"
+msgstr "Koillinen"
+
+#: includes/constants_and_labels.php:195
+msgctxt "Label for constant NORTH_WEST"
+msgid "North west"
+msgstr "Luode"
+
+#: includes/constants_and_labels.php:276
+msgctxt "Label for constant NOT_REQUIRED_BY_LAW"
+msgid "Not required by law"
+msgstr "Ei lain edellyttämä"
+
+#: includes/constants_and_labels.php:156
+msgctxt "Label for constant NOT_ZONED"
+msgid "Not zoned"
+msgstr "Kaavoittamaton"
+
+#: includes/constants_and_labels.php:31
+msgctxt "Label for constant OFFICE_SPACE"
+msgid "Office space"
+msgstr "Toimistotila"
+
+#: includes/constants_and_labels.php:122
+msgctxt "Label for constant OIL"
+msgid "Oil"
+msgstr "Öljy"
+
+#: includes/constants_and_labels.php:47
+msgctxt "Label for constant OLDEST_FIRST"
+msgid "Oldest first"
+msgstr "Vanhin ensin"
+
+#: includes/constants_and_labels.php:228
+msgctxt "Label for constant ONCE"
+msgid "ONCE"
+msgstr "kertamaksuna"
+
+#: includes/constants_and_labels.php:269
+msgctxt "Label for constant OPEN_ENDED"
+msgid "Open ended"
+msgstr "Toistaiseksi voimassa oleva"
+
+#: includes/constants_and_labels.php:168
+msgctxt "Label for constant OPERATION_BAN"
+msgid "Operation ban"
+msgstr "Toimenpidekielto"
+
+#: includes/constants_and_labels.php:30
+msgctxt "Label for constant OTHER"
+msgid "Other"
+msgstr "Muu"
+
+#: includes/constants_and_labels.php:39
+msgctxt "Label for constant OTHER_BUSINESS_SPACE"
+msgid "Other business space"
+msgstr "Muu tila"
+
+#: includes/constants_and_labels.php:202
+msgctxt "Label for constant OUTDOOR_STORAGE"
+msgid "Outdoor storage"
+msgstr "Ulkovälinevarasto"
+
+#: includes/constants_and_labels.php:77
+msgctxt "Label for constant OUTSIDE_STORAGE"
+msgid "Outside storage"
+msgstr "Ulkovarasto"
+
+#: includes/constants_and_labels.php:133
+msgctxt "Label for constant OVEN"
+msgid "Oven"
+msgstr "Uuni"
+
+#: includes/constants_and_labels.php:231
+msgctxt "Label for constant OWN"
+msgid "Own"
+msgstr "Oma"
+
+#: includes/constants_and_labels.php:262
+msgctxt "Label for constant OWN electricityContract"
+msgid "Own"
+msgstr "Oma sähkösopimus"
+
+#: includes/constants_and_labels.php:232
+msgctxt "Label for constant OWN_COASTLINE"
+msgid "Own coastline"
+msgstr "Omaa rantaviivaa"
+
+#: includes/constants_and_labels.php:216
+msgctxt "Label for constant OWN_METER"
+msgid "Own meter"
+msgstr "(Oma mittari)"
+
+#: includes/constants_and_labels.php:54
+msgctxt "Label for constant OWNER"
+msgid "Owned apartment"
+msgstr "Oma"
+
+#: includes/constants_and_labels.php:96
+msgctxt "Label for constant PAINT"
+msgid "Paint"
+msgstr "Maali"
+
+#: includes/constants_and_labels.php:10
+msgctxt "Label for constant PAIRHOUSE"
+msgid "Pair-house"
+msgstr "Paritalo"
+
+#: includes/constants_and_labels.php:93
+msgctxt "Label for constant PARQUET"
+msgid "Parquet"
+msgstr "Parketti"
+
+#: includes/constants_and_labels.php:159
+msgctxt "Label for constant PART_ZONING_PLAN"
+msgid "Part zoning plan"
+msgstr "Osayleiskaava"
+
+#: includes/constants_and_labels.php:107
+msgctxt "Label for constant PARTIAL_TILING"
+msgid "Partial tiling"
+msgstr "Osalaatoitus"
+
+#: includes/constants_and_labels.php:67
+msgctxt "Label for constant PATIO"
+msgid "Patio"
+msgstr "Patio"
+
+#: includes/constants_and_labels.php:118
+msgctxt "Label for constant PENTROOF"
+msgid "Pent roof"
+msgstr "Pulpettikatto"
+
+#: includes/constants_and_labels.php:220
+msgctxt "Label for constant PER_MONTH"
+msgid "/ month"
+msgstr "/ kk"
+
+#: includes/constants_and_labels.php:215
+msgctxt "Label for constant PER_PERSON_COUNT"
+msgid "/ person"
+msgstr "/ hlö"
+
+#: includes/constants_and_labels.php:221
+msgctxt "Label for constant PER_PERSON_MONTH"
+msgid "/ person / month"
+msgstr "/ hlö / kk"
+
+#: includes/constants_and_labels.php:223
+msgctxt "Label for constant PER_TIME"
+msgid "/ time"
+msgstr "/ kerta"
+
+#: includes/constants_and_labels.php:222
+msgctxt "Label for constant PER_YEAR"
+msgid "/ year"
+msgstr "/ vuosi"
+
+#: includes/constants_and_labels.php:167
+msgctxt "Label for constant PLANNING_NEED_AREA"
+msgid "Planning need area"
+msgstr "Suunnittelutarvealue"
+
+#: includes/constants_and_labels.php:95
+msgctxt "Label for constant PLASTIC"
+msgid "Plastic carpet"
+msgstr "Muovimatto"
+
+#: includes/constants_and_labels.php:90
+msgctxt "Label for constant PLAYHOUSE"
+msgid "Playhouse"
+msgstr "Leikkimökki"
+
+#: includes/constants_and_labels.php:17
+msgctxt "Label for constant PLOT"
+msgid "Plot"
+msgstr "Tontti"
+
+#: includes/constants_and_labels.php:247
+msgctxt "Label for constant PLOT_WITHOUT_ZONE"
+msgid "Plot without zone"
+msgstr "Tila"
+
+#: includes/constants_and_labels.php:244
+msgctxt "Label for constant PLOTS"
+msgid "Plots"
+msgstr "Tontit"
+
+#: includes/constants_and_labels.php:132
+msgctxt "Label for constant PRAM_STORAGE"
+msgid "Pram storage"
+msgstr "Lastenvaunuvarasto"
+
+#: includes/constants_and_labels.php:33
+msgctxt "Label for constant PRODUCTION_SPACE"
+msgid "Production space"
+msgstr "Tuotantotila"
+
+#: includes/constants_and_labels.php:49
+msgctxt "Label for constant PROPERTY"
+msgid "Property"
+msgstr "Kiinteistö"
+
+#: includes/constants_and_labels.php:189
+msgctxt "Label for constant PROPERTY_MANAGER"
+msgid "Property manager"
+msgstr "Pinta-ala on määritelty isännöitsijätodistuksen mukaan"
+
+#: includes/constants_and_labels.php:248
+msgctxt "Label for constant PROPERTY_PART"
+msgid "Property part"
+msgstr "Määräala"
+
+#: includes/constants_and_labels.php:28
+msgctxt "Label for constant PROPERTY_SCRIPT"
+msgid "Property script"
+msgstr "Määräala"
+
+#: includes/constants_and_labels.php:72
+msgctxt "Label for constant PROTRUDING"
+msgid "Balcony"
+msgstr "Ulostyönnetty"
+
+#: includes/constants_and_labels.php:237
+msgctxt "Label for constant QUARTZ_COMPOSITE"
+msgid "Quartz composite"
+msgstr "Kvartsikomposiitti"
+
+#: includes/constants_and_labels.php:73
+msgctxt "Label for constant RECESSED"
+msgid "Balcony"
+msgstr "Sisäänvedetty"
+
+#: includes/constants_and_labels.php:219
+msgctxt "Label for constant RENT"
+msgid "Rent"
+msgstr "Vuokra"
+
+#: includes/constants_and_labels.php:240
+msgctxt "Label for constant RENT_APARTMENT"
+msgid "Rent Apartment"
+msgstr "Vuokra-asunto"
+
+#: includes/constants_and_labels.php:218
+msgctxt "Label for constant RENT_INCLUDES"
+msgid "Rent includes"
+msgstr "Sisältyy vuokraan"
+
+#: includes/constants_and_labels.php:199
+msgctxt "Label for constant RESIDENTS"
+msgid "Residents"
+msgstr "Asukkaat"
+
+#: includes/constants_and_labels.php:35
+msgctxt "Label for constant RESTAURANT_SPACE"
+msgid "Restaurant space"
+msgstr "Ravintolatila"
+
+#: includes/constants_and_labels.php:271
+msgctxt "Label for constant RIVER"
+msgid "River"
+msgstr "Joki"
+
+#: includes/constants_and_labels.php:181
+msgctxt "Label for constant ROOM_FOR_SCRUBBER"
+msgid "Room for scrubber"
+msgstr "Tila pesutornille"
+
+#: includes/constants_and_labels.php:9
+msgctxt "Label for constant ROWHOUSE"
+msgid "Row house"
+msgstr "Rivitalo"
+
+#: includes/constants_and_labels.php:21
+msgctxt "Label for constant ROWHOUSE_PLOT"
+msgid "Row house plot"
+msgstr "Rivitalotontti"
+
+#: includes/constants_and_labels.php:110
+msgctxt "Label for constant RUBBER_BITUMEN"
+msgid "Rubber bitumen"
+msgstr "Kumibitumi"
+
+#: includes/constants_and_labels.php:209
+msgctxt "Label for constant SATELLITE_ANTENNA"
+msgid "Satellite antenna"
+msgstr "Satelliitti"
+
+#: includes/constants_and_labels.php:210
+msgctxt "Label for constant SAUNA"
+msgid "Sauna"
+msgstr "Sauna"
+
+#: includes/constants_and_labels.php:270
+msgctxt "Label for constant SEA"
+msgid "Sea"
+msgstr "Meri"
+
+#: includes/constants_and_labels.php:253
+msgctxt "Label for constant SENIOR_HOUSE"
+msgid "Senior house"
+msgstr "Vanhainkoti"
+
+#: includes/constants_and_labels.php:134
+msgctxt "Label for constant SEPARATE_OVEN"
+msgid "Oven"
+msgstr "Erillisuuni"
+
+#: includes/constants_and_labels.php:11
+msgctxt "Label for constant SEPARATEHOUSE"
+msgid "Separate house"
+msgstr "Erillistalo"
+
+#: includes/constants_and_labels.php:52
+msgctxt "Label for constant SHED"
+msgid "Canopy"
+msgstr "Katospaikka"
+
+#: includes/constants_and_labels.php:53
+msgctxt "Label for constant SHED_PLUG"
+msgid "Shed canopy"
+msgstr "Pistokkeellinen katospaikka"
+
+#: includes/constants_and_labels.php:100
+msgctxt "Label for constant SHEET"
+msgid "Sheet"
+msgstr "Pelti"
+
+#: includes/constants_and_labels.php:214
+msgctxt "Label for constant SHELTER"
+msgid "Shelter"
+msgstr "Väestönsuoja"
+
+#: includes/constants_and_labels.php:143
+msgctxt "Label for constant SHOWER"
+msgid "Shower"
+msgstr "Suihku"
+
+#: includes/constants_and_labels.php:150
+msgctxt "Label for constant SHOWER_CUBICLE"
+msgid "Shower cubicle"
+msgstr "Suihkukaappi"
+
+#: includes/constants_and_labels.php:149
+msgctxt "Label for constant SHOWER_SCREEN"
+msgid "Shower screen"
+msgstr "Suihkuseinä"
+
+#: includes/constants_and_labels.php:250
+msgctxt "Label for constant SINGLE_PAYMENT"
+msgid "Single payment"
+msgstr "Kertamaksu"
+
+#: includes/constants_and_labels.php:173
+msgctxt "Label for constant SINK"
+msgid "Sink"
+msgstr "Pesuallas"
+
+#: includes/constants_and_labels.php:266
+msgctxt "Label for constant SNOW_CLEARING"
+msgid "Snow clearing"
+msgstr "Lumenluonnista ja lumen pudotuksesta katolta"
+
+#: includes/constants_and_labels.php:192
+msgctxt "Label for constant SOUTH"
+msgid "South"
+msgstr "Etelä"
+
+#: includes/constants_and_labels.php:196
+msgctxt "Label for constant SOUTH_EAST"
+msgid "South east"
+msgstr "Kaakko"
+
+#: includes/constants_and_labels.php:197
+msgctxt "Label for constant SOUTH_WEST"
+msgid "South west"
+msgstr "Lounas"
+
+#: includes/constants_and_labels.php:212
+msgctxt "Label for constant SPORTS_EQUIPMENT_STORAGE"
+msgid "Sports eruipment storage"
+msgstr "Urheiluvälinevarasto"
+
+#: includes/constants_and_labels.php:105
+msgctxt "Label for constant STONE"
+msgid "Stone"
+msgstr "Kivi"
+
+#: includes/constants_and_labels.php:34
+msgctxt "Label for constant STORAGE_SPACE"
+msgid "Storage space"
+msgstr "Varastotila"
+
+#: includes/constants_and_labels.php:135
+msgctxt "Label for constant STOVE"
+msgid "Stove"
+msgstr "Liesi"
+
+#: includes/constants_and_labels.php:256
+msgctxt "Label for constant STUDENT_APARTMENT"
+msgid "Student apartment"
+msgstr "Opiskelija-asunto"
+
+#: includes/constants_and_labels.php:58
+msgctxt "Label for constant STUDY"
+msgid "Office"
+msgstr "Toimistotila"
+
+#: includes/constants_and_labels.php:252
+msgctxt "Label for constant SUBTENANT"
+msgid "Subtenant"
+msgstr "Alivuokralainen"
+
+#: includes/constants_and_labels.php:211
+msgctxt "Label for constant SWIMMING_POOL"
+msgid "Swimming pool"
+msgstr "Uima-allas"
+
+#: includes/constants_and_labels.php:179
+msgctxt "Label for constant TABLETOP"
+msgid "Table top"
+msgstr "Pöytätaso"
+
+#: includes/constants_and_labels.php:115
+msgctxt "Label for constant TAXI"
+msgid "Taxi rank nearby"
+msgstr "Taksitolppa lähellä"
+
+#: includes/constants_and_labels.php:66
+msgctxt "Label for constant TERRACE"
+msgid "Terrace"
+msgstr "Terassi"
+
+#: includes/constants_and_labels.php:98
+msgctxt "Label for constant TILE"
+msgid "Tile"
+msgstr "Laatta"
+
+#: includes/constants_and_labels.php:144
+msgctxt "Label for constant TOILET"
+msgid "Toilet"
+msgstr "WC"
+
+#: includes/constants_and_labels.php:146
+msgctxt "Label for constant TOILET_SEAT"
+msgid "Toilet seat"
+msgstr "WC-istuin"
+
+#: includes/constants_and_labels.php:113
+msgctxt "Label for constant TRAIN"
+msgid "Train station nearby"
+msgstr "Juna-asema lähellä"
+
+#: includes/constants_and_labels.php:249
+msgctxt "Label for constant UNBUILT"
+msgid "Unbuilt"
+msgstr "Rakentamaton"
+
+#: includes/constants_and_labels.php:86
+msgctxt "Label for constant UNDER_CONSTRUCTION"
+msgid "Under construction"
+msgstr "Rakenteilla"
+
+#: includes/constants_and_labels.php:172
+msgctxt "Label for constant UNDERFLOOR_HEATING"
+msgid "Underfloor heating"
+msgstr "Lattialämmitys"
+
+#: includes/constants_and_labels.php:40
+msgctxt "Label for constant VACATION_APARTMENT"
+msgid "Vacation apartment"
+msgstr "Loma-asunnot"
+
+#: includes/constants_and_labels.php:19
+msgctxt "Label for constant VACATION_SHARE"
+msgid "Vacation share"
+msgstr "Loma-osake"
+
+#: includes/constants_and_labels.php:13
+msgctxt "Label for constant VACATIONHOME"
+msgid "Vacation home"
+msgstr "Loma-asunto"
+
+#: includes/constants_and_labels.php:236
+msgctxt "Label for constant VINYL"
+msgid "Vinyl"
+msgstr "Vinyyli"
+
+#: includes/constants_and_labels.php:76
+msgctxt "Label for constant WALK_IN_WARDROBE"
+msgid "Walk-in closet"
+msgstr "Vaatehuone"
+
+#: includes/constants_and_labels.php:182
+msgctxt "Label for constant WALL_RADIATOR"
+msgid "Wall radiator"
+msgstr "Pyyhekuivain / seinäpatteri"
+
+#: includes/constants_and_labels.php:97
+msgctxt "Label for constant WALLPAPER"
+msgid "Wallpaper"
+msgstr "Tapetti"
+
+#: includes/constants_and_labels.php:151
+msgctxt "Label for constant WASHING_MACHINE"
+msgid "Washing machine"
+msgstr "Pesukone"
+
+#: includes/constants_and_labels.php:170
+msgctxt "Label for constant WASHING_MACHINE_CONNECTION"
+msgid "Washing machine connection"
+msgstr "Pesukoneliitäntä"
+
+#: includes/constants_and_labels.php:233
+msgctxt "Label for constant WATER_AREA_RIGHT"
+msgid "Water area right"
+msgstr "Oikeus vesialueisiin"
+
+#: includes/constants_and_labels.php:225
+msgctxt "Label for constant WEEKLY"
+msgid "WEEKLY"
+msgstr "/ viikko"
+
+#: includes/constants_and_labels.php:193
+msgctxt "Label for constant WEST"
+msgid "West"
+msgstr "Länsi"
+
+#: includes/constants_and_labels.php:29
+msgctxt "Label for constant WILDERNESS_AREA"
+msgid "Wilderness area"
+msgstr "Erämaa-alue"
+
+#: includes/constants_and_labels.php:61
+msgctxt "Label for constant WIND_BOX"
+msgid "Wind box"
+msgstr "Tuulikaappi"
+
+#: includes/constants_and_labels.php:103
+msgctxt "Label for constant WOOD"
+msgid "Wood"
+msgstr "Puu"
+
+#: includes/constants_and_labels.php:16
+msgctxt "Label for constant WOODEN_HOUSE_SHARE"
+msgid "Wooden house share"
+msgstr "Puutalo-osake"
+
+#: includes/constants_and_labels.php:91
+msgctxt "Label for constant WOODSHED"
+msgid "Wood shed"
+msgstr "Liiteri"
+
+#: includes/constants_and_labels.php:127
+msgctxt "Label for constant YANKEE_FRIDGE_FREEZER"
+msgid "Yankee fridge / freezer"
+msgstr "Jenkkikaappi"
+
+#: includes/constants_and_labels.php:50
+msgctxt "Label for constant YARD"
+msgid "Yard"
+msgstr "Pihapaikka"
+
+#: includes/constants_and_labels.php:51
+msgctxt "Label for constant YARD_PLUG"
+msgid "Yard canopy"
+msgstr "Pistokkeellinen pihapaikka"
+
+#: includes/constants_and_labels.php:227
+msgctxt "Label for constant YEARLY"
+msgid "YEARLY"
+msgstr "/ vuosi"
+
+#: includes/class-linear-data-handler.php:69
+#: includes/constants_and_labels.php:229
+msgctxt "Label for constant YES"
+msgid "Yes"
+msgstr "Kyllä"
+
+#: includes/constants_and_labels.php:169
+msgctxt "Label for constant ZONING_PLAN"
+msgid "Zoning plan"
+msgstr "Yleiskaava"
+
+#: templates/linear-listing.php:291
+msgid "Land renter"
+msgstr "Maanvuokraaja"
+
+#: templates/linear-listing.php:299
+msgid "Land yearly rent"
+msgstr "Maan vuosivuokra"
+
+#: blocks/buy-commissions/buy-commissions.php:67
+#: blocks/listings/listings.php:76
+msgid "Latest first"
+msgstr "Uusin ensiksi"
+
+#: templates/linear-listing.php:134
+msgid "Laundry room charge"
+msgstr "Pesutupamaksu"
+
+#. Name of the plugin
+msgid "Linear"
+msgstr "Linear"
+
+#: includes/class-linear-settings.php:1862
+msgid "Linear cache has been reset successfully."
+msgstr "Linearin välimuisti on tyhjennetty onnistuneesti."
+
+#: includes/class-linear-settings.php:1866
+msgid "Linear cache reset failed."
+msgstr "Linea välimuistin tyhjennys epäonnistui."
+
+#: includes/class-linear-settings.php:1241
+msgid "Linear embed form"
+msgstr "Linear upotettava yhteydenottolomake"
+
+#: includes/class-linear-settings.php:428
+msgid "Linear listing contact form embed"
+msgstr "Linear yhteydenottolomakkeen upotus"
+
+#. Description of the plugin
+#, fuzzy
+#| msgid ""
+#| "Linear listing system WordPress plugin. Enables you to easily display all "
+#| "your real estate listings on your website.."
+msgid ""
+"Linear listing system WordPress plugin. Enables you to easily display all "
+"your real estate listings on your website."
+msgstr ""
+"Linear listausjärjestelmä WordPress-lisäosa. Tämä mahdollistaa kiinteistöjen "
+"ja kohteiden listauksen sivustollasi."
+
+#. Author of the plugin
+msgid "Linear Oy"
+msgstr "Linear Oy"
+
+#: includes/class-linear-admin.php:61
+#, php-format
+msgid "Linear Plugin version: %s"
+msgstr "Linear lisäosan versio: %s"
+
+#: includes/class-linear-settings.php:131
+msgid "Linear settings"
+msgstr "Asetukset"
+
+#: includes/class-linear-settings.php:529
+msgid "Listing column count"
+msgstr "Listauksen sarakkeiden määrä"
+
+#: includes/class-linear-settings.php:611
+#: includes/class-linear-settings.php:648
+msgid "Listing page"
+msgstr "Myytävien kohteiden sivu"
+
+#: blocks/listings/listings.php:51
+msgid "Listing Type"
+msgstr "Listaustyyppi"
+
+#: templates/linear-listing.php:89
+msgid "Listing type"
+msgstr "Listauksen tyyppi"
+
+#: includes/class-linear-settings.php:1462
+msgid "Listing type filter value"
+msgstr "Listaustyypin suodattimen arvo"
+
+#: includes/class-linear-settings.php:259
+#: includes/class-linear-settings.php:1293
+msgid "Listings"
+msgstr "Listaukset"
+
+#: includes/class-linear-settings.php:375
+msgid "Listings API URL"
+msgstr "Listauksen API osoite"
+
+#: blocks/listings/listings.php:41
+msgid "Listings filters are hidden"
+msgstr "Listauksen suodattimet on piilotettu"
+
+#: includes/class-linear-settings.php:177
+msgid "Listings page"
+msgstr "Listauksien sivu"
+
+#: blocks/listings/listings.php:32
+msgid "Listings per page"
+msgstr "Listauksia per sivu"
+
+#: includes/class-linear-settings.php:1603
+msgid "Listings:"
+msgstr "Listaukset:"
+
+#: templates/linear-listing.php:169
+msgid "Living room"
+msgstr "Olohuoneen kuvaus"
+
+#: templates/linear-listing.php:171
+msgid "Living room floor material"
+msgstr "Olohuoneen lattiamateriaali"
+
+#: templates/linear-listing.php:170
+msgid "Living room wall material"
+msgstr "Olohuoneen seinämateriaali"
+
+#: templates/sections/listing_map.php:29
+msgid "Load map"
+msgstr "Näytä kartta"
+
+#: includes/class-linear-settings.php:1354
+#: includes/class-linear-settings.php:1547
+#: blocks/buy-commissions/buy-commissions.php:29
+#: blocks/listings/listings.php:31
+msgid "Load more"
+msgstr "Lataa lisää"
+
+#: includes/class-linear-templater.php:295
+#: includes/class-linear-templater.php:314
+msgid "Loading more"
+msgstr "Ladataan lisää"
+
+#: templates/linear-listing.php:335
+msgid "Local information"
+msgstr "Paikallistiedot"
+
+#: templates/linear-listing.php:69
+#: blocks/buy-commissions/buy-commissions.php:89
+#: templates/sections/listing_map.php:12
+msgid "Location"
+msgstr "Sijainti"
+
+#: templates/sections/listing_introduction.php:191
+msgid "Lot"
+msgstr "Tontti"
+
+#: templates/linear-listing.php:286
+msgid "Lot area"
+msgstr "Tontin pinta-ala"
+
+#: templates/linear-listing.php:290
+msgid "Lot info"
+msgstr "Tontin tiedot"
+
+#: templates/linear-listing.php:287
+msgid "Lot ownership"
+msgstr "Tontin omistus"
+
+#: templates/linear-listing.php:288
+msgid "Lot rent date"
+msgstr "Tontin vuokra-aika päättyy"
+
+#: templates/linear-listing.php:289
+msgid "Lot type"
+msgstr "Tontin tyyppi"
+
+#: templates/linear-listing.php:131
+msgid "Maintenance charge"
+msgstr "Yhtiövastike"
+
+#: templates/sections/listing_introduction.php:257
+msgid "Make an offer"
+msgstr "Tee ostotarjous"
+
+#: includes/class-linear-settings.php:174
+msgid "Make sure your permalink settings are set to be \"article name\"."
+msgstr ""
+"Varmista että osoiterakenteen asetukset on asetettu olemaan \"Artikkelin "
+"nimi\"."
+
+#: templates/helpers/get_maintenance_charge_value.php:14
+#: templates/sections/listing_introduction.php:180
+msgid "Mandatory charges"
+msgstr "Hoitovastike"
+
+#: templates/linear-listing.php:225
+msgid "More info"
+msgstr "Lisätiedot"
+
+#: templates/linear-listing.php:99
+msgid "Newly constructed"
+msgstr "Uudiskohde"
+
+#: templates/sections/listing_introduction.php:134
+msgid "Next presentation"
+msgstr "Seuraava julkinen esittely"
+
+#: templates/sections/listing_actions.php:65
+msgid "Next public presentation"
+msgstr "Seuraava julkinen esittely"
+
+#: blocks/buy-commissions/buy-commissions.php:75
+#: blocks/listings/listings.php:84
+msgid "No results"
+msgstr "Ei tuloksia"
+
+#: blocks/buy-commissions/buy-commissions.php:35
+#: blocks/listings/listings.php:37
+msgid "No results with set filters"
+msgstr "Ei tuloksia valituilla suodattimilla"
+
+#: templates/linear-listing.php:144
+msgid "Non-electric heating charge"
+msgstr "Lämmityskustannukset (Muu kuin sähkö € / kk)"
+
+#: includes/class-linear-settings.php:1065
+#: includes/class-linear-settings.php:1242 blocks/listings/listings.php:132
+msgid "None"
+msgstr "Ei mikään"
+
+#: templates/linear-listing.php:54
+msgid "Notes"
+msgstr "Merkinnät"
+
+#: templates/linear-listing.php:95
+msgid "Number of rooms"
+msgstr "Huoneluku"
+
+#: blocks/buy-commissions/buy-commissions.php:62
+#: blocks/listings/listings.php:66
+msgid "Office Space"
+msgstr "Toimistotila"
+
+#: blocks/buy-commissions/buy-commissions.php:68
+#: blocks/listings/listings.php:77
+msgid "Oldest first"
+msgstr "Vanhin ensin"
+
+#: templates/linear-listing.php:213
+msgid "On island"
+msgstr "Saaressa"
+
+#: blocks/buy-commissions/buy-commissions.php:34
+#: blocks/listings/listings.php:36
+#, php-format
+msgid "Oops, error has occurred!<br>If the problem persists, please contact %s"
+msgstr ""
+"Hups, tapahtui virhe. Yritä uudestaan myöhemmin.<br>Jos ongelma jatkuu, ota "
+"yhteyttä %s"
+
+#: includes/class-linear-settings.php:1378
+msgid "Orderby"
+msgstr "Järjestä"
+
+#: blocks/buy-commissions/buy-commissions.php:79
+#: blocks/listings/listings.php:88
+msgid "Ordering options hidden"
+msgstr "Järjestysasetus piilotettu"
+
+#: templates/linear-listing.php:79
+msgid "Other area"
+msgstr "Muu ala"
+
+#: blocks/listings/listings.php:74
+msgid "Other Business Space"
+msgstr "Muu tila"
+
+#: templates/helpers/get_maintenance_charge_value.php:30
+msgid "Other charge"
+msgstr "Muu vastike"
+
+#: templates/linear-listing.php:133
+msgid "Other charge description"
+msgstr "Muun vastikkeen lisätiedot"
+
+#: templates/linear-listing.php:307
+msgid "Other construction materials"
+msgstr "Muut rakennusmateriaalit"
+
+#: includes/class-linear-settings.php:237
+msgid "Other issues"
+msgstr "Muita ongelmia"
+
+#: templates/linear-listing.php:215
+msgid "Other spaces"
+msgstr "Muut tilat"
+
+#: includes/class-linear-settings.php:513
+msgid "Outline color"
+msgstr "Ääriviivan väri"
+
+#: templates/linear-listing.php:212
+msgid "Owned beach line"
+msgstr "Omaa rantaa"
+
+#: templates/linear-listing.php:98
+msgid "Ownership type"
+msgstr "Omistustyyppi"
+
+#: templates/plain-listings.php:19
+msgid "Page"
+msgstr "Sivu"
+
+#: templates/plain-listings.php:21
+msgid "Page %"
+msgstr "Sivu %"
+
+#: includes/class-linear-settings.php:193
+msgid "Page width"
+msgstr "Sivun leveys"
+
+#: blocks/buy-commissions/buy-commissions.php:52
+#: blocks/listings/listings.php:54 blocks/listings/listings.php:127
+msgid "Pairhouse"
+msgstr "Paritalo"
+
+#: templates/linear-listing.php:141
+msgid "Parking charge"
+msgstr "Pysäköintimaksu"
+
+#: templates/linear-listing.php:341
+msgid "Parking garage spaces"
+msgstr "Autohallipaikat"
+
+#: templates/linear-listing.php:342
+msgid "Parking info"
+msgstr "Lisätietoja taloyhtiön autonsäilytys&shy;paikoista"
+
+#: templates/linear-listing.php:226
+msgid "Parking space"
+msgstr "Huoneistoon kuuluu yhtiöjärjestyksen mukaan autopaikka"
+
+#: templates/linear-listing.php:227
+msgid "Parking space info"
+msgstr "Lisätietoja autopaikasta"
+
+#: templates/linear-listing.php:339
+msgid "Parking spaces with electric plug"
+msgstr "Sähköpistoke&shy;paikkoja"
+
+#: templates/linear-listing.php:340
+msgid "Parking yard spaces"
+msgstr "Piha-autopaikkoja"
+
+#: templates/linear-listing.php:320
+msgid "Partner redemption right"
+msgstr "Lunastusoikeus osakkailla"
+
+#: templates/linear-listing.php:375
+msgid "Past renovations"
+msgstr "Tehdyt remontit"
+
+#: includes/class-linear-data-handler.php:636
+msgctxt "per month fee"
+msgid " € / m"
+msgstr "€ / kk"
+
+#: includes/class-linear-data-handler.php:656
+msgctxt "per month fee"
+msgid " € / month"
+msgstr " € / kuukausi"
+
+#: includes/class-linear-data-handler.php:603
+#: includes/class-linear-data-handler.php:607
+msgctxt "per month fees"
+msgid " / m"
+msgstr " / kk"
+
+#: includes/class-linear-data-handler.php:620
+msgctxt "per month fees"
+msgid " € / m"
+msgstr " € / kk"
+
+#: includes/class-linear-data-handler.php:640
+#, fuzzy
+#| msgid " € / m"
+msgctxt "per month per person fee"
+msgid " € / m / person"
+msgstr " € / kk"
+
+#: includes/class-linear-data-handler.php:528
+#| msgid " €/m"
+msgctxt "per month pricing"
+msgid " € / m"
+msgstr " € / kk"
+
+#: includes/class-linear-settings.php:1348
+#: includes/class-linear-settings.php:1541
+msgid "Per page"
+msgstr "Per sivu"
+
+#: includes/class-linear-data-handler.php:648
+#: includes/class-linear-data-handler.php:664
+msgctxt "per time fee"
+msgid " € / time"
+msgstr " € / kerta"
+
+#: includes/class-linear-data-handler.php:652
+msgctxt "per week fee"
+msgid " € / week"
+msgstr " € / viikko"
+
+#: includes/class-linear-data-handler.php:644
+#: includes/class-linear-data-handler.php:660
+msgctxt "per year fee"
+msgid " € / year"
+msgstr " € / vuosi"
+
+#: includes/class-linear-data-handler.php:540
+msgctxt "per year fees"
+msgid " € / year"
+msgstr " € / vuosi"
+
+#: includes/class-linear-settings.php:172
+msgid "Permalink settings"
+msgstr "Osoiterakenteen asetukset"
+
+#: includes/class-linear-admin.php:60
+#, php-format
+msgid "Permalink: %s"
+msgstr "Sivuston osoite: %s"
+
+#: templates/linear-listing.php:237
+msgid "Pets allowed"
+msgstr "Lemmikit sallittu"
+
+#: templates/sections/listing_introduction.php:200
+msgid "Pipe renovation"
+msgstr "Putket remontoitu"
+
+#: includes/class-linear-settings.php:60
+msgid "Please insert your embedable Linear contact form"
+msgstr "Lisää tähän upotettava Linear yhteydenottolomake"
+
+#: includes/class-linear-settings.php:209
+msgid ""
+"Please make sure that the API-URL and API-Key are set as instructed and that "
+"you've agreed to the terms and conditions."
+msgstr ""
+"Varmista että API-URL sekä API-Key on asetettu ohjeistuksen mukaisesti ja "
+"että olet hyväksynyt käyttöehdot."
+
+#: includes/class-linear-settings.php:230
+msgid ""
+"Please make sure that you only use pretty-permalinks as other permalink "
+"formats might cause issues with the Linear plugin."
+msgstr ""
+"Varmista että käytät osoiterakennetta \"Artikkelin nimi\". Muut "
+"osoiterakenteet voivat aiheuttaa yhteensopivuusongelmia Linear lisäosan "
+"kanssa."
+
+#: templates/helpers/get_maintenance_charge_value.php:26
+msgid "Plot rent charge"
+msgstr "Tontin vuokra"
+
+#: blocks/buy-commissions/buy-commissions.php:42
+#: blocks/listings/listings.php:44 blocks/listings/listings.php:122
+msgid "Plots"
+msgstr "Tontit"
+
+#: includes/class-linear-settings.php:183
+msgid "Plugin adjustments"
+msgstr "Lisäosan muokkaus"
+
+#: templates/linear-listing.php:71
+msgid "Postal code"
+msgstr "Postinumero"
+
+#: includes/class-linear-settings.php:162
+msgid "Prerequisites"
+msgstr "Esitiedot"
+
+#: templates/linear-listing.php:44
+msgid "Presentation"
+msgstr "Esittely"
+
+#: templates/linear-listing.php:115
+msgid "Price and cost"
+msgstr "Hinta ja kulut"
+
+#: templates/linear-listing.php:124
+msgid "Price per square meter"
+msgstr "Neliöhinta"
+
+#: blocks/buy-commissions/buy-commissions.php:92
+msgid "Price range"
+msgstr "Hintahaitari"
+
+#: includes/class-linear-settings.php:1475
+msgid "Price range filter lower limit"
+msgstr "Hintasuodattimen alempi raja"
+
+#: includes/class-linear-settings.php:1481
+msgid "Price range filter upper limit"
+msgstr "Hintasuodattimen ylempi raja"
+
+#: blocks/listings/listings.php:115
+msgid "Price range lower value"
+msgstr "Hintasuodattimen alin arvo"
+
+#: blocks/listings/listings.php:114
+msgid "Price range upper value"
+msgstr "Hintasuodattimen ylin arvo"
+
+#: includes/class-linear-settings.php:547
+msgid "Price range-slider lower limit"
+msgstr "Vuokra-suodattimen pienin arvo"
+
+#: includes/class-linear-settings.php:556
+msgid "Price range-slider upper limit"
+msgstr "Hinta-suodattimen suurin arvo"
+
+#: includes/class-linear-settings.php:503
+msgid "Primary color"
+msgstr "Pääväri"
+
+#: blocks/buy-commissions/buy-commissions.php:40
+#: blocks/listings/listings.php:42
+msgid "Product group"
+msgstr "Tuoteryhmä"
+
+#: includes/class-linear-settings.php:1456
+msgid "Product group filter value"
+msgstr "Tuoteryhmän suodattimen arvo"
+
+#: blocks/buy-commissions/buy-commissions.php:64
+#: blocks/listings/listings.php:68
+msgid "Production Space"
+msgstr "Tuotantotila"
+
+#: templates/linear-listing.php:278
+msgid "Property antenna"
+msgstr "Taloyhtiössä antenni"
+
+#: templates/linear-listing.php:216
+msgid "Property buildings"
+msgstr "Muut rakennukset"
+
+#: templates/linear-listing.php:271
+msgid "Property buildings info"
+msgstr "Lisätietoa muista rakennuksista"
+
+#: templates/linear-listing.php:270
+msgid "Property buildings rights"
+msgstr "Rakennusoikeus"
+
+#: templates/linear-listing.php:269
+msgid "Property identifier"
+msgstr "Kiinteistötunnus"
+
+#: templates/linear-listing.php:282
+msgid "Property includes"
+msgstr "Taloyhtiöön/&shy;kiinteistöön kuuluu"
+
+#: templates/linear-listing.php:280
+msgid "Property maintenance by"
+msgstr "Kiinteistön&shy;hoidosta vastaa"
+
+#: templates/linear-listing.php:281
+msgid "Property maintenance info"
+msgstr "Kiinteistönhoidon lisätiedot"
+
+#: templates/linear-listing.php:267
+msgid "Property manager's  certificate date"
+msgstr "Isännöitsijän&shy;todistuksen päivämäärä"
+
+#: templates/linear-listing.php:265
+msgid "Property manager's  email"
+msgstr "Isännöitsijän sähköposti"
+
+#: templates/linear-listing.php:263
+msgid "Property manager's  office"
+msgstr "Isännöitsijän&shy;toimisto"
+
+#: templates/linear-listing.php:264
+msgid "Property manager's  phone"
+msgstr "Isännöitsijän puhelin"
+
+#: templates/linear-listing.php:266
+msgid "Property manager's  post office"
+msgstr "Isännöitsijän postitoimipaikka"
+
+#: templates/linear-listing.php:262
+msgid "Property manager's name"
+msgstr "Isännöitsijän nimi"
+
+#: templates/linear-listing.php:273
+msgid "Property restrictions"
+msgstr "Kiinteistön rajoitteet"
+
+#: templates/linear-listing.php:275
+msgid "Property sewer"
+msgstr "Viemäri"
+
+#: templates/linear-listing.php:151
+msgid "Property tax"
+msgstr "Kiinteistövero"
+
+#: templates/linear-listing.php:268
+msgid "Property type"
+msgstr "Kiinteistön tyyppi"
+
+#: templates/linear-listing.php:274
+msgid "Property water pipe"
+msgstr "Vesijohto"
+
+#: blocks/buy-commissions/buy-commissions.php:88
+msgctxt "r as short for room"
+msgid "r"
+msgstr "h"
+
+#: blocks/buy-commissions/buy-commissions.php:74
+#: blocks/listings/listings.php:83
+msgid "Range filters hidden"
+msgstr "Liukusäädin-suodattimet piilotettu"
+
+#: includes/class-linear-settings.php:1372
+#: includes/class-linear-settings.php:1565
+msgid "Range sliders"
+msgstr "Liukusäätimet"
+
+#: includes/class-linear-settings.php:226
+msgid "Re-save permalink settings"
+msgstr "Uudelleentallenna osoiterakenteen asetukset"
+
+#: templates/linear-listing.php:254
+msgid "Real estate"
+msgstr "Kiinteistö"
+
+#: includes/class-linear-settings.php:1468
+msgid "Realtors filterer"
+msgstr "Välittäjien suodatus"
+
+#: templates/linear-listing.php:96
+msgid "Release"
+msgstr "Vapautuminen"
+
+#: templates/linear-listing.php:97
+msgid "Release info"
+msgstr "Lisätietoa vapautumisesta"
+
+#: includes/class-linear-settings.php:993
+#: includes/class-linear-settings.php:1001
+msgid "Remove image"
+msgstr "Poista kuva"
+
+#: templates/helpers/get_maintenance_charge_value.php:22
+msgid "Renovation charge"
+msgstr "Korjausvastike"
+
+#: blocks/listings/listings.php:131
+msgid "Rent"
+msgstr "Vuokra"
+
+#: blocks/listings/listings.php:96
+msgid "Rent commissions"
+msgstr "Vuokrakohteet"
+
+#: includes/class-linear-settings.php:1487
+msgid "Rent range filter lower limit"
+msgstr "Vuokrasuodattimen alempi raja"
+
+#: includes/class-linear-settings.php:1493
+#: includes/class-linear-settings.php:1505
+msgid "Rent range filter upper limit"
+msgstr "Vuokrasuodattimen ylempi raja"
+
+#: blocks/listings/listings.php:117
+msgid "Rent range lower value"
+msgstr "Vuokrasuodattimen alin arvo"
+
+#: blocks/listings/listings.php:116
+msgid "Rent range upper value"
+msgstr "Vuokrasuodattimen ylin arvo"
+
+#: includes/class-linear-settings.php:565
+msgid "Rent range-slider lower limit"
+msgstr "Vuokra-suodattimen pienin arvo"
+
+#: includes/class-linear-settings.php:574
+msgid "Rent range-slider upper limit"
+msgstr "Vuokra-suodattimen suurin arvo"
+
+#: templates/components/text_rent_updated.php:32
+#, php-format
+msgid "Rent will be updated to %s on %s."
+msgstr "%s alkaen kuitenkin %s."
+
+#: templates/linear-listing.php:90
+msgid "Rental contract type"
+msgstr "Vuokrasopimus on"
+
+#: includes/class-linear-settings.php:620
+#: includes/class-linear-settings.php:657
+msgid "Rentals page"
+msgstr "Vuokrakohteiden sivu"
+
+#: includes/class-linear-settings.php:187
+msgid "Rentals, Business premises and Buy commissions"
+msgstr "Vuokra- ja liiketilat sekä ostotoimeksiannot"
+
+#: includes/class-linear-admin.php:53
+msgid "Requesting new Linear API credentials"
+msgstr "Pyyntö uusien API-tunnistetietojen saamiseksi"
+
+#: includes/class-linear-admin.php:51
+#, php-format
+msgid "Requesting new Linear API credentials for %s"
+msgstr "Pyydän uusia API-tunnistetietoja sivustolle %s"
+
+#: blocks/buy-commissions/buy-commissions.php:71
+#: blocks/listings/listings.php:80
+msgid "Reset filters"
+msgstr "Tyhjennä suodattimet"
+
+#: includes/class-linear-settings.php:301
+msgid "Reset Linear transients"
+msgstr "Tyhjennä Linear transient välimuisti"
+
+#: includes/class-linear-settings.php:303
+msgid "Reset Transient Cache"
+msgstr "Tyhjennä lisäosan transient-välimuisti"
+
+#: includes/class-linear-settings.php:689
+msgid "Reset transients"
+msgstr "Tyhjennä transient-välimuisti"
+
+#: includes/class-linear-settings.php:263
+msgid "REST-API"
+msgstr "REST-API"
+
+#: includes/class-linear-settings.php:1600
+msgid "REST-API usage:"
+msgstr "REST-API käyttö:"
+
+#: blocks/listings/listings.php:70
+msgid "Restaurant Space"
+msgstr "Ravintolatila"
+
+#: templates/linear-listing.php:221
+msgid "Restrictions"
+msgstr "Käyttö / luovutusrajoitukset"
+
+#: templates/linear-listing.php:146
+msgid "Road maintenance charge"
+msgstr "Tienhoito"
+
+#: templates/linear-listing.php:220
+msgid "Road to"
+msgstr "Tie perille"
+
+#: templates/linear-listing.php:305
+msgid "Road tolls"
+msgstr "Tiemaksut (€ / vuosi)"
+
+#: templates/linear-listing.php:311
+msgid "Roof condition"
+msgstr "Katon kunto"
+
+#: templates/linear-listing.php:312
+msgid "Roof type"
+msgstr "Kattotyyppi"
+
+#: templates/linear-listing.php:313
+msgid "Roofing material"
+msgstr "Katemateriaali"
+
+#: blocks/buy-commissions/buy-commissions.php:47
+#: blocks/listings/listings.php:49
+msgid "room"
+msgstr "huone"
+
+#: blocks/buy-commissions/buy-commissions.php:46
+#: blocks/listings/listings.php:48
+msgid "Room count"
+msgstr "Huoneiden määrä"
+
+#: includes/class-linear-templater.php:745
+#: blocks/buy-commissions/buy-commissions.php:48
+#: blocks/listings/listings.php:50
+msgid "rooms"
+msgstr "huonetta"
+
+#: includes/class-linear-data-handler.php:112
+msgctxt "Rooms info for listing"
+msgid "room"
+msgid_plural "rooms"
+msgstr[0] "huone"
+msgstr[1] "huonetta"
+
+#: blocks/buy-commissions/buy-commissions.php:51
+#: blocks/listings/listings.php:53 blocks/listings/listings.php:126
+msgid "Rowhouse"
+msgstr "Rivitalo"
+
+#: blocks/listings/listings.php:95
+msgid "Sales commissions"
+msgstr "Myyntikohteet"
+
+#: templates/linear-listing.php:149
+msgid "Sanitation charge"
+msgstr "Puhtaanapito"
+
+#: templates/linear-listing.php:218
+msgid "Satellite antenna"
+msgstr "Satelliitti"
+
+#: templates/linear-listing.php:150
+msgid "Satellite cable TV charge"
+msgstr "Satelliittiantenni / kaapeli-TV (€/kk)"
+
+#: templates/linear-listing.php:189
+#: blocks/buy-commissions/buy-commissions.php:54
+#: blocks/listings/listings.php:56
+msgid "Sauna"
+msgstr "Sauna"
+
+#: templates/linear-listing.php:138
+msgid "Sauna charge"
+msgstr "Saunamaksu"
+
+#: templates/linear-listing.php:191
+msgid "Sauna description"
+msgstr "Saunan kuvaus"
+
+#: templates/linear-listing.php:190
+msgid "Sauna stove type"
+msgstr "Saunan kiuastyyppi"
+
+#: templates/linear-listing.php:337
+msgid "Schools"
+msgstr "Koulut"
+
+#: blocks/buy-commissions/buy-commissions.php:94
+#: blocks/listings/listings.php:93
+msgid "Search"
+msgstr "Haku"
+
+#: blocks/buy-commissions/buy-commissions.php:98
+#: blocks/listings/listings.php:134
+msgid "Search by location or postal code"
+msgstr "Alue tai postinumero"
+
+#: includes/class-linear-settings.php:1580
+msgid "Search field value"
+msgstr "Hakukentän arvo"
+
+#: includes/class-linear-settings.php:1450
+msgid "Search filter value"
+msgstr "Hakukentän arvo"
+
+#: templates/linear-listing.php:121
+#: templates/sections/listing_introduction.php:158
+msgid "Security deposit"
+msgstr "Vuokravakuus"
+
+#: includes/class-linear-settings.php:410
+msgid "Select contact method"
+msgstr "Valitse yhteydenottotapa"
+
+#: includes/class-linear-settings.php:538
+msgid "Select render method"
+msgstr "Valitse renderöintitapa"
+
+#: blocks/listings/listings.php:130
+msgid "Sell"
+msgstr "Myynti"
+
+#: templates/linear-listing.php:119
+msgid "Selling price"
+msgstr "Myyntihinta"
+
+#: blocks/buy-commissions/buy-commissions.php:86
+msgid "Semi-detached house"
+msgstr "Paritalo"
+
+#: templates/linear-listing.php:336
+msgid "Services"
+msgstr "Palvelut"
+
+#: blocks/listings/listings.php:64
+msgid "Set filter maximum area"
+msgstr "Aseta suodattimen maksimikoko"
+
+#: blocks/buy-commissions/buy-commissions.php:58
+#: blocks/listings/listings.php:60
+msgid "Set filter maximum price"
+msgstr "Aseta arvo suodattimelle maksimihinta"
+
+#: blocks/buy-commissions/buy-commissions.php:60
+#: blocks/listings/listings.php:62
+msgid "Set filter maximum rent"
+msgstr "Aseta arvo suodatimelle maksimivuokra"
+
+#: blocks/listings/listings.php:63
+msgid "Set filter minimum area"
+msgstr "Aseta suodattimen minimikoko"
+
+#: blocks/buy-commissions/buy-commissions.php:57
+#: blocks/listings/listings.php:59
+msgid "Set filter minimum price"
+msgstr "Aseta arvo suodattimelle minimihinta"
+
+#: blocks/buy-commissions/buy-commissions.php:59
+#: blocks/listings/listings.php:61
+msgid "Set filter minimum rent"
+msgstr "Aseta arvo suodatimelle minimivuokra"
+
+#: includes/class-linear-settings.php:77 includes/class-linear-settings.php:78
+#: includes/class-linear-settings.php:360
+msgid "Settings"
+msgstr "Asetukset"
+
+#: templates/linear-listing.php:277
+msgid "Sewer info"
+msgstr "Lisätietoja viemäristä"
+
+#: templates/components/share_links.php:14
+msgid "Share this on Facebook"
+msgstr "Jaa Facebookissa"
+
+#: templates/components/share_links.php:18
+msgid "Share this on LinkedIn"
+msgstr "Jaa LinkedInissä"
+
+#: templates/components/share_links.php:22
+msgid "Share this on WhatsApp"
+msgstr "Jaa WhatsAppissa"
+
+#: templates/sections/listing_actions.php:84
+msgctxt "Share to a friend"
+msgid "Share to a friend"
+msgstr "Jaa ystävälle"
+
+#: includes/class-linear-settings.php:1262
+msgid "Shortcode"
+msgstr "Lyhytkoodi"
+
+#: includes/class-linear-settings.php:257
+#: includes/class-linear-settings.php:1285
+msgid "Shortcodes"
+msgstr "Lyhytkoodit"
+
+#: blocks/buy-commissions/buy-commissions.php:77
+#: blocks/listings/listings.php:86
+msgid "Show 'Sort by' ordering"
+msgstr "Näytä 'Järjestä' asetus"
+
+#: blocks/buy-commissions/buy-commissions.php:72
+#: blocks/listings/listings.php:81
+msgid "Show additional range filters eg. price"
+msgstr "Näytä lisäsuodattimet mm. hinnan ja vuokran suodattimet"
+
+#: blocks/listings/listings.php:129
+msgid "Show all"
+msgstr "Näytä kaikki"
+
+#: blocks/listings/listings.php:107
+msgid "Show area range"
+msgstr "Näytä koko-suodatin"
+
+#: includes/class-linear-settings.php:1432
+msgid "Show area range filter"
+msgstr "Näytä koon suodatin"
+
+#: blocks/listings/listings.php:104
+msgid "Show business listing type"
+msgstr "Näytä liiketilan listaustyyppi"
+
+#: includes/class-linear-settings.php:1420
+msgid "Show business listing type filter"
+msgstr "Näytä liiketilan tyypin suodatin"
+
+#: blocks/buy-commissions/buy-commissions.php:37
+msgid "Show commission filters"
+msgstr "Näytä ostotoimeksiantojen suodattimet"
+
+#: blocks/listings/listings.php:99
+msgid "Show commission type"
+msgstr "Näytä kommissiotyyppi"
+
+#: includes/class-linear-settings.php:1384
+#, fuzzy
+#| msgid "Show commission type field"
+msgid "Show commission type filter"
+msgstr "Näytä provisiotyyppin kenttä"
+
+#: blocks/buy-commissions/buy-commissions.php:69
+#: blocks/listings/listings.php:78
+msgid "Show filters"
+msgstr "Näytä suodattimet"
+
+#: blocks/listings/listings.php:39
+msgid "Show listing filters"
+msgstr "Näytä listauksen suodattimet"
+
+#: blocks/listings/listings.php:102
+msgid "Show listing type"
+msgstr "Näytä listaustyyppi"
+
+#: includes/class-linear-settings.php:1408
+msgid "Show listing type filter"
+msgstr "Näytä listaustyypin suodatin"
+
+#: blocks/listings/listings.php:105
+msgid "Show price range"
+msgstr "Näytä hintahaitari"
+
+#: includes/class-linear-settings.php:1426
+msgid "Show price range filter"
+msgstr "Näytä hintasuodatin"
+
+#: blocks/listings/listings.php:100
+msgid "Show product group"
+msgstr "Näytä tuoteryhmä"
+
+#: includes/class-linear-settings.php:1396
+msgid "Show product group filter"
+msgstr "Näytä tuoteryhmäsuodatin"
+
+#: blocks/listings/listings.php:106
+msgid "Show rent range"
+msgstr "Näytä vuokrahaitari"
+
+#: includes/class-linear-settings.php:1438
+msgid "Show rent range filter"
+msgstr "Näytä vuokrasuodatin"
+
+#: blocks/listings/listings.php:101
+msgid "Show room count"
+msgstr "Näytä huonelukumäärä"
+
+#: includes/class-linear-settings.php:1402
+msgid "Show room count filter"
+msgstr "Näytä huonelukumäärän suodatin"
+
+#: includes/class-linear-settings.php:1571
+#: blocks/buy-commissions/buy-commissions.php:95
+#: blocks/listings/listings.php:97
+msgid "Show search field"
+msgstr "Näytä hakukenttä"
+
+#: includes/class-linear-settings.php:1390
+msgid "Show search filter"
+msgstr "Näytä hakusuodatin"
+
+#: blocks/listings/listings.php:103
+msgid "Show specifications"
+msgstr "Näytä ominaisuudet"
+
+#: includes/class-linear-settings.php:1414
+msgid "Show specifications filter"
+msgstr "Näytä ominaisuuksien suodatin"
+
+#: blocks/buy-commissions/buy-commissions.php:32
+#: blocks/listings/listings.php:34
+msgid "Showing \"Load more\"-button"
+msgstr "Näytä \"Lataa lisää\"-painike"
+
+#: blocks/buy-commissions/buy-commissions.php:38
+#: blocks/listings/listings.php:40
+msgid "Showing filters"
+msgstr "Näytetään suodattimet"
+
+#: blocks/buy-commissions/buy-commissions.php:78
+#: blocks/listings/listings.php:87
+msgid "Showing ordering options"
+msgstr "Näytä järjestämisen asetukset"
+
+#: blocks/buy-commissions/buy-commissions.php:73
+#: blocks/listings/listings.php:82
+msgid "Showing range filters"
+msgstr "Näytetään likusäädinsuodattimet"
+
+#: includes/class-linear-settings.php:169
+msgid "Sign up to Linear"
+msgstr "Rekisteröidy Lineariin"
+
+#: includes/class-linear-settings.php:1516
+msgid "Simple buy commissions example:"
+msgstr "Yksinkertainen ostotoimeksiantojen esimerkki:"
+
+#: includes/class-linear-settings.php:1294
+msgid "Simple listing example:"
+msgstr "Yksinkertainen listausten esimerkki:"
+
+#: includes/class-linear-admin.php:59
+#, php-format
+msgid "Sitename: %s"
+msgstr "Sivuston nimi: %s"
+
+#: blocks/buy-commissions/buy-commissions.php:91
+msgid "Size"
+msgstr "Koko"
+
+#: templates/linear-listing.php:241
+msgid "Smoking allowed"
+msgstr "Tupakointi sallittu"
+
+#: includes/class-linear-settings.php:508
+msgid "Solid color"
+msgstr "Kiinteä väri"
+
+#: includes/class-linear-settings.php:1373
+msgid ""
+"Some filterings support range sliders for eg. price or rent. You can decide "
+"if you want to show these or not. Requires that filters are used! Default is "
+"\"true\""
+msgstr ""
+"Jotkut suodatukset tukevat liukusäätimiä esim hinnan tai vuokran "
+"suodatukseen. Voit päättää haluatko käyttää näitä vai ei. Vaatii että "
+"suodattimet näytetään! Oletus on \"true\""
+
+#: includes/class-linear-settings.php:1566
+msgid ""
+"Some filterings support range sliders for eg. price. You can decide if you "
+"want to show these or not. Requires that filters are used! Default is "
+"\"true\""
+msgstr ""
+"Jotkut suodatukset tukevat liukusäätimiä esim hinnan suodatukseen. Voit "
+"päättää haluatko käyttää näitä vai ei. Vaatii että suodattimet näytetään! "
+"Oletus on \"true\""
+
+#: includes/class-linear-settings.php:302
+msgid ""
+"Sometimes the listings data isnt updated. This might be due to some caching "
+"plugins. As a temporary solution, reseting the plugin transient cache might "
+"resolve the issue for the moment."
+msgstr ""
+"Joskus listauksien tiedot eivät päivity. Tämä voi johtua välimuistin "
+"käytöstä johtuvista ongelmista. Väliaikaisena ratkaisuna voit nollata "
+"liitännäisen väliaikaisen välimuistin, mikä saattaa hetkellisesti korjata "
+"ongelman."
+
+#: blocks/buy-commissions/buy-commissions.php:66
+#: blocks/listings/listings.php:75
+msgid "Sort"
+msgstr "Järjestä"
+
+#: templates/linear-listing.php:188
+msgid "Storage description"
+msgstr "Säilytystilojen kuvaus"
+
+#: blocks/buy-commissions/buy-commissions.php:65
+#: blocks/listings/listings.php:69
+msgid "Storage Space House"
+msgstr "Varastotila"
+
+#: templates/linear-listing.php:166
+msgid "Stove"
+msgstr "Liesi"
+
+#: includes/class-linear-settings.php:1339
+#: includes/class-linear-settings.php:1537
+msgid "Supported arguments:"
+msgstr "Tuetut arvot:"
+
+#: templates/linear-listing.php:343
+msgid "Telecommunications system"
+msgstr "Kiinteistön tietoliikennejärjestelmä"
+
+#: templates/linear-listing.php:276
+msgid "Tenant is responsible for"
+msgstr "Vuokralainen on vastuussa"
+
+#: includes/class-linear-settings.php:402
+msgid "Terms of service"
+msgstr "Tietosuojaseloste"
+
+#: includes/class-linear-settings.php:1187
+msgid "terms of service"
+msgstr "käyttöehdot"
+
+#: templates/linear-listing.php:208
+msgid "Terrace"
+msgstr "Terassi"
+
+#: blocks/buy-commissions/buy-commissions.php:85
+msgid "Terraced House"
+msgstr "Rivitalo"
+
+#: templates/helpers/get_area_basis_value.php:27
+msgid ""
+"The area is not checked and the actual area may be larger or smaller than "
+"stated."
+msgstr ""
+"Pinta-ala ei ole tarkistusmitattu ja todellinen pinta-ala voi olla suurempi "
+"tai pienempi, kuin ilmoitettu."
+
+#: includes/class-linear-settings.php:1725
+msgid ""
+"The Linear plugin adds additional classes to several elements so that you "
+"can more easily target them"
+msgstr ""
+"Linear lisäosaa lisää ylimääräisiä luokkia useaan elementtiin jotta voit "
+"kohdistaa näihin omia tyylejä helpommin"
+
+#: includes/class-linear-settings.php:1772
+msgid ""
+"The Linear plugin adds WordPress hooks in different parts of the content so "
+"that you can include your own custom solutions easily."
+msgstr ""
+"Linear lisäosa lisää useamman WordPress hooking sisällön eri kohtiin jotta "
+"voit itse lisätä räätälöityä sisältöä haluamasi kohtiin helposti."
+
+#: includes/class-linear-settings.php:253
+msgid ""
+"The Linear plugin contains quite a bit of logic under the hood and provides "
+"ease of access to its features."
+msgstr ""
+"Linear lisäosa sisältää eri toiminnallisuuksia ja tuo nämä helposti "
+"käyttäjien saataville."
+
+#: includes/class-linear-settings.php:1601
+msgid ""
+"The Linear plugin exposes a few rest endpoints which allow you to fetch "
+"listings. The plugin handles everything with fetching the data and saving it "
+"in a transient so that you don't have to worry about that."
+msgstr ""
+"Linear lisäosa tuo käyttöön muutaman rajapinnan päätepisteen joilla voit "
+"hakea listauksia. Tämä lisäosa hallinnoi kaiken listausten hausta niiden "
+"väliaikaiseen tallennukseen jotta sinun ei tarvitsisi miettiä sitä."
+
+#: includes/class-linear-settings.php:157
+msgid ""
+"The Linear plugin is used to list apartments, rentals, business premises and "
+"buy-commissions on your site with ease. \n"
+"\t\t\t\tSet your credentials and make sure you have a set listings-page and "
+"you are set to go."
+msgstr ""
+"Linear lisäosalla listataan kohteita, vuokrakohteita, toimitiloja sekä "
+"ostotoimeksiantoja sivustollasi vaivatta.\n"
+"\t\t\t\tAseta tunnuksesi ja varmista että sinulla on listaussivu valittuna "
+"niin listauksia pitäisi jo näkyä."
+
+#: includes/class-linear-settings.php:203
+msgid "The listings are not visible"
+msgstr "Kohdelistausta ei näy"
+
+#: includes/class-linear-settings.php:214
+msgid "The listings-page is set but I can't see any listings?"
+msgstr "Listaussivu on asetettu mutta en näe lainkaan kohteita?"
+
+#: includes/class-linear-settings.php:1355
+#: includes/class-linear-settings.php:1548
+msgid ""
+"The options to enable/disable the \"Load more\"-button. Default is \"true\""
+msgstr ""
+"Asetus näyttämään tai piilottamaan \"Lataa lisää\"-painikkeen. Oletus on "
+"\"true\""
+
+#: includes/class-linear-settings.php:1542
+msgid ""
+"The per page indicates how many buy commissions we want to show, and how "
+"many more are shown upon \"Load more\"-button click. Default is \"8\""
+msgstr ""
+"Per sivu-asetuksella voit määrittää kuinka monta ostotoimeksiantoa haluat "
+"näyttää, ja kuinka monta lisää näytetään aina kun painetaan \"Lataa-lisää\"-"
+"painiketta. Oletus on \"8\""
+
+#: includes/class-linear-settings.php:1349
+msgid ""
+"The per page indicates how many listings we want to show, and how many more "
+"are shown upon \"Load more\"-button click. Default is \"8\""
+msgstr ""
+"Per sivu-asetuksella voit määrittää kuinka monta listausta haluat näyttää, "
+"ja kuinka monta lisää näytetään aina kun painetaan \"Lataa-lisää\"-"
+"painiketta. Oletus on \"8\""
+
+#: includes/class-linear-settings.php:1289
+#, fuzzy
+#| msgid ""
+#| "The shortcodes support some additional settings which affect how it is "
+#| "displayed."
+msgid ""
+"The shortcodes support some additional settings which affect how the listing "
+"is displayed."
+msgstr ""
+"Lyhytkoodit tukevat lisäasetuksia joilla voit vaikuttaa siihen mitä "
+"näytetään."
+
+#: includes/class-linear-settings.php:1343
+msgid ""
+"The type indicates if we want to show apartment, rentals or business "
+"premises. Default is \"all\""
+msgstr ""
+"Tyypillä voit määrittää halutaanko näyttää asuntoja, vuokrakohteita tai "
+"liiketiloja. Oletus on \"all\""
+
+#: includes/class-linear-settings.php:1758
+msgid ""
+"There are also some other classes for your use. We try to not remove any CSS "
+"filters unless there is a major rework so you should be quite safe using "
+"them. Please use dev tools to investigate what potential classes you can use,"
+" those which have no set CSS-values are most likely meant as entry points "
+"for your custom styles."
+msgstr ""
+"Esimerkkien lisäksi on muitakin luokkia mitä voit käyttää. Koitamme välttää "
+"Linear lisäosan kehityksessä CSS-luokkia ellei tapahdu jokin iso "
+"takaisinyhteensopivuuden rikkova päivitys mikä vaatii sisällön "
+"uudelleenstrukturointia. Voit käyttää selaimesi kehitystyökaluja löytääksesi "
+"potentiaalisia luokkia jotka eivät lisää CSS-tyylejä omaan käyttöösi."
+
+#: includes/class-linear-settings.php:205
+msgid ""
+"There are several reasons why this could happen, please check these steps in "
+"order and you should get the listings visible:"
+msgstr ""
+"On useita syitä miksi näin tapahtuisi, tarkista nämä asiat järjestyksessä "
+"niin listauksen pitäisi alkaa näkymään:"
+
+#: includes/class-linear-settings.php:1870
+msgid "There was nothing to remove from the cache."
+msgstr "Välimuistista ei ollut mitään poistettavaa."
+
+#: includes/class-linear-settings.php:189
+msgid ""
+"These are not set automatically but can be set manually. E.g. to have a "
+"separate rentals page you need first to create a new Page (lets call it "
+"\"Rentals\"). \n"
+"\t\t\t\tOnce that is done, you can choose in the Linear plugin settings the "
+"page that should be used for rentals, and you choose the page you just "
+"created. "
+msgstr ""
+"Näitä ei ole asetettu automaattisesti mutta voit itse asettaa nämä "
+"halutessasi. Esim. Jos haluat erillisen vuokrakohteiden listaussivun, sinun "
+"tulee ensiksi luoda uusi sivu (laitetaan sivun nimeksi vaikka "
+"\"Vuokrakohteet\"). \n"
+"\t\t\t\tKun sivu on luotu, voit valita Linear-lisäosan asetuksista kyseisen "
+"sivun olemaan vuokrakohteiden sivu."
+
+#: includes/class-linear-settings.php:1288
+msgid ""
+"This is handy for sites which are not using the Gutenberg editor as the "
+"various listings can be also utilized with Shortcodes."
+msgstr ""
+"Tämä on kätevää sivustoille jotka eivät käytä Gutenberg-editoria koska "
+"erinäiset listaukset voidaan tuoda myös lyhytkoodeilla (shortcodes)."
+
+#: templates/components/realtor.php:138
+#| msgid "This %s is rented by"
+msgid "This listing is rented by"
+msgstr "Tätä kohdetta vuokraa"
+
+#: templates/components/realtor.php:136
+msgid "This listing is sold by"
+msgstr "Tätä kohdetta myy"
+
+#: includes/class-linear-settings.php:286
+msgid ""
+"This page is experimental and is meant to help debug certain issues with the "
+"plugin."
+msgstr ""
+"Tämä sivu on kokeellinen ja sen tarkoituksena on auttaa vianmäärityksessä ja "
+"ongelmien ratkaisemisessa liittyen lisäosaan."
+
+#: templates/linear-listing.php:81
+msgid "Total area"
+msgstr "Kokonaispinta-ala"
+
+#: templates/linear-listing.php:333
+msgid "Traffic connections"
+msgstr "Liikenneyhteydet"
+
+#: templates/linear-listing.php:334
+msgid "Traffic info"
+msgstr "Lisätietoja liikenneyhteyksistä"
+
+#: includes/class-linear-settings.php:200
+msgid "Troubleshooting"
+msgstr "Ongelmienratkonta"
+
+#: includes/class-linear-settings.php:1342
+#: blocks/buy-commissions/buy-commissions.php:90
+#: templates/sections/listing_introduction.php:115
+msgid "Type"
+msgstr "Tyyppi"
+
+#: templates/components/realtor.php:96 templates/components/realtor.php:101
+msgctxt "type name in realtor-block"
+msgid "apartment"
+msgstr "asunto"
+
+#: templates/components/realtor.php:125
+msgctxt "type name in realtor-block"
+msgid "business premise"
+msgstr "liiketila"
+
+#: templates/components/realtor.php:105
+msgctxt "type name in realtor-block"
+msgid "farm"
+msgstr "maatila"
+
+#: templates/components/realtor.php:113
+msgctxt "type name in realtor-block"
+msgid "garage"
+msgstr "autopaikka"
+
+#: templates/components/realtor.php:117
+msgctxt "type name in realtor-block"
+msgid "new building"
+msgstr "uudisrakennus"
+
+#: templates/components/realtor.php:109
+msgctxt "type name in realtor-block"
+msgid "plot"
+msgstr "tontti"
+
+#: templates/components/realtor.php:121
+msgctxt "type name in realtor-block"
+msgid "vacation apartment"
+msgstr "loma-asunto"
+
+#: blocks/buy-commissions/buy-commissions.php:76
+#: blocks/listings/listings.php:85
+msgid ""
+"Unfortunately there are currently no results to show. Come back later to see "
+"if any have been added!"
+msgstr ""
+"Valitettavasti emme löytäneet yhtään tulosta. Tule takaisin myöhemmin "
+"nähdäksesi josko tuloksia olisi silloin lisätty!"
+
+#: blocks/buy-commissions/buy-commissions.php:36
+#: blocks/listings/listings.php:38
+msgid ""
+"Unfortunately we couldn't find any results with these filters. Please adjust "
+"your filters or reset them all together."
+msgstr ""
+"Valitettavasti emme löytäneet yhtään tulosta asetetuilla suodattimilla. "
+"Rajaa suodattimia tai tyhjennä ne kokonaan."
+
+#: includes/class-linear-data-handler.php:196
+#: includes/class-linear-data-handler.php:197
+#: includes/class-linear-data-handler.php:198
+#: includes/class-linear-data-handler.php:199
+#: includes/class-linear-data-handler.php:200
+msgid "units"
+msgstr "kpl"
+
+#: templates/linear-listing.php:385
+msgid "Upcoming renovations"
+msgstr "Tulevat remontit"
+
+#: includes/class-linear-settings.php:55
+msgid "Update your API credentials"
+msgstr "Päiviä API-tietosi"
+
+#: includes/class-linear-settings.php:999
+msgid "Upload image"
+msgstr "Lataa kuva"
+
+#: includes/class-linear-settings.php:179
+msgid ""
+"Upon activating this plugin, we have created a listings page for you. If you "
+"want a sub-page to be the page for listings, you can change this in Linear "
+"settings."
+msgstr ""
+"Lisäosan aktivoinnin yhteydessä olemme luonut kohteiden listaussivun sinulle."
+" Jos haluat käyttää jotain alasivua listauksille, voit vaihtaa listaussivua "
+"Linear-lisäosan asetuksista."
+
+#: includes/class-linear-settings.php:455
+msgid "Use theme fonts"
+msgstr "Käytä Wordpress-teemasi mukaisia fontteja"
+
+#: templates/helpers/get_area_basis_value.php:16
+msgctxt "Used in \"measured by\" context"
+msgid "by"
+msgstr "toimesta"
+
+#: templates/helpers/get_area_basis_value.php:20
+msgctxt "Used in \"on date\" context before date"
+msgid "on"
+msgstr "&#8203;"
+
+#: templates/linear-listing.php:184
+msgid "Utility room"
+msgstr "Kodinhoitohuoneen kuvaus"
+
+#: templates/linear-listing.php:187
+msgid "Utility room equipment"
+msgstr "Kodinhoitohuoneen varusteet"
+
+#: templates/linear-listing.php:186
+msgid "Utility room floor material"
+msgstr "Kodinhoitohuoneen lattiamateriaali"
+
+#: templates/linear-listing.php:185
+msgid "Utility room wall material"
+msgstr "Kodinhoitohuoneen seinämateriaali"
+
+#: blocks/buy-commissions/buy-commissions.php:45
+#: blocks/listings/listings.php:47
+msgid "Vacation Apartment"
+msgstr "Loma-asunnot"
+
+#: templates/linear-listing.php:310
+msgid "Ventilation"
+msgstr "Ilmanvaihto"
+
+#: templates/helpers/get_area_basis_value.php:24
+msgid "Verification and measurement"
+msgstr "Tarkistusmitattu"
+
+#: templates/linear-listing.php:205
+msgid "View"
+msgstr "Näkymät"
+
+#: templates/sections/listing_image-carousel.php:67
+msgid "Virtual tour"
+msgstr "Virtuaaliesittely"
+
+#: templates/linear-listing.php:148
+msgid "Water and sewage charge"
+msgstr "Vesi- ja jätevesimaksu"
+
+#: templates/linear-listing.php:135
+#: templates/sections/listing_introduction.php:167
+msgid "Water charge"
+msgstr "Vesimaksu"
+
+#: templates/linear-listing.php:219
+msgid "Water pipes info"
+msgstr "Lisätietoja vesiputkesta"
+
+#: templates/linear-listing.php:181
+msgid "WC"
+msgstr "WC"
+
+#: templates/linear-listing.php:183
+msgid "WC floor material"
+msgstr "WC:n lattiamateriaali"
+
+#: templates/linear-listing.php:182
+msgid "WC wall material"
+msgstr "WC:n seinämateriaali"
+
+#: includes/class-linear-settings.php:154
+msgid "What Linear plugin is for"
+msgstr "Yleistä Linear lisäosasta"
+
+#: includes/class-linear-settings.php:229
+msgid "What permalink settings are you using?"
+msgstr "Mitkä ovat osoiterakenteen asetuksesi?"
+
+#: templates/linear-listing.php:204
+msgid "Yard"
+msgstr "Piha"
+
+#: templates/linear-listing.php:92
+#: templates/sections/listing_introduction.php:126
+msgid "Year of construction"
+msgstr "Rakennusvuosi"
+
+#: templates/linear-listing.php:93
+msgid "Year of deployment"
+msgstr "Käyttöönottovuosi"
+
+#: includes/class-linear-settings.php:1287
+#, fuzzy
+#| msgid ""
+#| "You can add listings according to your own liking wherever you want on "
+#| "the site with the help of shortcodes."
+msgid ""
+"You can add listings and buy commissions according to your own liking "
+"wherever you want on the site with the help of shortcodes."
+msgstr ""
+"Voit lisätä listauksia oman mielesi mukaan minne tahansa sivustolle "
+"lyhytkoodien avulla."
+
+#: includes/class-linear-settings.php:1691
+msgid "You can also access the same data via WordPress filters."
+msgstr ""
+"Pääset kiinni samaan dataan käyttämällä WordPressin suodattimia (filters)."
+
+#: includes/class-linear-settings.php:1385
+msgid ""
+"You can choose if you want the commission type filter to be shown or not. "
+"Default is true aka. \"true\""
+msgstr ""
+"Voit määrittää haluatko näyttää provisiotyypin suodattimen. Oletus on kyllä "
+"eli \"true\""
+
+#: includes/class-linear-settings.php:1379
+msgid ""
+"You can chose if you want ordering option displayed. Default is true aka. "
+"\"true\""
+msgstr ""
+"Voit valita haluat näyttää tai piilottaa järjestys-painikkeen. Oletus on "
+"\"true\" eli painike näytetään."
+
+#: includes/class-linear-settings.php:1560
+msgid ""
+"You can chose if you want to show or hide the filters for the buy "
+"commissions. Default is \"true\""
+msgstr ""
+"Voit määrittää haluatko näyttää vai piilottaa suodattimet "
+"ostotoimeksiannoille. Oletus on \"true\""
+
+#: includes/class-linear-settings.php:1367
+msgid ""
+"You can chose if you want to show or hide the filters for the listing. "
+"Default is \"true\""
+msgstr ""
+"Voit määrittää haluatko näyttää vai piilottaa suodattimet listaukselle. "
+"Oletus on \"true\""
+
+#: includes/class-linear-settings.php:1433
+msgid ""
+"You can decide if you want to hide or show the area range filter. Default is "
+"\"false\" meaning it is shown."
+msgstr ""
+"Voit valita haluat näyttää tai piilottaa kokosuodattimen. Oletus on \"true\" "
+"eli suodatin näytetään."
+
+#: includes/class-linear-settings.php:1421
+msgid ""
+"You can decide if you want to hide or show the business listing type filter. "
+"Default is \"true\" meaning it is shown."
+msgstr ""
+"Voit valita haluat näyttää tai piilottaa liiketilan tyypin suodattimen. "
+"Oletus on \"true\" eli suodatin näytetään."
+
+#: includes/class-linear-settings.php:1409
+msgid ""
+"You can decide if you want to hide or show the listing type filter. Default "
+"is \"true\" meaning it is shown."
+msgstr ""
+"Voit valita haluat näyttää tai piilottaa listaustyypin suodattimen. Oletus "
+"on \"true\" eli suodatin näytetään."
+
+#: includes/class-linear-settings.php:1439
+msgid ""
+"You can decide if you want to hide or show the price range filter. Default "
+"is \"true\" meaning it is shown."
+msgstr ""
+"Voit valita haluat näyttää tai piilottaa hintasuodattimen. Oletus on "
+"\"true\" eli suodatin näytetään."
+
+#: includes/class-linear-settings.php:1397
+msgid ""
+"You can decide if you want to hide or show the product group filter. Default "
+"is \"true\" meaning it is shown."
+msgstr ""
+"Voit valita haluat näyttää tai piilottaa tuoteryhmän suodattimen. Oletus on "
+"\"true\" eli suodatin näytetään."
+
+#: includes/class-linear-settings.php:1427
+msgid ""
+"You can decide if you want to hide or show the rent range filter. Default is "
+"\"true\" meaning it is shown."
+msgstr ""
+"Voit valita haluat näyttää tai piilottaa vuokran suodattimen. Oletus on "
+"\"true\" eli suodatin näytetään."
+
+#: includes/class-linear-settings.php:1403
+msgid ""
+"You can decide if you want to hide or show the room count filter. Default is "
+"\"true\" meaning it is shown."
+msgstr ""
+"Voit valita haluat näyttää tai piilottaa huonelukumäärän suodattimen. Oletus "
+"on \"true\" eli suodatin näytetään."
+
+#: includes/class-linear-settings.php:1391
+#: includes/class-linear-settings.php:1572
+msgid ""
+"You can decide if you want to hide or show the search-field. Default is "
+"\"true\" meaning it is shown."
+msgstr ""
+"Voit päättää haluatko näyttää vai piilottaa hakukentän. Oletusarvo on "
+"\"true\" ja tarkoitaa että hakukenttä näytetään."
+
+#: includes/class-linear-settings.php:1415
+msgid ""
+"You can decide if you want to hide or show the specifications filter. This "
+"includes eg. \"sauna\" and \"elevator\". Default is \"true\" meaning it is "
+"shown."
+msgstr ""
+"Voit valita haluat näyttää tai piilottaa ominaisuuksien suodattimet. Tämä "
+"sisältää mm. \"sauna\" ja \"hissi\" suodattimet. Oletus on \"true\" eli "
+"suodatin näytetään."
+
+#: includes/class-linear-settings.php:1506
+msgid ""
+"You can define the highest value for the area range filter. Default is what "
+"is set in Linear plugin settings and it can be overridden with this."
+msgstr ""
+"Voit asettaa korkeimman arvon kokosuodattimelle. Oletus on se mitä asetat "
+"Linear lisäosan asetuksissa mutta voit ylikirjoittaa kyseisen arvon tällä."
+
+#: includes/class-linear-settings.php:1482
+msgid ""
+"You can define the highest value for the price range filter. Default is what "
+"is set in Linear plugin settings and it can be overridden with this."
+msgstr ""
+"Voit asettaa korkeimman arvon hintasuodattimelle. Oletus on se mitä asetat "
+"Linear lisäosan asetuksissa mutta voit ylikirjoittaa kyseisen arvon tällä."
+
+#: includes/class-linear-settings.php:1494
+msgid ""
+"You can define the highest value for the rent range filter. Default is what "
+"is set in Linear plugin settings and it can be overridden with this."
+msgstr ""
+"Voit asettaa korkeimman arvon vuokrasuodattimelle. Oletus on se mitä asetat "
+"Linear lisäosan asetuksissa mutta voit ylikirjoittaa kyseisen arvon tällä."
+
+#: includes/class-linear-settings.php:1500
+msgid ""
+"You can define the lowest value for the area range filter. Default is what "
+"is set in Linear plugin settings and it can be overridden with this."
+msgstr ""
+"Voit asettaa alimman arvon kokosuodattimelle. Oletus on se mitä asetat "
+"Linear lisäosan asetuksissa mutta voit ylikirjoittaa kyseisen arvon tällä."
+
+#: includes/class-linear-settings.php:1476
+msgid ""
+"You can define the lowest value for the price range filter. Default is what "
+"is set in Linear plugin settings and it can be overridden with this."
+msgstr ""
+"Voit asettaa alimman arvon hintasuodattimelle. Oletus on se mitä asetat "
+"Linear lisäosan asetuksissa mutta voit ylikirjoittaa kyseisen arvon tällä."
+
+#: includes/class-linear-settings.php:1488
+msgid ""
+"You can define the lowest value for the rent range filter. Default is what "
+"is set in Linear plugin settings and it can be overridden with this."
+msgstr ""
+"Voit asettaa alimman arvon vuokrasuodattimelle. Oletus on se mitä asetat "
+"Linear lisäosan asetuksissa mutta voit ylikirjoittaa kyseisen arvon tällä."
+
+#: includes/class-linear-settings.php:1445
+msgid ""
+"You can pre-set the commission type filter value. Default is none aka. "
+"\"all\""
+msgstr ""
+"Voit ennaltamäärittää arvon kommissiosuodattimelle. Oletus on tyhjä eli \"\""
+
+#: includes/class-linear-settings.php:1463
+msgid ""
+"You can pre-set the listing type filter value. Default is empty aka. \"\""
+msgstr ""
+"Voit ennalta-asettaa listaustyypin suodattimen arvon. Oletus on tyhjä eli "
+"\"\""
+
+#: includes/class-linear-settings.php:1457
+msgid ""
+"You can pre-set the product group filter value. Default is empty aka. \"\""
+msgstr ""
+"Voit ennalta-asettaa tuoteryhmän suodattimen arvon. Oletus on tyhjä eli \"\""
+
+#: includes/class-linear-settings.php:1469
+msgid ""
+"You can pre-set the realtors to filter listings depending on the realtors. "
+"Default is empty aka. \"\""
+msgstr ""
+"Voit ennaltamäärittää välittäjien suodatuksen. Oletusarvo on tyhjä eli \"\""
+
+#: includes/class-linear-settings.php:1581
+msgid ""
+"You can pre-set the search field value. This is handy if you want to limit "
+"the listings shown on a page with a keyword e.g. a city name or area. "
+"Default is empty aka. \"\""
+msgstr ""
+"Voit ennalta-asettaa hakukenttään hakusanat. Tämä on kätevää jos haluat "
+"näyttää osittaisia listauksia esim. kaupungin nimen tai alueen mukaan. "
+"Oletusarvo on tyhjä, eli \"\""
+
+#: includes/class-linear-settings.php:1451
+msgid ""
+"You can pre-set the search filter value. This is handy if you want to limit "
+"the listings shown on a page with a keyword e.g. a city name or area. "
+"Default is empty aka. \"\""
+msgstr ""
+"Voit ennaltamäärittää arvon hakusuodattimelle. Tämä on kätevää jos haluat "
+"rajoittaa näytettyjä listauksia sivulla tietyn hakusanan mukaan esim. "
+"kaupunki tai alue. Oletus on tyhjä eli \"\""
+
+#: includes/class-linear-settings.php:319
+#, fuzzy
+#| msgid ""
+#| "You can send your thoughts via email to <a href=\"mailto:it@linear.fi\">"
+#| "it@linear.fi</a>"
+msgid ""
+"You can share your thoughts via email to <a href=\"mailto:it@linear.fi\">"
+"it@linear.fi</a>"
+msgstr ""
+"Voit lähettää ehdotuksesti sähköpostitse osoitteeseen <a href=\"mailto:"
+"it@linear.fi\">it@linear.fi</a>"
+
+#: includes/class-linear-settings.php:212
+msgid ""
+"You need to have a set listings page to be able to get the listings visible. "
+"If your site has multiple languages, you need to set the listings page on "
+"each language that you wish the listings to work on. The listings can be "
+"included via e.g. shortcodes or gutenberg blocks, but it's still necessary "
+"to have a dedicated listings page for single listings."
+msgstr ""
+"Sinulla pitää olla määritetty listaussivu jotta saat kohteet esille. Jos "
+"sivustollasi on useampi kieli, sinun on asetettava listaussivu "
+"kielikohtaisesti jos toivot tämän toimivan eri kielillä. Listauksia pystyy "
+"lisäämään sisältöön lyhykoodien tai Gutenberg-lohkojen kautta, mutta on "
+"silti vaadittua että on jokin määritetty sivu listauksille."
+
+#: templates/linear-listing.php:285
+msgid "Zoning details"
+msgstr "Kaavoitustiedot"
+
+#: templates/linear-listing.php:284
+msgid "Zoning Info"
+msgstr "Lisätiedot kaavoituksesta"
+
+#: templates/linear-listing.php:283
+msgid "Zoning status"
+msgstr "Kaavatilanne"

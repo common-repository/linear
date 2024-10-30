@@ -1,0 +1,18 @@
+{
+	"blockClassName": "linear-buy-commissions",
+	"actions": {
+		"commissions": "linear/%s/buy-commissions/all"
+	},
+	"texts": {},
+	"colors": {},
+	"assets": {},
+	"locale": "fi",
+	"restBase": "",
+	"apiVersion": "",
+	"frontend": {
+		"handleJS": "block-linear-buy-commissions-frontend.js",
+		"handleCSS": "block-linear-buy-commissions-frontend.css",
+		"dependencies": ["react", "react-dom", "wp-polyfill"],
+		"globalConfig": "blockLinearBuyCommissionsConfig"
+	}
+}

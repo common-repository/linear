@@ -1,0 +1,16 @@
+.error-message {
+	padding: 4rem;
+	border: dashed 1px #d8000c;
+	background-color: rgba(#d8000c, 0.1);
+	border-radius: 10px;
+	text-align: center;
+
+	&,
+	h1,
+	h2,
+	h3,
+	h4,
+	p {
+		color: #d8000c;
+	}
+}
